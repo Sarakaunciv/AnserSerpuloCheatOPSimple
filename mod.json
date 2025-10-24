@@ -1,9 +1,8 @@
 {
-    //details
     "name": "Anser serpulo",
     "displayName": "Anser serpulo",
     "author": "SarakaUnciv",
     "description": "Add more content. Over simplified factories. OP units",
     "version": "1.0",
-    "minGameVersion": 150
+    "minGameVersion": 152
 }
