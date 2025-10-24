@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "SerpuloCodeSilican",
+
+    //campaign
+
+	"requirements":["copper/5","lead/5"],
+    "category": "logic",
+	"research":{
+		"parent": "SourceLiquidSilican",
+		"requirements":[
+		    "copper/5",
+			"lead/5"
+		]
+	},
+	
+    //specs
+
+    "size": 2,
+    "canOverdrive": false,
+	"health": 1,
+	
+	"hasPower":false,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"outputItems": ["silicon/1"],
+}

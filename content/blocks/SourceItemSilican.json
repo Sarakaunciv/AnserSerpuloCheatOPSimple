@@ -1,0 +1,20 @@
+
+{
+    //details
+
+    "type": "ItemSource",
+    "name": "SourceItemSilican",
+
+    //campaign
+
+	"requirements":[],
+    "category": "distribution",
+    "research": "core-shard"
+	
+    //specs
+
+    "size": 1,
+	"health": 2000,
+    "canOverdrive": false,
+    "itemsPerSecond": 6000,
+}

@@ -1,0 +1,119 @@
+{
+    //details
+
+    "name": "Sila",
+
+    //stats
+
+    "type": "flying",
+    "template": "ErekirUnitType",
+    "flying": true,
+    "lowAltitude": true,
+    "health": 2300,
+    "armor": 0,
+    "hitSize": 21,
+    "speed": 8,
+    "rotateSpeed": 12,
+    "accel": 0.1,
+    "drag": 0.1,
+	
+    "engineOffset": 16,
+    "engineSize": 4,
+
+    //stats [build]
+
+    "mineWalls": true,
+    "mineFloor": true,
+    "mineSpeed": 100,
+    "mineTier": 10,
+    "buildSpeed": 60,
+    "itemCapacity": 8000,
+
+    //weapon
+
+    "weapons":[
+    {
+    "name": blank
+        "x": 0
+        "y": 10
+        "reload": 40
+        "shootSound": shotgun
+        "mirror": false
+        "recoil": 2
+        "shootX": 0
+        "shootY": 12
+        "soundPitchMin": 0.8
+        "soundPitchMax": 1.2
+        "shootEffect": shootPyraFlame
+        "inaccuracy": 0
+        "rotate": false
+        "rotateSpeed": 4
+        "shootCone": 180
+        "bullet": {
+            "type": ShrapnelBulletType
+            "length": 120
+            "width": 20
+            "fromColor": 808080
+            "toColor": 00ffff
+            "hitLarge": true
+            "serrations": 0
+			
+            "damage": 250
+            "buildingDamageMultiplier": 0.1
+            "spawnBullets":[{
+				"type": ShrapnelBulletType
+				"length": 120
+				"width": 20
+				"fromColor": 808080
+				"toColor": 00ffff
+				"hitLarge": true
+				"serrations": 0
+				
+				"damage": 250
+				"buildingDamageMultiplier": 0.1
+				
+				"angleOffset": 12
+			},{
+				"type": ShrapnelBulletType
+				"length": 120
+				"width": 20
+				"fromColor": 808080
+				"toColor": 00ffff
+				"hitLarge": true
+				"serrations": 0
+				
+				"damage": 250
+				"buildingDamageMultiplier": 0.1
+				
+				"angleOffset": 6
+			},{
+				"type": ShrapnelBulletType
+				"length": 120
+				"width": 20
+				"fromColor": 808080
+				"toColor": 00ffff
+				"hitLarge": true
+				"serrations": 0
+				
+				"damage": 250
+				"buildingDamageMultiplier": 0.1
+				
+				"angleOffset": -6
+			},{
+				"type": ShrapnelBulletType
+				"length": 120
+				"width": 20
+				"fromColor": 808080
+				"toColor": 00ffff
+				"hitLarge": true
+				"serrations": 0
+				
+				"damage": 250
+				"buildingDamageMultiplier": 0.1
+				
+				"angleOffset": -12
+			}
+			]
+		}}
+    ]
+}

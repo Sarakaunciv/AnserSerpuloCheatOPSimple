@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "Drill",
+    "name": "DrillSilicanFloor",
+
+    //campaign
+
+	"requirements":["silicon/150"],
+    "category": "production",
+    "research": "SilicanConveyor",
+	
+    //specs
+
+    "size": 5,
+    "canOverdrive": false,
+	"health": 800,
+	
+	"liquidBoostIntensity": 1,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	"itemCapacity": 60,
+	
+	"tier":10,
+	"drillTime":25,
+    "hardnessDrillMultiplier": 0,
+	"rotateSpeed":10,
+	"warmupSpeed":0.02,
+	"drillEffectChance":0.001,
+	"consumes":{"power":6},
+}

@@ -1,0 +1,28 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "SerpuloDCryo",
+
+    //campaign
+
+	"requirements":["silicon/160","titanium/40"],
+    "category": "liquid",
+    "research": "DuplicateWaterSilican"
+	
+    //specs
+
+    "size": 2,
+	"health": 880,
+	
+	"hasPower":false,
+	"hasLiquids":true,
+	"hasItems":false,
+	
+	"conductivePower":true,
+	"liquidCapacity":600
+	
+	"craftTime":60,
+	"consumes":{"power":5},
+	"outputLiquid": "cryofluid/10",
+}

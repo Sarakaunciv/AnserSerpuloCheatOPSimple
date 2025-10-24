@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "DuplicatePhaseSilican",
+
+    //campaign
+
+	"requirements":["silicon/950","phase-fabric/50"],
+    "category": "crafting",
+	"research":{
+		"parent": "DuplicateWaterSilican",
+		"requirements":[
+		    "silicon/68000"
+		    "phase-fabric/50"
+		]
+	},
+	
+    //specs
+
+    "size": 3,
+	"health": 2350,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{"power":100},
+	"outputItems": ["phase-fabric/10"],
+}

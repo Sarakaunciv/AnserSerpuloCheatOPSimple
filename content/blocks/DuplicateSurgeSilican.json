@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "DuplicateSurgeSilican",
+
+    //campaign
+
+	"requirements":["silicon/1500","surge-alloy/50"],
+    "category": "crafting",
+	"research":{
+		"parent": "DuplicateWaterSilican",
+		"requirements":[
+		    "silicon/150000"
+		    "surge-alloy/50"
+		]
+	},
+	
+    //specs
+
+    "size": 4,
+	"health": 4120,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{"power":50},
+	"outputItems": ["surge-alloy/10"],
+}

@@ -1,0 +1,19 @@
+
+{
+    //details
+
+    "type": "battery",
+    "name": "BatterySilican",
+
+    //campaign
+
+	"requirements":["silicon/500"],
+    "category": "power",
+    "research": "SilicanConveyor"
+	
+    //specs
+
+    "size": 5,
+	"health": 3000,
+	"consumes":{"powerBuffered":2000000}
+}

@@ -1,0 +1,25 @@
+
+{
+    //details
+
+    "type": "StorageBlock",
+    "name": "SilicanVault",
+
+    //campaign
+
+	"requirements":["silicon/800"],
+    "category": "effect",
+	"research":{
+		"parent": "SilicanConveyor",
+		"requirements":[
+		    "silicon/8000"
+		]
+	},
+	
+    //specs
+
+    "size": 4,
+	"health": 9800,
+	"itemCapacity": 100000,
+	"coreMerge": true
+}

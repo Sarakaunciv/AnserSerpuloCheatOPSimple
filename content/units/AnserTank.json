@@ -1,0 +1,107 @@
+{
+    //details
+
+    "name": "AnserTank",
+
+    //stats
+
+    "type": "tank",
+    "template": "ErekirUnitType",
+    "flying": false,
+    "hovering": true,
+    "canDrown": false,
+    "lowAltitude": true,
+    "health": 24000,
+    "armor": 0,
+    "hitSize": 26,
+    "speed": 2,
+    "rotateSpeed": 2,
+    "accel": 0.02
+    "drag": 0.05,
+	
+    //weapon
+
+    "weapons":[
+    {
+    "name": AnserTank-weapon1
+        "x": 0
+        "y": 0
+        "reload": 120
+        "shootSound": shotgun
+        "mirror": false
+        "recoil": 12
+        "shootX": 0
+        "shootY": 16
+        "soundPitchMin": 0.8
+        "soundPitchMax": 0.8
+        "shootEffect": shootPyraFlame
+        "inaccuracy": 0
+        "rotate": false
+        "rotateSpeed": 0
+        "shootCone": 180
+        "bullet": {
+            "type": ShrapnelBulletType
+            "length": 200
+            "width": 20
+            "fromColor": ffffff
+            "toColor": ff0000
+            "hitLarge": true
+            "serrations": 0
+			
+            "damage": 3600
+		}
+	},
+    {
+    "name": AnserTank-weapon2
+        "x": 8
+        "y": -5
+        "reload": 10
+        "shootSound": drillImpact
+        "mirror": true
+        "recoil": 6
+        "shootX": 0
+        "shootY": 4
+        "soundPitchMin": 4
+        "soundPitchMax": 8
+        "shootEffect": shootPyraFlame
+        "inaccuracy": 1
+        "rotate": true
+        "rotateSpeed": 20
+        "shootCone": 180
+        "bullet": {
+            "type": BasicBulletType
+            "backColor": aaaaaa
+            "frontColor": ffaaaa
+            "mixColorFrom": ffaaaa
+            "mixColorTo": 888888
+            "width": 16
+            "height": 16
+            "lifetime": 20
+            "speed": 12
+            "hitSound": spark
+            "hitSoundPitch": 4
+            "hittable": false
+            "reflectable": false
+            "damage": 320
+            "splashDamageRadius": 60
+            "splashDamage": 155
+            "splashDamagePierce": true
+            "lightRadius": 0
+            "lightColor": 000000
+            "hitEffect": explosion
+            "hitColor": ff0000
+            "hitSize": 16
+		}
+	}
+    ]
+
+    //campaign
+
+    "research": {
+        "parent": "VeryFlare",
+		"requirements":[
+		    "silicon/1850000",
+			"surge-alloy/200000"
+		]
+    }
+}

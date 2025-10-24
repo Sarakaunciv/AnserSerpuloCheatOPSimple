@@ -1,0 +1,31 @@
+{
+    //details
+
+    "type": "OverdriveProjector",
+    "name": "SerpuloLongOverdrive",
+
+    //campaign
+
+	"requirements":["lead/200","titanium/200","silicon/300","plastanium/100","surge-alloy/150","phase-fabric/100"],
+    "category": "effect",
+    "research": "overdrive-dome"
+	
+    //specs
+
+    "size": 3,
+    "canOverdrive": false,
+	"health": 1900,
+	
+    "range": 400,
+    "speedBoost": 2.5,
+    "speedBoostPhase": 0,
+    "useTime": 300,
+    "phaseRangeBoost": 0,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":false,
+	
+	"craftTime":60,
+	"consumes":{"power":15},
+}

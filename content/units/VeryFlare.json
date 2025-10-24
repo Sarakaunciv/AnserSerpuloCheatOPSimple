@@ -1,0 +1,75 @@
+{
+    //details
+
+    "name": "VeryFlare",
+
+    //stats
+
+    "type": "flying",
+    "template": "ErekirUnitType",
+    "flying": true,
+    "lowAltitude": true,
+    "health": 8000,
+    "armor": 0,
+    "hitSize": 26,
+    "speed": 3,
+    "rotateSpeed": 1,
+    "accel": 0.1,
+    "drag": 0.1,
+	
+    "engineOffset": 18,
+    "engineSize": 5,
+
+    //weapon
+
+    "weapons":[
+    {
+    "name": VeryFlare-weapon
+        "x": 0
+        "y": 0
+        "reload": 2
+        "shootSound": drillImpact
+        "mirror": false
+        "recoil": 2
+        "shootX": 0
+        "shootY": 12
+        "soundPitchMin": 0
+        "soundPitchMax": 2
+        "shootEffect": shootPyraFlame
+        "inaccuracy": 6
+        "rotate": true
+        "rotateSpeed": 4
+        "shootCone": 180
+        "bullet": {
+            "type": BasicBulletType
+            "backColor": aa0000
+            "frontColor": ffaa44
+            "mixColorFrom": ff4444
+            "mixColorTo": 880000
+            "width": 16
+            "height": 16
+            "lifetime": 10
+            "speed": 18
+            "hitSound": spark
+            "hitSoundPitch": 4
+            "damage": 90
+            "splashDamageRadius": 40
+            "splashDamage": 30
+            "splashDamagePierce": true
+            "lightRadius": 0
+            "lightColor": 000000
+            "hitEffect": explosion
+            "hitColor": ff0000
+            "hitSize": 16
+    }}
+    ]
+
+    //campaign
+
+    "research": {
+        "parent": "AnserConstruct",
+		"requirements":[
+		    "silicon/200000"
+		]
+    }
+}

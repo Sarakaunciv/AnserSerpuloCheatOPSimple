@@ -1,0 +1,19 @@
+
+{
+    //details
+
+    "type": "Wall",
+    "name": "SilicanWall6",
+
+    //campaign
+
+	"requirements":["silicon/576"],
+    "category": "defense",
+    "research": "SilicanWall5"
+	
+    //specs
+
+    "size": 6,
+	"health": 72000,
+    "absorbLasers": true,
+}

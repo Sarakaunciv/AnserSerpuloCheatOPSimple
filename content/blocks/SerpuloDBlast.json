@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "SerpuloDBlast",
+
+    //campaign
+
+	"requirements":["silicon/450","blast-compound/1"],
+    "category": "crafting",
+	"research":{
+		"parent": "SerpuloDPyra",
+		"requirements":[
+		    "silicon/38000"
+		    "blast-compound/1"
+		]
+	},
+	
+    //specs
+
+    "size": 3,
+	"health": 680,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{"power":6},
+	"outputItems": ["blast-compound/10"],
+}

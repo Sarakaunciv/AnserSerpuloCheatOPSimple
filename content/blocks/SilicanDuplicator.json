@@ -1,0 +1,32 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "SilicanDuplicator",
+
+    //campaign
+
+	"requirements":["silicon/250"],
+    "category": "crafting",
+	"research":{
+		"parent": "core-shard",
+		"requirements":[
+		    "silicon/1000"
+		]
+	},
+	
+    //specs
+
+    "size": 4,
+	"health": 1200,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{"power":3},
+	"outputItems": ["silicon/10"],
+}

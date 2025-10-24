@@ -1,0 +1,27 @@
+{
+    //details
+
+    "type": "CoreBlock",
+    "name": "SerpuloCoreSilican",
+
+    //campaign
+
+	"requirements":["silicon/12000"],
+    "category": "effect",
+    "research": "SilicanDuplicator"
+	"research":{
+		"parent": "SilicanDuplicator",
+		"requirements":[
+		    "silicon/12000"
+		]
+	},
+	
+    //specs
+
+    "size": 7,
+	"health": 16000,
+	"itemCapacity":150000,
+	"unitCapModifier":32,
+	"unitType":"Sila",
+	
+}

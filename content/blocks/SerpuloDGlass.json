@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "SerpuloDGlass",
+
+    //campaign
+
+	"requirements":["silicon/400","metaglass/50"],
+    "category": "crafting",
+	"research":{
+		"parent": "SerpuloMegaPress",
+		"requirements":[
+		    "silicon/12000"
+		    "metaglass/50"
+		]
+	},
+	
+    //specs
+
+    "size": 3,
+	"health": 2680,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{"power":3},
+	"outputItems": ["metaglass/10"],
+}

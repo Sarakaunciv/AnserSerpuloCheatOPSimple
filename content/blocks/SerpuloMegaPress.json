@@ -1,0 +1,37 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "SerpuloMegaPress",
+
+    //campaign
+
+	"requirements":["silicon/300","graphite/50"],
+    "category": "crafting",
+	"research":{
+		"parent": "DuplicateWaterSilican",
+		"requirements":[
+		    "silicon/6000",
+			"graphite/50"
+		]
+	},
+	
+    //specs
+
+    "size": 4,
+	"health": 2600,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{"power":5,
+	"items":{
+	"items":[
+	"coal/15"
+	]	}	},
+	"outputItems": ["graphite/10"],
+}

@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "SerpuloDPlast",
+
+    //campaign
+
+	"requirements":["silicon/860","plastanium/50"],
+    "category": "crafting",
+	"research":{
+		"parent": "SerpuloDGlass",
+		"requirements":[
+		    "silicon/43000"
+		    "plastanium/50"
+		]
+	},
+	
+    //specs
+
+    "size": 3,
+	"health": 2680,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{"power":30},
+	"outputItems": ["plastanium/10"],
+}
