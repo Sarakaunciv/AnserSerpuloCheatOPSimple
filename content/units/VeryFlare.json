@@ -27,7 +27,7 @@
     "name": VeryFlare-weapon
         "x": 0
         "y": 0
-        "reload": 2
+        "reload": 15
         "shootSound": drillImpact
         "mirror": false
         "recoil": 2
@@ -48,13 +48,13 @@
             "mixColorTo": 880000
             "width": 16
             "height": 16
-            "lifetime": 10
+            "lifetime": 15
             "speed": 18
             "hitSound": spark
             "hitSoundPitch": 4
-            "damage": 90
+            "damage": 300
             "splashDamageRadius": 40
-            "splashDamage": 30
+            "splashDamage": 150
             "splashDamagePierce": true
             "lightRadius": 0
             "lightColor": 000000
