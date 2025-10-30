@@ -51,7 +51,8 @@
             "damage": 240
             "splashDamageRadius": 40
             "splashDamage": 120
-            "splashDamagePierce": true
+            "splashDamagePierce": false
+            "buildingDamageMultiplier": 0.1
 			
             "rangeChange": 160
 			
@@ -72,6 +73,7 @@
             "serrations": 0
 			
             "damage": 240
+            "buildingDamageMultiplier": 0.1
 			
             "spawnBullets":[{
 				"type": ShrapnelBulletType
@@ -83,6 +85,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 10
 			},{
@@ -95,6 +98,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -10
 			}
@@ -113,6 +117,7 @@
             "rangeChange": 40
 			
             "damage": 600
+            "buildingDamageMultiplier": 0.1
 			
             "spawnBullets":[{
 				"type": ShrapnelBulletType
@@ -124,6 +129,7 @@
 				"serrations": 0
 				
 				"damage": 600
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 16
 			},{
@@ -136,6 +142,7 @@
 				"serrations": 0
 				
 				"damage": 600
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 8
 			},{
@@ -148,6 +155,7 @@
 				"serrations": 0
 				
 				"damage": 600
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -8
 			},{
@@ -160,6 +168,7 @@
 				"serrations": 0
 				
 				"damage": 600
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -16
 			}
@@ -178,6 +187,7 @@
             "rangeChange": 80
 			
             "damage": 240
+            "buildingDamageMultiplier": 0.1
 			
             "spawnBullets":[{
 				"type": ShrapnelBulletType
@@ -189,6 +199,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 36
 			},{
@@ -201,6 +212,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 30
 			},{
@@ -213,6 +225,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 24
 			},{
@@ -225,6 +238,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 18
 			},{
@@ -237,6 +251,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 12
 			},{
@@ -249,6 +264,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": 6
 			},{
@@ -261,6 +277,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -6
 			},{
@@ -273,6 +290,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -12
 			},{
@@ -285,6 +303,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -18
 			},{
@@ -297,6 +316,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -24
 			},{
@@ -309,6 +329,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -30
 			},{
@@ -321,6 +342,7 @@
 				"serrations": 0
 				
 				"damage": 240
+				"buildingDamageMultiplier": 0.1
 				
 				"angleOffset": -36
 			}

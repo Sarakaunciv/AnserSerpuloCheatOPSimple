@@ -1,0 +1,25 @@
+
+{
+    //details
+
+    "type": "StackConveyor",
+    "name": "SurgeSilicanConveyor",
+
+    //campaign
+
+	"requirements":["silicon/1","surge-alloy/1"],
+    "category": "distribution",
+    "research": "SilicanConveyor"
+	
+    //specs
+
+    "size": 1,
+    "canOverdrive": false,
+	"health": 400,
+	"speed": 1,
+	"itemCapacity": 500,
+	"underBullets":true,
+	"outputRouter":false,
+	"consumesPower":false,
+	"conductivePower":false,
+}

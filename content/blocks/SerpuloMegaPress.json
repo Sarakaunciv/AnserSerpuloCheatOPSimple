@@ -26,9 +26,10 @@
 	"hasItems":true,
 	
 	"itemCapacity": 100,
+    "canOverdrive": false,
 	
-	"craftTime":60,
-	"consumes":{"power":5,
+	"craftTime":6,
+	"consumes":{"power":50,
 	"items":{
 	"items":[
 	"coal/15"

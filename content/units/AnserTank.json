@@ -12,12 +12,14 @@
     "canDrown": false,
     "lowAltitude": true,
     "health": 24000,
-    "armor": 0,
+    "armor": 45,
     "hitSize": 26,
     "speed": 2,
     "rotateSpeed": 2,
     "accel": 0.02
     "drag": 0.05,
+	
+    "fogRadius": 32,
 	
     //weapon
 
@@ -82,10 +84,10 @@
             "hitSoundPitch": 4
             "hittable": false
             "reflectable": false
-            "damage": 320
+            "damage": 550
             "splashDamageRadius": 60
-            "splashDamage": 155
-            "splashDamagePierce": true
+            "splashDamage": 330
+            "splashDamagePierce": false
             "lightRadius": 0
             "lightColor": 000000
             "hitEffect": explosion
@@ -100,8 +102,8 @@
     "research": {
         "parent": "VeryFlare",
 		"requirements":[
-		    "silicon/1850000",
-			"surge-alloy/200000"
+		    "silicon/180000",
+			"surge-alloy/40000"
 		]
     }
 }

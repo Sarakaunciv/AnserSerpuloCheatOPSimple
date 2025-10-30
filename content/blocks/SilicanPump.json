@@ -1,0 +1,26 @@
+{
+    //details
+
+    "type": "Pump",
+    "name": "SilicanPump",
+
+    //campaign
+
+	"requirements":["silicon/150"],
+    "category": "liquid",
+    "research": "DrillSilicanFloor",
+	
+    //specs
+
+    "size": 4,
+    "canOverdrive": false,
+	"health": 400,
+	
+	"hasPower":true,
+	"hasLiquids":true,
+	"liquidCapacity":600
+	
+	"tier":10,
+	"pumpAmount":0.666666666666,
+	"consumes":{"power":12},
+}

@@ -15,7 +15,7 @@
     "size": 1,
 	"health": 220,
 	
-	"hasPower":false,
+	"hasPower":true,
 	"hasLiquids":true,
 	"hasItems":false,
 	

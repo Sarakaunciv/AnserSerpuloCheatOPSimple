@@ -12,13 +12,15 @@
     "canDrown": false,
     "lowAltitude": true,
     "health": 16400,
-    "armor": 0,
+    "armor": 10,
     "hitSize": 26,
     "speed": 5,
     "rotateSpeed": 4,
     "accel": 0.1,
     "drag": 0.1,
 
+    "fogRadius": 33,
+	
     //weapon
 
     "weapons":[
@@ -273,9 +275,9 @@
     "research": {
         "parent": "AnserTank",
 		"requirements":[
-		    "silicon/4000000",
-			"surge-alloy/500000",
-			"phase-fabric/500000"
+		"silicon/480000",
+		"surge-alloy/160000",
+		"phase-fabric/160000"
 		]
     }
 }

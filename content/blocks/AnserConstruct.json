@@ -6,14 +6,19 @@
 
     //campaign
 
-	"requirements":["silicon/4000"],
+	"requirements":["silicon/5000"],
     "category": "units",
-    "research": "SilicanWall1"
+	"research":{
+		"parent": "SilicanWall1",
+		"requirements":[
+		    "silicon/5000"
+		]
+	},
 	
     //specs
 
-    "size": 6,
-	"health":16000,
+    "size": 10,
+	"health":68000,
 	
 	"consumes":{"power":300},
 
@@ -37,6 +42,11 @@
         "unit": "Rizzen",
         "requirements": ["silicon/24000","surge-alloy/8000","phase-fabric/8000"],
         "time": 3600
+    },
+	{
+        "unit": "Zatopud",
+        "requirements": ["silicon/40000","surge-alloy/16000","phase-fabric/24000"],
+        "time": 10800
     }
     ],
 }

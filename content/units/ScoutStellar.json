@@ -10,7 +10,7 @@
     "flying": true,
     "lowAltitude": true,
     "health": 3600,
-    "armor": 40,
+    "armor": 1,
     "hitSize": 26,
     "speed": 6,
     "rotateSpeed": 5,
@@ -20,7 +20,7 @@
     "engineOffset": 16,
     "engineSize": 8,
 
-    "fogRadius": 160,
+    "fogRadius": 45,
 
     //stats [build]
 
@@ -64,7 +64,7 @@
             "hitSoundPitch": 0.5
             "damage": 0
             "splashDamageRadius": 200
-            "splashDamage": 690
+            "splashDamage": 250
             "splashDamagePierce": true
             "killShooter": true
             "instantDisapper": true
@@ -79,8 +79,8 @@
     "research": {
         "parent": "VeryFlare",
 		"requirements":[
-		    "silicon/200000",
-			"thorium/8000"
+		    "silicon/30000",
+			"thorium/1000"
 		]
     }
 }

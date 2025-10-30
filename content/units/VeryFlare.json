@@ -10,7 +10,7 @@
     "flying": true,
     "lowAltitude": true,
     "health": 8000,
-    "armor": 0,
+    "armor": 5,
     "hitSize": 26,
     "speed": 3,
     "rotateSpeed": 1,
@@ -20,6 +20,8 @@
     "engineOffset": 18,
     "engineSize": 5,
 
+    "fogRadius": 38,
+	
     //weapon
 
     "weapons":[
@@ -53,9 +55,9 @@
             "hitSound": spark
             "hitSoundPitch": 4
             "damage": 300
-            "splashDamageRadius": 40
-            "splashDamage": 150
-            "splashDamagePierce": true
+            "splashDamageRadius": 32
+            "splashDamage": 220
+            "splashDamagePierce": false
             "lightRadius": 0
             "lightColor": 000000
             "hitEffect": explosion
@@ -69,7 +71,7 @@
     "research": {
         "parent": "AnserConstruct",
 		"requirements":[
-		    "silicon/200000"
+		    "silicon/30000"
 		]
     }
 }

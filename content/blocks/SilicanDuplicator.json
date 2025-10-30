@@ -11,7 +11,7 @@
 	"research":{
 		"parent": "core-shard",
 		"requirements":[
-		    "silicon/1000"
+		    "silicon/250"
 		]
 	},
 	

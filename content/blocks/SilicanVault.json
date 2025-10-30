@@ -7,19 +7,19 @@
 
     //campaign
 
-	"requirements":["silicon/800"],
+	"requirements":["silicon/150"],
     "category": "effect",
 	"research":{
 		"parent": "SilicanConveyor",
 		"requirements":[
-		    "silicon/8000"
+		    "silicon/1500"
 		]
 	},
 	
     //specs
 
-    "size": 4,
-	"health": 9800,
-	"itemCapacity": 100000,
+    "size": 2,
+	"health": 1200,
+	"itemCapacity": 20000,
 	"coreMerge": true
 }
