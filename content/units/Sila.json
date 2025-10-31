@@ -5,7 +5,7 @@
 
     //stats
 
-    "type": "flying",
+    "type": "payload",
     "template": "ErekirUnitType",
     "flying": true,
     "lowAltitude": true,
@@ -28,6 +28,11 @@
     "mineTier": 10,
     "buildSpeed": 60,
     "itemCapacity": 8000,
+	
+	"pickupUnits":true,
+	"payloadCapacity":576,
+	
+	"coreUnitDock":true,
 
     //weapon
 
