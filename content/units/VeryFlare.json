@@ -20,7 +20,7 @@
     "engineOffset": 18,
     "engineSize": 5,
 
-    "fogRadius": 38,
+    "fogRadius": 19,
 	
     //weapon
 
@@ -51,7 +51,7 @@
             "width": 16
             "height": 16
             "lifetime": 15
-            "speed": 18
+            "speed": 9
             "hitSound": spark
             "hitSoundPitch": 4
             "damage": 300

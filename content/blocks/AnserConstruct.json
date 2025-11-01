@@ -31,7 +31,7 @@
 	{
         "unit": "ScoutStellar",
         "requirements": ["silicon/1500","thorium/50"],
-        "time": 900
+        "time": 360
     },
 	{
         "unit": "AnserTank",

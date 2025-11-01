@@ -59,18 +59,88 @@
             "width": 1
             "height": 1
             "lifetime": 1
-            "speed": 40
+            "speed": 108
             "hitSound": reactorExplosion
             "hitSoundPitch": 0.5
-            "damage": 0
+            "damage": 2500
             "splashDamageRadius": 200
-            "splashDamage": 250
-            "splashDamagePierce": true
+            "splashDamage": 500
+            "splashDamagePierce": false
             "killShooter": true
             "instantDisapper": true
             "lightRadius": 0
             "hitEffect": reactorExplosion
             "hitSize": 16
+            "spawnBullets":[{
+            "type": BasicBulletType
+	            "backColor": 000000
+    	        "frontColor": 000000
+        	    "width": 1
+            	"height": 1
+	            "lifetime": 1
+    	        "speed": 1
+        	    "hitSound": none
+            	"damage": 0
+            	"splashDamageRadius": 200
+            	"splashDamage": 500
+            	"splashDamagePierce": false
+            	"instantDisapper": true
+            	"lightRadius": 0
+            	"hitEffect": none
+            	"hitSize": 16
+			},{
+            "type": BasicBulletType
+	            "backColor": 000000
+    	        "frontColor": 000000
+        	    "width": 1
+            	"height": 1
+	            "lifetime": 1
+    	        "speed": 1
+        	    "hitSound": none
+            	"damage": 0
+            	"splashDamageRadius": 200
+            	"splashDamage": 500
+            	"splashDamagePierce": false
+            	"instantDisapper": true
+            	"lightRadius": 0
+            	"hitEffect": none
+            	"hitSize": 16
+			},{
+            "type": BasicBulletType
+	            "backColor": 000000
+    	        "frontColor": 000000
+        	    "width": 1
+            	"height": 1
+	            "lifetime": 1
+    	        "speed": 1
+        	    "hitSound": none
+            	"damage": 0
+            	"splashDamageRadius": 200
+            	"splashDamage": 500
+            	"splashDamagePierce": false
+            	"instantDisapper": true
+            	"lightRadius": 0
+            	"hitEffect": none
+            	"hitSize": 16
+			},{
+            "type": BasicBulletType
+	            "backColor": 000000
+    	        "frontColor": 000000
+        	    "width": 1
+            	"height": 1
+	            "lifetime": 1
+    	        "speed": 1
+        	    "hitSound": none
+            	"damage": 0
+            	"splashDamageRadius": 200
+            	"splashDamage": 500
+            	"splashDamagePierce": false
+            	"instantDisapper": true
+            	"lightRadius": 0
+            	"hitEffect": none
+            	"hitSize": 16
+			}
+			]
     }}
     ]
 
