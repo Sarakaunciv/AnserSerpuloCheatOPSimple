@@ -1,0 +1,20 @@
+
+{
+    //details
+
+    "type": "ConsumeGenerator",
+    "name": "SerpuloNightPanelLarge",
+
+    //campaign
+
+	"requirements":["lead/80","silicon/90","phase-fabric/18"],
+    "category": "power",
+    "research": "large-solar-panel",
+	
+    //specs
+
+    "size": 3,
+	"health": 900,
+	"powerProduction": 1.6,
+	"consumes":{},
+}

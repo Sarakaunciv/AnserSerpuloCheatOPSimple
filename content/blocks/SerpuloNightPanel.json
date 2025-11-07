@@ -1,0 +1,20 @@
+
+{
+    //details
+
+    "type": "ConsumeGenerator",
+    "name": "SerpuloNightPanel",
+
+    //campaign
+
+	"requirements":["lead/12","silicon/10"],
+    "category": "power",
+    "research": "solar-panel",
+	
+    //specs
+
+    "size": 1,
+	"health": 80,
+	"powerProduction": 0.12,
+	"consumes":{},
+}
