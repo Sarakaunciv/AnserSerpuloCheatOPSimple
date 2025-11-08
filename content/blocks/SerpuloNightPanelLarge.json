@@ -9,7 +9,7 @@
 
 	"requirements":["lead/80","silicon/90","phase-fabric/18"],
     "category": "power",
-    "research": "large-solar-panel",
+    "research": "SerpuloNightPanel",
 	
     //specs
 
