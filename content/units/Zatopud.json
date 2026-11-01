@@ -1,9 +1,9 @@
 {
-    //details
+	//details
 
-    "name": "Zatopud",
+	"name": "Zatopud",
 
-    //stats
+	//stats
 
 	"type":"legs",
 	
@@ -25,126 +25,132 @@
 	"allowLegStep":true,
 	"hovering":true,
 	
-    "template": "ErekirUnitType",
+	"template": "ErekirUnitType",
 	
-    "flying": false,
-    "canDrown": false,
-    "health": 125000,
-    "armor": 225,
-    "hitSize": 60,
-    "speed": 2,
-    "rotateSpeed": 0.8,
-    "accel": 0.02
-    "drag": 0.05,
+	"flying": false,
+	"canDrown": false,
+	"health": 125000,
+	"armor": 225,
+	"hitSize": 60,
+	"speed": 2.5,
+	"rotateSpeed": 3,
+	"accel": 0.05
+	"drag": 0.1,
 	
-    "fogRadius": 48,
+	"fogRadius": 48,
 	
-    //weapon
+	//weapon
 
-    "weapons":[
-    {
-    "name": Blank
-        "x": 0
-        "y": 32
-        "reload": 150
-        "shootSound": laserbeam
-        "mirror": false
-        "recoil": 0
-        "shootX": 0
-        "shootY": 0
-        "inaccuracy": 0
-        "rotate": false
-        "shootCone": 180
-		
-		"cooldownTime":540,
-		"continuous":true,
-		"velocityRnd":0.22,
-		
-		"bullet":{
-			"damage":1500,
-			"length":240,
-			"width":8,
-			"drawSize":300,
-			"lifetime":300,
-			"shake":1,
-			"type":"ContinuousLaserBulletType",
-			"colors":[ ff000080, ff800080, ffff0080, ffffffff ],
-		}
-	},
-    {
-    "name": Zatopud-weapon
-        "x": 28
-        "y": 0
-        "reload": 15
-        "shootSound": artillery
-        "mirror": true
-        "recoil": 6
-        "shootX": 5
-        "shootY": 20
-        "soundPitchMin": 1
-        "soundPitchMax": 1
-        "shootEffect": shootPyraFlame
-        "inaccuracy": 0
-        "rotate": false
-        "shootCone": 180
-        "bullet": {
-            "type": BasicBulletType
-            "backColor": ff8000
-            "frontColor": ffaa44
-            "mixColorFrom": ffaa44
-            "mixColorTo": ff8000
-            "width": 32
-            "height": 32
-            "lifetime": 16
-            "speed": 16
-            "hitSound": explosion
-            "hitSoundPitch": 1
-            "damage": 2400
-            "splashDamageRadius": 64
-            "splashDamage": 350
-            "splashDamagePierce": true
-            "lightRadius": 0
-            "lightColor": 000000
-            "hitEffect": massiveExplosion
-            "hitColor": ff0000
-            "hitSize": 16
+	"weapons":[
+		{
+			"name": Blank,
+			"x": 0,
+			"y": 32,
+			"reload": 150,
+			"shootSound": beamMeltdown,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
 			
-			"fragBullets":8,
-			"fragVelocityMin":1,
-			"fragBullet":{
-            	"type": BasicBulletType
-	            "backColor": ff8000
-    	        "frontColor": ffaa44
-        	    "mixColorFrom": ffaa44
-            	"mixColorTo": ff8000
-	            "width": 12
-    	        "height": 12
-        	    "lifetime": 24
-            	"speed": 4
-	            "hitSound": explosion
-    	        "hitSoundPitch": 1
-        	    "damage": 1150
-            	"splashDamageRadius": 32
-	            "splashDamage": 150
-    	        "splashDamagePierce": true
-        	    "lightRadius": 0
-            	"lightColor": 000000
-	            "hitEffect": explosion
-    	        "hitColor": ff0000
-        	    "hitSize": 16
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":1500,
+				"length":160,
+				"width":8,
+				"drawSize":300,
+				"lifetime":300,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000080, ff800080, ffff0080, ffffffff ],
+			}
+		},
+		{
+			"name": Zatopud-weapon,
+			"x": 28,
+			"y": 0,
+			"reload": 15,
+			"shootSound": shootArtillery,
+			"mirror": true,
+			"recoil": 6,
+			"shootX": 5,
+			"shootY": 20,
+			"soundPitchMin": 1,
+			"soundPitchMax": 1,
+			"shootEffect": shootPyraFlame,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": ff8000,
+				"frontColor": ffaa44,
+				"mixColorFrom": ffaa44,
+				"mixColorTo": ff8000,
+				"width": 32,
+				"height": 32,
+				"lifetime": 10,
+				"speed": 16,
+				"hitSound": explosion,
+				"hitSoundPitch": 1,
+				"damage": 2400,
+				"splashDamageRadius": 64,
+				"splashDamage": 350,
+				"splashDamagePierce": true,
+				"lightRadius": 0,
+				"lightColor": 000000,
+				"hitEffect": massiveExplosion,
+				"hitColor": ff0000,
+				"hitSize": 16,
+				
+				"fragBullets": 9,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 40,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": BasicBulletType,
+					"backColor": ff8000,
+					"frontColor": ffaa44,
+					"mixColorFrom": ffaa44,
+					"mixColorTo": ff8000,
+					"width": 12,
+					"height": 12,
+					"lifetime": 12,
+					"speed": 8,
+					"hitSound": explosion,
+					"hitSoundPitch": 1,
+					"damage": 1150,
+					"splashDamageRadius": 32,
+					"splashDamage": 150,
+					"splashDamagePierce": true,
+					"lightRadius": 0,
+					"lightColor": 000000,
+					"hitEffect": explosion,
+					"hitColor": ff0000,
+					"hitSize": 16
+				}
 			}
 		}
-	}
-    ]
+	]
 
-    //campaign
+	//campaign
 
-    "research": {
-        "parent": "AnserTank",
+	"research": {
+		"parent": "AnserTank",
 		"requirements":[
-		"silicon/800000",
-		"surge-alloy/320000",
-		"phase-fabric/480000"
+			"silicon/800000",
+			"surge-alloy/320000",
+			"phase-fabric/480000"
 		]
-    }
+	}
 }

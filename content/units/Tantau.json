@@ -1,0 +1,76 @@
+{
+	//details
+
+	"name": "Tantau",
+
+	//stats
+
+	"type": "flying",
+	"template": "ErekirUnitType",
+	"flying": true,
+	"lowAltitude": true,
+	"health": 1200,
+	"armor": 2,
+	"hitSize": 12,
+	"speed": 5,
+	"rotateSpeed": 10,
+	"accel": 0.1,
+	"drag": 0.2,
+	
+	"engineOffset": 8,
+	"engineSize": 5,
+
+	"fogRadius": 19,
+	
+	//weapon
+
+	"weapons":[
+		{
+			"name": Tantau-weapon,
+			"x": 0,
+			"y": 0,
+			"reload": 20,
+			"shootSound": shootArc,
+			"mirror": false,
+			"recoil": 4,
+			"shootX": 0,
+			"shootY": 6,
+			"soundPitchMin": 3.6,
+			"soundPitchMax": 4,
+			"shootEffect": shootPyraFlame,
+			"inaccuracy": 0,
+			"rotate": true,
+			"rotateSpeed": 20,
+			"shootCone": 180,
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": 404040,
+				"frontColor": a0a0a0,
+				"mixColorFrom": a0a0a0,
+				"mixColorTo": 404040,
+				"width": 16,
+				"height": 16,
+				"lifetime": 15,
+				"speed": 12,
+				"hitSound": spark,
+				"hitSoundPitch": 4,
+				"damage": 250,
+				"splashDamagePierce": false,
+				"lightRadius": 0,
+				"lightColor": 000000,
+				"hitEffect": explosion,
+				"hitColor": ff0000,
+				"hitSize": 16
+			}
+		}
+	]
+
+	//campaign
+
+	"research": {
+		"parent": "AnserConstruct",
+		"requirements":[
+			"silicon/4000"
+		]
+	}
+}

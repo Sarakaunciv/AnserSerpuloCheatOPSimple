@@ -8,7 +8,6 @@
 
 	"requirements":["silicon/8000"],
     "category": "effect",
-    "research": "SilicanDuplicator"
 	"research":{
 		"parent": "SilicanDuplicator",
 		"requirements":[

@@ -6,12 +6,12 @@
 
     //campaign
 
-	"requirements":["silicon/250"],
+	"requirements":["silicon/50"],
     "category": "crafting",
 	"research":{
 		"parent": "core-shard",
 		"requirements":[
-		    "silicon/250"
+		    "silicon/50"
 		]
 	},
 	

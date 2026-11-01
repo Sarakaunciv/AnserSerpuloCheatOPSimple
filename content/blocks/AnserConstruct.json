@@ -24,6 +24,11 @@
 
     "plans": [
 	{
+        "unit": "Tantau",
+        "requirements": ["silicon/200"],
+        "time": 30
+    },
+	{
         "unit": "VeryFlare",
         "requirements": ["silicon/1500"],
         "time": 360
@@ -46,6 +51,16 @@
 	{
         "unit": "Zatopud",
         "requirements": ["silicon/40000","surge-alloy/16000","phase-fabric/24000"],
+        "time": 10800
+    },
+	{
+        "unit": "Kerexa",
+        "requirements": ["silicon/30000","surge-alloy/10000","phase-fabric/40000"],
+        "time": 10800
+    },
+	{
+        "unit": "Heliana",
+        "requirements": ["silicon/60000","surge-alloy/30000","phase-fabric/10000"],
         "time": 10800
     }
     ],

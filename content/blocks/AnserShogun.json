@@ -1,18 +1,18 @@
-    {
-    //details
+	{
+	//details
 
-    "type": "ItemTurret",
-    "name": "AnserShogun",
+	"type": "ItemTurret",
+	"name": "AnserShogun",
 
-    //campaign
+	//campaign
 
 	"requirements":["silicon/3000"],
-    "category": "turret",
-    "research": "SilicanWall1"
+	"category": "turret",
+	"research": "SilicanWall1"
 	
-    //specs
+	//specs
 
-    "size": 4,
+	"size": 4,
 	"health": 8000,
 	
 	"rotateSpeed": 6,
@@ -26,328 +26,346 @@
 	
 	"range": 160,
 	"inaccuracy": 1,
-	"shootSound": "spark",
+	"shootSound": "shootArc",
 	"soundPitchMin": 3,
 	"soundPitchMax": 3.3,
 	"shootCone": 180,
 	"squareSprite":false,
 	
 	"ammoTypes":{
-	"silicon":{
-            "type": BasicBulletType
-            "ammoMultiplier": 8
-            "backColor": 53565c
-            "frontColor": 53565c
-            "mixColorFrom": 53565c
-            "mixColorTo": 53565c
-            "width": 16
-            "height": 16
-            "lifetime": 32
-            "speed": 10
-            "hitSound": spark
-            "hitSoundPitch": 4
-            "hittable": false
-            "reflectable": false
-            "damage": 240
-            "splashDamageRadius": 40
-            "splashDamage": 120
-            "splashDamagePierce": false
-            "buildingDamageMultiplier": 0.1
+		"silicon":{
+			"type": BasicBulletType
+			"ammoMultiplier": 8
+			"backColor": 53565c
+			"frontColor": 53565c
+			"mixColorFrom": 53565c
+			"mixColorTo": 53565c
+			"width": 16
+			"height": 16
+			"lifetime": 32
+			"speed": 10
+			"hitSound": spark
+			"hitSoundPitch": 4
+			"hittable": false
+			"reflectable": false
+			"damage": 240
+			"splashDamageRadius": 40
+			"splashDamage": 120
+			"splashDamagePierce": false
+			"buildingDamageMultiplier": 0.1
 			
-            "rangeChange": 160
+			"rangeChange": 160
 			
-            "lightRadius": 0
-            "lightColor": 000000
-            "hitEffect": explosion
-            "hitColor": ff0000
-            "hitSize": 16
-	},
-	"thorium":{
-            "type": ShrapnelBulletType
-            "ammoMultiplier": 8
-            "length": 160
-            "width": 10
-            "fromColor": f9a3c7
-            "toColor": f9a3c7
-            "hitLarge": true
-            "serrations": 0
+			"lightRadius": 0
+			"lightColor": 000000
+			"hitEffect": explosion
+			"hitColor": ff0000
+			"hitSize": 16
+		},
+		"thorium":{
+			"type": ShrapnelBulletType
+			"ammoMultiplier": 8
+			"length": 160
+			"width": 10
+			"fromColor": f9a3c7
+			"toColor": f9a3c7
+			"hitLarge": true
+			"serrations": 0
 			
-            "damage": 240
-            "buildingDamageMultiplier": 0.1
+			"damage": 240
+			"buildingDamageMultiplier": 0.1
 			
-            "spawnBullets":[{
-				"type": ShrapnelBulletType
-				"length": 160
-				"width": 10
-				"fromColor": f9a3c7
-				"toColor": f9a3c7
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 10
-			},{
-				"type": ShrapnelBulletType
-				"length": 160
-				"width": 10
-				"fromColor": f9a3c7
-				"toColor": f9a3c7
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -10
-			}
+			"spawnBullets":[
+				{
+					"type": ShrapnelBulletType
+					"length": 160
+					"width": 10
+					"fromColor": f9a3c7
+					"toColor": f9a3c7
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 10
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 160
+					"width": 10
+					"fromColor": f9a3c7
+					"toColor": f9a3c7
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -10
+				}
 			]
-	},
-	"surge-alloy":{
-            "type": ShrapnelBulletType
-            "ammoMultiplier": 8
-            "length": 200
-            "width": 15
-            "fromColor": f3e979
-            "toColor": f3e979
-            "hitLarge": true
-            "serrations": 0
+		},
+		"surge-alloy":{
+			"type": ShrapnelBulletType
+			"ammoMultiplier": 8
+			"length": 200
+			"width": 15
+			"fromColor": f3e979
+			"toColor": f3e979
+			"hitLarge": true
+			"serrations": 0
 			
-            "rangeChange": 40
+			"rangeChange": 40
 			
-            "damage": 600
-            "buildingDamageMultiplier": 0.1
+			"damage": 600
+			"buildingDamageMultiplier": 0.1
 			
-            "spawnBullets":[{
-				"type": ShrapnelBulletType
-				"length": 200
-				"width": 15
-				"fromColor": f3e979
-				"toColor": f3e979
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 600
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 16
-			},{
-				"type": ShrapnelBulletType
-				"length": 200
-				"width": 15
-				"fromColor": f3e979
-				"toColor": f3e979
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 600
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 8
-			},{
-				"type": ShrapnelBulletType
-				"length": 200
-				"width": 15
-				"fromColor": f3e979
-				"toColor": f3e979
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 600
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -8
-			},{
-				"type": ShrapnelBulletType
-				"length": 200
-				"width": 15
-				"fromColor": f3e979
-				"toColor": f3e979
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 600
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -16
-			}
+			"spawnBullets":[
+				{
+					"type": ShrapnelBulletType
+					"length": 200
+					"width": 15
+					"fromColor": f3e979
+					"toColor": f3e979
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 600
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 16
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 200
+					"width": 15
+					"fromColor": f3e979
+					"toColor": f3e979
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 600
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 8
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 200
+					"width": 15
+					"fromColor": f3e979
+					"toColor": f3e979
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 600
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -8
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 200
+					"width": 15
+					"fromColor": f3e979
+					"toColor": f3e979
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 600
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -16
+				}
 			]
-	},
-	"phase-fabric":{
-            "type": ShrapnelBulletType
-            "ammoMultiplier": 8
-            "length": 240
-            "width": 10
-            "fromColor": f4ba6e
-            "toColor": f4ba6e
-            "hitLarge": true
-            "serrations": 0
+		},
+		"phase-fabric":{
+			"type": ShrapnelBulletType
+			"ammoMultiplier": 8
+			"length": 240
+			"width": 10
+			"fromColor": f4ba6e
+			"toColor": f4ba6e
+			"hitLarge": true
+			"serrations": 0
 			
-            "rangeChange": 80
+			"rangeChange": 80
 			
-            "damage": 240
-            "buildingDamageMultiplier": 0.1
+			"damage": 240
+			"buildingDamageMultiplier": 0.1
 			
-            "spawnBullets":[{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 36
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 30
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 24
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 18
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 12
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": 6
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -6
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -12
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -18
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -24
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -30
-			},{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-				
-				"angleOffset": -36
-			}
+			"spawnBullets":[
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 36
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 30
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 24
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 18
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 12
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": 6
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -6
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -12
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -18
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -24
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -30
+				},
+				{
+					"type": ShrapnelBulletType
+					"length": 240
+					"width": 10
+					"fromColor": f4ba6e
+					"toColor": f4ba6e
+					"hitLarge": true
+					"serrations": 0
+					
+					"damage": 240
+					"buildingDamageMultiplier": 0.1
+					
+					"angleOffset": -36
+				}
 			]
-	},
+		},
 	}
 
 }

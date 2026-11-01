@@ -1,0 +1,359 @@
+{
+	//details
+
+	"name": "Heliana",
+
+	//stats
+
+	"type": "flying",
+	
+	"template": "ErekirUnitType",
+	
+	"flying": true,
+	"canDrown": false,
+	"health": 185000,
+	"armor": 360,
+	"hitSize": 60,
+	"speed": 4,
+	"rotateSpeed": 4,
+	"accel": 0.08
+	"drag": 0.2,
+	
+	"engineOffset": 32,
+	"engineSize": 12,
+	
+	"fogRadius": 60,
+	
+	//weapon
+
+	"weapons":[
+		{
+			"name": Blank,
+			"x": 0,
+			"y": -16,
+			"reload": 40,
+			"shootSound": shootArc,
+			"soundPitchMin": 2,
+			"soundPitchMax": 2.4,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 1600,
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 360,
+					"width": 16,
+					"fromColor": ffffff,
+					"toColor": 00ffff,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 1600,
+				}
+			}
+		},
+		{
+			"name": Blank,
+			"x": -8,
+			"y": -16,
+			"reload": 30,
+			"shootSound": shootArc,
+			"soundPitchMin": 2,
+			"soundPitchMax": 2.4,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 1200,
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 360,
+					"width": 12,
+					"fromColor": ffffff,
+					"toColor": 00ffff,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 1200,
+				}
+			}
+		},
+		{
+			"name": Blank,
+			"x": -16,
+			"y": -16,
+			"reload": 20,
+			"shootSound": shootArc,
+			"soundPitchMin": 2,
+			"soundPitchMax": 2.4,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 800,
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 360,
+					"width": 8,
+					"fromColor": ffffff,
+					"toColor": 00ffff,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 800,
+				}
+			}
+		},
+		{
+			"name": Blank,
+			"x": -24,
+			"y": -16,
+			"reload": 10,
+			"shootSound": shootArc,
+			"soundPitchMin": 2,
+			"soundPitchMax": 2.4,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 400,
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 360,
+					"width": 4,
+					"fromColor": ffffff,
+					"toColor": 00ffff,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 400,
+				}
+			}
+		},
+		{
+			"name": Blank,
+			"x": 16,
+			"y": 32,
+			"reload": 80,
+			"shootSound": shootToxopidShotgun,
+			"mirror": false,
+			"recoil": 6,
+			"shootX": 0,
+			"shootY": 0,
+			"soundPitchMin": 0.5,
+			"soundPitchMax": 0.6,
+			"shootEffect": none,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 240,
+				"hitSound": none,
+				
+				"damage": 20000,
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": BasicBulletType,
+					"backColor": 00ffff,
+					"frontColor": 80ffff,
+					"mixColorFrom": 80ffff,
+					"mixColorTo": 00ffff,
+					"width": 32,
+					"height": 32,
+					"lifetime": 9,
+					"speed": 10,
+					"hitSound": explosion,
+					"hitSoundPitch": 1,
+					
+					"damage": 2000,
+					"splashDamageRadius": 32,
+					"splashDamage": 80,
+					"splashDamagePierce": true,
+					"pierce": false,
+					"pierceBuilding": true,
+					"reflectable": false,
+					"lightRadius": 0,
+					"lightColor": 000000,
+					"hitEffect": none,
+					"hitColor": 000000,
+					"hitSize": 32,
+					
+					"fragBullets": 3,
+					"fragOnHit": false,
+					"fragRandomSpread": 0,
+					"fragSpread": 60,
+					"fragAngle": 0,
+					"fragVelocityMin": 1,
+					"fragOffsetMin": 0,
+					"fragOffsetMax": 0,
+					"fragBullet":{
+						"type": BasicBulletType,
+						"backColor": 00ffff,
+						"frontColor": 8080ff,
+						"mixColorFrom": 8080ff,
+						"mixColorTo": 00ffff,
+						"width": 16,
+						"height": 32,
+						"lifetime": 9,
+						"speed": 10,
+						"hitSound": explosion,
+						"hitSoundPitch": 1,
+						
+						"damage": 2000,
+						"splashDamageRadius": 32,
+						"splashDamage": 80,
+						"splashDamagePierce": true,
+						"pierce": false,
+						"pierceBuilding": true,
+						"lightRadius": 0,
+						"lightColor": 000000,
+						"hitEffect": none,
+						"hitColor": 000000,
+						"hitSize": 32,
+						
+						"fragBullets": 3,
+						"fragOnHit": false,
+						"fragRandomSpread": 0,
+						"fragSpread": 60,
+						"fragAngle": 0,
+						"fragVelocityMin": 1,
+						"fragOffsetMin": 0,
+						"fragOffsetMax": 0,
+						"fragBullet":{
+							"type": BasicBulletType,
+							"backColor": 00ffff,
+							"frontColor": 8080ff,
+							"mixColorFrom": 8080ff,
+							"mixColorTo": 00ffff,
+							"width": 16,
+							"height": 32,
+							"lifetime": 9,
+							"speed": 10,
+							"hitSound": explosion,
+							"hitSoundPitch": 1,
+							
+							"damage": 2000,
+							"splashDamageRadius": 32,
+							"splashDamage": 80,
+							"splashDamagePierce": true,
+							"pierce": false,
+							"pierceBuilding": true,
+							"lightRadius": 0,
+							"lightColor": 000000,
+							"hitEffect": none,
+							"hitColor": 000000,
+							"hitSize": 32,
+							
+							"fragBullets": 3,
+							"fragOnHit": false,
+							"fragRandomSpread": 0,
+							"fragSpread": 60,
+							"fragAngle": 0,
+							"fragVelocityMin": 1,
+							"fragOffsetMin": 0,
+							"fragOffsetMax": 0,
+							"fragBullet":{
+								"type": BasicBulletType,
+								"backColor": 00ffff,
+								"frontColor": 8080ff,
+								"mixColorFrom": 8080ff,
+								"mixColorTo": 00ffff,
+								"width": 16,
+								"height": 32,
+								"lifetime": 9,
+								"speed": 10,
+								"hitSound": explosion,
+								"hitSoundPitch": 1,
+								
+								"damage": 2000,
+								"splashDamageRadius": 32,
+								"splashDamage": 80,
+								"splashDamagePierce": true,
+								"pierce": false,
+								"pierceBuilding": true,
+								"lightRadius": 0,
+								"lightColor": 000000,
+								"hitEffect": none,
+								"hitColor": 000000,
+								"hitSize": 16
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+
+	//campaign
+
+	"research": {
+		"parent": "AnserTank",
+		"requirements":[
+			"silicon/1200000",
+			"surge-alloy/600000",
+			"phase-fabric/200000"
+		]
+	}
+}

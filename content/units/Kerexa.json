@@ -1,0 +1,816 @@
+{
+	//details
+
+	"name": "Kerexa",
+
+	//stats
+	
+	"type": "tank",
+	
+	"template": "ErekirUnitType",
+	
+	"flying": false,
+	"hovering": true,
+	"canDrown": false,
+	"lowAltitude": true,
+	"health": 95000,
+	"armor": 115,
+	"hitSize": 60,
+	"speed": 2,
+	"rotateSpeed": 1,
+	"accel": 0.02
+	"drag": 0.1,
+	
+	"fogRadius": 50,
+	
+	//weapon
+
+
+	"weapons":[
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -36,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 36,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -33,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 33,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -30,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 30,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -27,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 27,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -24,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 24,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -21,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 21,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -18,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 18,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -15,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 15,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -12,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 12,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -9,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 9,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -6,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 6,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -3,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"display": false,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": none,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 3,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+		{
+			"name": Blank,
+			"x": 0,
+			"y": 8,
+			"reload": 120,
+			"shootSound": beamMeltdown,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 0,
+			"shootCone": 180,
+			
+			"cooldownTime":540,
+			"continuous":true,
+			"velocityRnd":0.22,
+			
+			"bullet":{
+				"damage":250,
+				"length":300,
+				"width":12,
+				"drawSize":300,
+				"lifetime":240,
+				"shake":1,
+				"type":"ContinuousLaserBulletType",
+				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
+			}
+		},
+	]
+
+	//campaign
+
+	"research": {
+		"parent": "AnserTank",
+		"requirements":[
+			"silicon/600000",
+			"surge-alloy/200000",
+			"phase-fabric/800000"
+		]
+	}
+}

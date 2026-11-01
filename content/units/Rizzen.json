@@ -1,283 +1,293 @@
 {
-    //details
+	//details
 
-    "name": "Rizzen",
+	"name": "Rizzen",
 
-    //stats
+	//stats
 
-    "type": "tank",
-    "template": "ErekirUnitType",
-    "flying": false,
-    "hovering": true,
-    "canDrown": false,
-    "lowAltitude": true,
-    "health": 16400,
-    "armor": 10,
-    "hitSize": 26,
-    "speed": 5,
-    "rotateSpeed": 4,
-    "accel": 0.1,
-    "drag": 0.1,
+	"type": "tank",
+	"template": "ErekirUnitType",
+	"flying": false,
+	"hovering": true,
+	"canDrown": false,
+	"lowAltitude": true,
+	"health": 16400,
+	"armor": 10,
+	"hitSize": 26,
+	"speed": 5,
+	"rotateSpeed": 4,
+	"accel": 0.1,
+	"drag": 0.1,
 
-    "fogRadius": 33,
+	"fogRadius": 33,
 	
-    //weapon
+	//weapon
 
-    "weapons":[
-    {
-    "name": Rizzen-weapon
-        "x": 0
-        "y": 6
-        "reload": 40
-        "shootSound": spark
-        "mirror": false
-        "recoil": 1
-        "shootX": 0
-        "shootY": 4
-        "soundPitchMin": 2
-        "soundPitchMax": 2.4
-        "shootEffect": shootPyraFlame
-        "inaccuracy": 0
-        "rotate": true
-        "rotateSpeed": 12
-        "shootCone": 180
-        "bullet": {
-            "type": ShrapnelBulletType
-            "length": 250
-            "width": 20
-            "fromColor": ffffff
-            "toColor": ffff00
-            "hitLarge": true
-            "serrations": 0
-			
-            "damage": 12400
-            "spawnBullets":[{
-				"type": ShrapnelBulletType
-				"length": 250
-				"width": 20
-				"fromColor": ffffff
-				"toColor": ffff00
-				"hitLarge": true
-				"serrations": 0
+	"weapons":[
+		{
+			"name": Rizzen-weapon
+			"x": 0,
+			"y": 6,
+			"reload": 40,
+			"shootSound": shootArc,
+			"mirror": false,
+			"recoil": 1,
+			"shootX": 0,
+			"shootY": 4,
+			"soundPitchMin": 2,
+			"soundPitchMax": 2.4,
+			"shootEffect": shootPyraFlame,
+			"inaccuracy": 0,
+			"rotate": true,
+			"rotateSpeed": 12,
+			"shootCone": 180,
+			"bullet": {
+				"type": ShrapnelBulletType,
+				"length": 250,
+				"width": 20,
+				"fromColor": ffffff,
+				"toColor": ffff00,
+				"hitLarge": true,
+				"serrations": 0,
 				
-				"damage": 12400
-				
-				"angleOffset": 20
-			},{
-				"type": ShrapnelBulletType
-				"length": 250
-				"width": 20
-				"fromColor": ffffff
-				"toColor": ffff00
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 12400
-				
-				"angleOffset": 10
-			},{
-				"type": ShrapnelBulletType
-				"length": 250
-				"width": 20
-				"fromColor": ffffff
-				"toColor": ffff00
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 12400
-				
-				"angleOffset": -10
-			},{
-				"type": ShrapnelBulletType
-				"length": 250
-				"width": 20
-				"fromColor": ffffff
-				"toColor": ffff00
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 12400
-				
-				"angleOffset": -20
+				"damage": 12400,
+				"spawnBullets":[
+					{
+						"type": ShrapnelBulletType,
+						"length": 250,
+						"width": 20,
+						"fromColor": ffffff,
+						"toColor": ffff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 12400,
+						
+						"angleOffset": 10
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 250,
+						"width": 20,
+						"fromColor": ffffff,
+						"toColor": ffff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 12400,
+						
+						"angleOffset": 5
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 250,
+						"width": 20,
+						"fromColor": ffffff,
+						"toColor": ffff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 12400,
+						
+						"angleOffset": -5
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 250,
+						"width": 20,
+						"fromColor": ffffff,
+						"toColor": ffff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 12400,
+						
+						"angleOffset": -10
+					}
+				]
 			}
-			]
-		}
-	},
-    {
-    "name": Rizzen-weapon
-        "x": 8
-        "y": 0
-        "reload": 15
-        "shootSound": spark
-        "mirror": true
-        "recoil": 1
-        "shootX": 0
-        "shootY": 4
-        "soundPitchMin": 3
-        "soundPitchMax": 3.4
-        "shootEffect": shootPyraFlame
-        "inaccuracy": 0
-        "rotate": true
-        "rotateSpeed": 12
-        "shootCone": 180
-        "bullet": {
-            "type": ShrapnelBulletType
-            "length": 220
-            "width": 20
-            "fromColor": c0c0c0
-            "toColor": 00ff00
-            "hitLarge": true
-            "serrations": 0
-			
-            "damage": 2000
-            "spawnBullets":[{
-				"type": ShrapnelBulletType
-				"length": 220
-				"width": 20
-				"fromColor": c0c0c0
-				"toColor": 00ff00
-				"hitLarge": true
-				"serrations": 0
+		},
+		{
+			"name": Rizzen-weapon,
+			"x": 8,
+			"y": 0,
+			"reload": 15,
+			"shootSound": shootArc,
+			"mirror": true,
+			"recoil": 1,
+			"shootX": 0,
+			"shootY": 4,
+			"soundPitchMin": 3,
+			"soundPitchMax": 3.4,
+			"shootEffect": shootPyraFlame,
+			"inaccuracy": 0,
+			"rotate": true,
+			"rotateSpeed": 12,
+			"shootCone": 180,
+			"bullet": {
+				"type": ShrapnelBulletType,
+				"length": 220,
+				"width": 20,
+				"fromColor": e0e0e0,
+				"toColor": 00ff00,
+				"hitLarge": true,
+				"serrations": 0,
 				
-				"damage": 2000
-				
-				"angleOffset": 8
-			},{
-				"type": ShrapnelBulletType
-				"length": 220
-				"width": 20
-				"fromColor": c0c0c0
-				"toColor": 00ff00
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 2000
-				
-				"angleOffset": -8
+				"damage": 2000,
+				"spawnBullets":[
+					{
+						"type": ShrapnelBulletType,
+						"length": 220,
+						"width": 20,
+						"fromColor": e0e0e0,
+						"toColor": 00ff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 2000,
+						
+						"angleOffset": 4
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 220,
+						"width": 20,
+						"fromColor": e0e0e0,
+						"toColor": 00ff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 2000,
+						
+						"angleOffset": -4
+					}
+				]
 			}
-			]
-		}
-	},
-    {
-    "name": Rizzen-weapon
-        "x": 16
-        "y": -5
-        "reload": 10
-        "shootSound": spark
-        "mirror": true
-        "recoil": 1
-        "shootX": 0
-        "shootY": 4
-        "soundPitchMin": 4
-        "soundPitchMax": 4.4
-        "shootEffect": shootPyraFlame
-        "inaccuracy": 0
-        "rotate": true
-        "rotateSpeed": 12
-        "shootCone": 180
-        "bullet": {
-            "type": ShrapnelBulletType
-            "length": 220
-            "width": 20
-            "fromColor": 808080
-            "toColor": 00ffff
-            "hitLarge": true
-            "serrations": 0
-			
-            "damage": 900
-            "spawnBullets":[{
-				"type": ShrapnelBulletType
-				"length": 220
-				"width": 20
-				"fromColor": 808080
-				"toColor": 00ffff
-				"hitLarge": true
-				"serrations": 0
+		},
+		{
+			"name": Rizzen-weapon,
+			"x": 16,
+			"y": -5,
+			"reload": 10,
+			"shootSound": shootArc,
+			"mirror": true,
+			"recoil": 1,
+			"shootX": 0,
+			"shootY": 4,
+			"soundPitchMin": 4,
+			"soundPitchMax": 4.4,
+			"shootEffect": shootPyraFlame,
+			"inaccuracy": 0,
+			"rotate": true,
+			"rotateSpeed": 12,
+			"shootCone": 180,
+			"bullet": {
+				"type": ShrapnelBulletType,
+				"length": 220,
+				"width": 20,
+				"fromColor": c0c0c0,
+				"toColor": 00ffff,
+				"hitLarge": true,
+				"serrations": 0,
 				
-				"damage": 900
-				
-				"angleOffset": 6
-			},{
-				"type": ShrapnelBulletType
-				"length": 220
-				"width": 20
-				"fromColor": 808080
-				"toColor": 00ffff
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 900
-				
-				"angleOffset": -6
+				"damage": 900,
+				"spawnBullets":[
+					{
+						"type": ShrapnelBulletType,
+						"length": 220,
+						"width": 20,
+						"fromColor": c0c0c0,
+						"toColor": 00ffff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 900,
+						
+						"angleOffset": 3
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 220,
+						"width": 20,
+						"fromColor": c0c0c0,
+						"toColor": 00ffff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 900,
+						
+						"angleOffset": -3
+					}
+				]
 			}
-			]
-		}
-	},
-    {
-    "name": Rizzen-weapon
-        "x": 24
-        "y": -9
-        "reload": 5
-        "shootSound": spark
-        "mirror": true
-        "recoil": 1
-        "shootX": 0
-        "shootY": 4
-        "soundPitchMin": 5
-        "soundPitchMax": 5.4
-        "shootEffect": shootPyraFlame
-        "inaccuracy": 0
-        "rotate": true
-        "rotateSpeed": 12
-        "shootCone": 180
-        "bullet": {
-            "type": ShrapnelBulletType
-            "length": 220
-            "width": 20
-            "fromColor": 404040
-            "toColor": 8080ff
-            "hitLarge": true
-            "serrations": 0
-			
-            "damage": 400
-            "spawnBullets":[{
-				"type": ShrapnelBulletType
-				"length": 220
-				"width": 20
-				"fromColor": 404040
-				"toColor": 8080ff
-				"hitLarge": true
-				"serrations": 0
+		},
+		{
+			"name": Rizzen-weapon,
+			"x": 24,
+			"y": -9,
+			"reload": 5,
+			"shootSound": shootArc,
+			"mirror": true,
+			"recoil": 1,
+			"shootX": 0,
+			"shootY": 4,
+			"soundPitchMin": 5,
+			"soundPitchMax": 5.4,
+			"shootEffect": shootPyraFlame,
+			"inaccuracy": 0,
+			"rotate": true,
+			"rotateSpeed": 12,
+			"shootCone": 180,
+			"bullet": {
+				"type": ShrapnelBulletType,
+				"length": 220,
+				"width": 20,
+				"fromColor": 808080,
+				"toColor": 8080ff,
+				"hitLarge": true,
+				"serrations": 0,
 				
-				"damage": 400
-				
-				"angleOffset": 4
-			},{
-				"type": ShrapnelBulletType
-				"length": 220
-				"width": 20
-				"fromColor": 404040
-				"toColor": 8080ff
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 400
-				
-				"angleOffset": -4
+				"damage": 400,
+				"spawnBullets":[
+					{
+						"type": ShrapnelBulletType,
+						"length": 220,
+						"width": 20,
+						"fromColor": 808080,
+						"toColor": 8080ff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 400,
+						
+						"angleOffset": 2
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 220,
+						"width": 20,
+						"fromColor": 808080,
+						"toColor": 8080ff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 400,
+						
+						"angleOffset": -2
+					}
+				]
 			}
-			]
 		}
-	}
-    ]
+	]
 
-    //campaign
+	//campaign
 
-    "research": {
-        "parent": "AnserTank",
+	"research": {
+		"parent": "AnserTank",
 		"requirements":[
 		"silicon/480000",
 		"surge-alloy/160000",
 		"phase-fabric/160000"
 		]
-    }
+	}
 }

@@ -1,77 +1,78 @@
 {
-    //details
+	//details
 
-    "name": "VeryFlare",
+	"name": "VeryFlare",
 
-    //stats
+	//stats
 
-    "type": "flying",
-    "template": "ErekirUnitType",
-    "flying": true,
-    "lowAltitude": true,
-    "health": 8000,
-    "armor": 5,
-    "hitSize": 26,
-    "speed": 3,
-    "rotateSpeed": 1,
-    "accel": 0.1,
-    "drag": 0.1,
+	"type": "flying",
+	"template": "ErekirUnitType",
+	"flying": true,
+	"lowAltitude": true,
+	"health": 8000,
+	"armor": 5,
+	"hitSize": 26,
+	"speed": 3,
+	"rotateSpeed": 1,
+	"accel": 0.1,
+	"drag": 0.1,
 	
-    "engineOffset": 18,
-    "engineSize": 5,
+	"engineOffset": 18,
+	"engineSize": 5,
 
-    "fogRadius": 19,
+	"fogRadius": 19,
 	
-    //weapon
+	//weapon
 
-    "weapons":[
-    {
-    "name": VeryFlare-weapon
-        "x": 0
-        "y": 0
-        "reload": 15
-        "shootSound": drillImpact
-        "mirror": false
-        "recoil": 2
-        "shootX": 0
-        "shootY": 12
-        "soundPitchMin": 0
-        "soundPitchMax": 2
-        "shootEffect": shootPyraFlame
-        "inaccuracy": 6
-        "rotate": true
-        "rotateSpeed": 4
-        "shootCone": 180
-        "bullet": {
-            "type": BasicBulletType
-            "backColor": aa0000
-            "frontColor": ffaa44
-            "mixColorFrom": ff4444
-            "mixColorTo": 880000
-            "width": 16
-            "height": 16
-            "lifetime": 15
-            "speed": 9
-            "hitSound": spark
-            "hitSoundPitch": 4
-            "damage": 300
-            "splashDamageRadius": 32
-            "splashDamage": 220
-            "splashDamagePierce": false
-            "lightRadius": 0
-            "lightColor": 000000
-            "hitEffect": explosion
-            "hitColor": ff0000
-            "hitSize": 16
-    }}
-    ]
+	"weapons":[
+		{
+			"name": VeryFlare-weapon,
+			"x": 0,
+			"y": 0,
+			"reload": 15,
+			"shootSound": drillImpact,
+			"mirror": false,
+			"recoil": 2,
+			"shootX": 0,
+			"shootY": 12,
+			"soundPitchMin": 2,
+			"soundPitchMax": 4,
+			"shootEffect": shootPyraFlame,
+			"inaccuracy": 6,
+			"rotate": true,
+			"rotateSpeed": 4,
+			"shootCone": 180,
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": aa0000,
+				"frontColor": ffaa44,
+				"mixColorFrom": ff4444,
+				"mixColorTo": 880000,
+				"width": 16,
+				"height": 16,
+				"lifetime": 15,
+				"speed": 9,
+				"hitSound": spark,
+				"hitSoundPitch": 4,
+				"damage": 300,
+				"splashDamageRadius": 32,
+				"splashDamage": 220,
+				"splashDamagePierce": false,
+				"lightRadius": 0,
+				"lightColor": 000000,
+				"hitEffect": explosion,
+				"hitColor": ff0000,
+				"hitSize": 16
+			}
+		}
+	]
 
-    //campaign
+	//campaign
 
-    "research": {
-        "parent": "AnserConstruct",
+	"research": {
+		"parent": "AnserConstruct",
 		"requirements":[
-		    "silicon/30000"
+			"silicon/30000"
 		]
-    }
+	}
 }
