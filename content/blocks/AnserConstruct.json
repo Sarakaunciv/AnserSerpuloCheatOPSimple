@@ -45,7 +45,7 @@
     },
 	{
         "unit": "Rizzen",
-        "requirements": ["silicon/24000","surge-alloy/8000","phase-fabric/8000"],
+        "requirements": ["silicon/12000","surge-alloy/4000","phase-fabric/4000"],
         "time": 3600
     },
 	{

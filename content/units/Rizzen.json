@@ -285,9 +285,9 @@
 	"research": {
 		"parent": "AnserTank",
 		"requirements":[
-		"silicon/480000",
-		"surge-alloy/160000",
-		"phase-fabric/160000"
+		"silicon/240000",
+		"surge-alloy/80000",
+		"phase-fabric/80000"
 		]
 	}
 }

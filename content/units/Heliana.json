@@ -349,7 +349,7 @@
 	//campaign
 
 	"research": {
-		"parent": "AnserTank",
+		"parent": "Rizzen",
 		"requirements":[
 			"silicon/1200000",
 			"surge-alloy/600000",
