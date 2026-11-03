@@ -1,0 +1,69 @@
+{
+    //details
+
+    "type": "UnitFactory",
+    "name": "AnserPowerConstruct",
+
+    //campaign
+
+	"requirements":["silicon/10000","surge-alloy/50","phase-fabric/50"],
+    "category": "units",
+	"research":{
+		"parent": "AnserConstruct",
+		"requirements":[
+		    "silicon/12000000",
+			"surge-alloy/1000000",
+			"phase-fabric/1000000"
+		]
+	},
+	
+    //specs
+
+    "size": 10,
+	"health":122000,
+	
+	"consumes":{"power":900},
+
+    "plans": [
+	{
+        "unit": "Zatopud",
+        "requirements": [],
+        "time": 10800
+    },
+	{
+        "unit": "Kerexa",
+        "requirements": [],
+        "time": 10800
+    },
+	{
+        "unit": "Heliana",
+        "requirements": [],
+        "time": 10800
+    },
+	{
+        "unit": "Rizzen",
+        "requirements": [],
+        "time": 3600
+    },
+	{
+        "unit": "AnserTank",
+        "requirements": [],
+        "time": 1800
+    },
+	{
+        "unit": "VeryFlare",
+        "requirements": [],
+        "time": 360
+    },
+	{
+        "unit": "ScoutStellar",
+        "requirements": [],
+        "time": 360
+    },
+	{
+        "unit": "Tantau",
+        "requirements": [],
+        "time": 30
+    }
+    ],
+}

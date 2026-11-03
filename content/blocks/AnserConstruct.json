@@ -24,31 +24,6 @@
 
     "plans": [
 	{
-        "unit": "Tantau",
-        "requirements": ["silicon/200"],
-        "time": 30
-    },
-	{
-        "unit": "VeryFlare",
-        "requirements": ["silicon/1500"],
-        "time": 360
-    },
-	{
-        "unit": "ScoutStellar",
-        "requirements": ["silicon/1500","thorium/50"],
-        "time": 360
-    },
-	{
-        "unit": "AnserTank",
-        "requirements": ["silicon/9000","surge-alloy/2000"],
-        "time": 1800
-    },
-	{
-        "unit": "Rizzen",
-        "requirements": ["silicon/12000","surge-alloy/4000","phase-fabric/4000"],
-        "time": 3600
-    },
-	{
         "unit": "Zatopud",
         "requirements": ["silicon/40000","surge-alloy/16000","phase-fabric/24000"],
         "time": 10800
@@ -62,6 +37,31 @@
         "unit": "Heliana",
         "requirements": ["silicon/60000","surge-alloy/30000","phase-fabric/10000"],
         "time": 10800
+    },
+	{
+        "unit": "Rizzen",
+        "requirements": ["silicon/12000","surge-alloy/4000","phase-fabric/4000"],
+        "time": 3600
+    },
+	{
+        "unit": "AnserTank",
+        "requirements": ["silicon/9000","surge-alloy/2000"],
+        "time": 1800
+    },
+	{
+        "unit": "VeryFlare",
+        "requirements": ["silicon/1500"],
+        "time": 360
+    },
+	{
+        "unit": "ScoutStellar",
+        "requirements": ["silicon/1500","thorium/50"],
+        "time": 360
+    },
+	{
+        "unit": "Tantau",
+        "requirements": ["silicon/200"],
+        "time": 30
     }
     ],
 }
