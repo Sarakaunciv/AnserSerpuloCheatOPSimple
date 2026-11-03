@@ -28,7 +28,7 @@
 			"name": AnserTank-weapon1,
 			"x": 0,
 			"y": 0,
-			"reload": 120,
+			"reload": 150,
 			"shootSound": shootFuse,
 			"mirror": false,
 			"recoil": 12,
@@ -50,7 +50,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 3600
+				"damage": 8800
 			}
 		},
 		{
@@ -85,7 +85,7 @@
 				"hittable": false,
 				"reflectable": false,
 				"damage": 550,
-				"splashDamageRadius": 60,
+				"splashDamageRadius": 80,
 				"splashDamage": 330,
 				"splashDamagePierce": false,
 				"lightRadius": 0,

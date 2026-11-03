@@ -29,10 +29,10 @@
     "canOverdrive": false,
 	
 	"craftTime":6,
-	"consumes":{"power":50,
+	"consumes":{"power":75,
 	"items":{
 	"items":[
-	"coal/15"
+	"coal/10"
 	]	}	},
 	"outputItems": ["graphite/10"],
 }

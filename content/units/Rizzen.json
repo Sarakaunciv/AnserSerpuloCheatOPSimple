@@ -11,7 +11,7 @@
 	"hovering": true,
 	"canDrown": false,
 	"lowAltitude": true,
-	"health": 48000,
+	"health": 22000,
 	"armor": 50,
 	"hitSize": 26,
 	"speed": 5,
