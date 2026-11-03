@@ -48,7 +48,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
+				"damage":1000,
 				"length":300,
 				"width":12,
 				"drawSize":300,

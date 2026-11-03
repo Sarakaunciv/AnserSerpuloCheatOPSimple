@@ -50,7 +50,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 1600,
+				"damage": 3200,
 				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
@@ -63,7 +63,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 1600,
+					"damage": 3200,
 				}
 			}
 		},
@@ -90,7 +90,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 1200,
+				"damage": 2400,
 				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
@@ -103,7 +103,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 1200,
+					"damage": 2400,
 				}
 			}
 		},
@@ -130,7 +130,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 800,
+				"damage": 1600,
 				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
@@ -143,7 +143,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 800,
+					"damage": 1600,
 				}
 			}
 		},
@@ -170,7 +170,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 400,
+				"damage": 800,
 				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
@@ -183,7 +183,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 400,
+					"damage": 800,
 				}
 			}
 		},
@@ -210,7 +210,7 @@
 				"speed": 240,
 				"hitSound": none,
 				
-				"damage": 20000,
+				"damage": 80000,
 				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
@@ -227,9 +227,9 @@
 					"hitSound": explosion,
 					"hitSoundPitch": 1,
 					
-					"damage": 2000,
-					"splashDamageRadius": 32,
-					"splashDamage": 80,
+					"damage": 40000,
+					"splashDamageRadius": 40,
+					"splashDamage": 800,
 					"splashDamagePierce": true,
 					"pierce": false,
 					"pierceBuilding": true,
@@ -261,9 +261,9 @@
 						"hitSound": explosion,
 						"hitSoundPitch": 1,
 						
-						"damage": 2000,
-						"splashDamageRadius": 32,
-						"splashDamage": 80,
+						"damage": 20000,
+						"splashDamageRadius": 40,
+						"splashDamage": 400,
 						"splashDamagePierce": true,
 						"pierce": false,
 						"pierceBuilding": true,
@@ -294,9 +294,9 @@
 							"hitSound": explosion,
 							"hitSoundPitch": 1,
 							
-							"damage": 2000,
-							"splashDamageRadius": 32,
-							"splashDamage": 80,
+							"damage": 20000,
+							"splashDamageRadius": 40,
+							"splashDamage": 400,
 							"splashDamagePierce": true,
 							"pierce": false,
 							"pierceBuilding": true,
@@ -327,9 +327,9 @@
 								"hitSound": explosion,
 								"hitSoundPitch": 1,
 								
-								"damage": 2000,
-								"splashDamageRadius": 32,
-								"splashDamage": 80,
+								"damage": 20000,
+								"splashDamageRadius": 40,
+								"splashDamage": 400,
 								"splashDamagePierce": true,
 								"pierce": false,
 								"pierceBuilding": true,

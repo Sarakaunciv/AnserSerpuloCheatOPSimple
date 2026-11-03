@@ -36,75 +36,40 @@
 			"shootY": 4,
 			"soundPitchMin": 2,
 			"soundPitchMax": 2.4,
-			"shootEffect": shootPyraFlame,
+			"shootEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
-				"type": ShrapnelBulletType,
-				"length": 250,
-				"width": 20,
-				"fromColor": ffffff,
-				"toColor": ffff00,
-				"hitLarge": true,
-				"serrations": 0,
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 250,
+				"hitSound": none,
 				
 				"damage": 4000,
-				"spawnBullets":[
-					{
-						"type": ShrapnelBulletType,
-						"length": 250,
-						"width": 20,
-						"fromColor": ffffff,
-						"toColor": ffff00,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 4000,
-						
-						"angleOffset": 10
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 250,
-						"width": 20,
-						"fromColor": ffffff,
-						"toColor": ffff00,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 4000,
-						
-						"angleOffset": 5
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 250,
-						"width": 20,
-						"fromColor": ffffff,
-						"toColor": ffff00,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 4000,
-						
-						"angleOffset": -5
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 250,
-						"width": 20,
-						"fromColor": ffffff,
-						"toColor": ffff00,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 4000,
-						
-						"angleOffset": -10
-					}
-				]
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 5,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 5,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 250,
+					"width": 20,
+					"fromColor": ffffff,
+					"toColor": ffff00,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 4000
+				}
 			}
 		},
 		{
@@ -119,49 +84,40 @@
 			"shootY": 4,
 			"soundPitchMin": 3,
 			"soundPitchMax": 3.4,
-			"shootEffect": shootPyraFlame,
+			"shootEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
-				"type": ShrapnelBulletType,
-				"length": 220,
-				"width": 20,
-				"fromColor": e0e0e0,
-				"toColor": 00ff00,
-				"hitLarge": true,
-				"serrations": 0,
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 220,
+				"hitSound": none,
 				
 				"damage": 600,
-				"spawnBullets":[
-					{
-						"type": ShrapnelBulletType,
-						"length": 220,
-						"width": 20,
-						"fromColor": e0e0e0,
-						"toColor": 00ff00,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 600,
-						
-						"angleOffset": 4
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 220,
-						"width": 20,
-						"fromColor": e0e0e0,
-						"toColor": 00ff00,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 600,
-						
-						"angleOffset": -4
-					}
-				]
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 3,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 4,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 220,
+					"width": 20,
+					"fromColor": e0e0e0,
+					"toColor": 00ff00,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 600
+				}
 			}
 		},
 		{
@@ -176,49 +132,40 @@
 			"shootY": 4,
 			"soundPitchMin": 4,
 			"soundPitchMax": 4.4,
-			"shootEffect": shootPyraFlame,
+			"shootEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
-				"type": ShrapnelBulletType,
-				"length": 220,
-				"width": 20,
-				"fromColor": c0c0c0,
-				"toColor": 00ffff,
-				"hitLarge": true,
-				"serrations": 0,
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 220,
+				"hitSound": none,
 				
 				"damage": 300,
-				"spawnBullets":[
-					{
-						"type": ShrapnelBulletType,
-						"length": 220,
-						"width": 20,
-						"fromColor": c0c0c0,
-						"toColor": 00ffff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 300,
-						
-						"angleOffset": 3
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 220,
-						"width": 20,
-						"fromColor": c0c0c0,
-						"toColor": 00ffff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 300,
-						
-						"angleOffset": -3
-					}
-				]
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 3,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 3,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 220,
+					"width": 20,
+					"fromColor": c0c0c0,
+					"toColor": 00ffff,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 300
+				}
 			}
 		},
 		{
@@ -233,49 +180,40 @@
 			"shootY": 4,
 			"soundPitchMin": 5,
 			"soundPitchMax": 5.4,
-			"shootEffect": shootPyraFlame,
+			"shootEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
-				"type": ShrapnelBulletType,
-				"length": 220,
-				"width": 20,
-				"fromColor": 808080,
-				"toColor": 8080ff,
-				"hitLarge": true,
-				"serrations": 0,
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 220,
+				"hitSound": none,
 				
 				"damage": 120,
-				"spawnBullets":[
-					{
-						"type": ShrapnelBulletType,
-						"length": 220,
-						"width": 20,
-						"fromColor": 808080,
-						"toColor": 8080ff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 120,
-						
-						"angleOffset": 2
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 220,
-						"width": 20,
-						"fromColor": 808080,
-						"toColor": 8080ff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 120,
-						
-						"angleOffset": -2
-					}
-				]
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 3,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 2,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 220,
+					"width": 20,
+					"fromColor": 808080,
+					"toColor": 8080ff,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 120
+				}
 			}
 		}
 	]

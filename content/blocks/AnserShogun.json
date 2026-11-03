@@ -63,309 +63,105 @@
 			"hitSize": 16
 		},
 		"thorium":{
-			"type": ShrapnelBulletType
 			"ammoMultiplier": 8
-			"length": 160
-			"width": 10
-			"fromColor": f9a3c7
-			"toColor": f9a3c7
-			"hitLarge": true
-			"serrations": 0
 			
-			"damage": 240
-			"buildingDamageMultiplier": 0.1
+			"type": BasicBulletType,
+			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+			"lifetime": 1,
+			"speed": 160,
+			"hitSound": none,
 			
-			"spawnBullets":[
-				{
-					"type": ShrapnelBulletType
-					"length": 160
-					"width": 10
-					"fromColor": f9a3c7
-					"toColor": f9a3c7
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 10
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 160
-					"width": 10
-					"fromColor": f9a3c7
-					"toColor": f9a3c7
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -10
-				}
-			]
+			"damage": 240,
+			"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+			
+			"fragBullets": 3,
+			"fragOnHit": false,
+			"fragRandomSpread": 0,
+			"fragSpread": 10,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 0,
+			"fragOffsetMax": 0,
+			"fragBullet":{
+				"type": ShrapnelBulletType
+				"length": 160
+				"width": 10
+				"fromColor": f9a3c7
+				"toColor": f9a3c7
+				"hitLarge": true
+				"serrations": 0
+				
+				"damage": 240
+				"buildingDamageMultiplier": 0.1
+			}
 		},
 		"surge-alloy":{
-			"type": ShrapnelBulletType
 			"ammoMultiplier": 8
-			"length": 200
-			"width": 15
-			"fromColor": f3e979
-			"toColor": f3e979
-			"hitLarge": true
-			"serrations": 0
-			
 			"rangeChange": 40
 			
-			"damage": 600
-			"buildingDamageMultiplier": 0.1
+			"type": BasicBulletType,
+			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+			"lifetime": 1,
+			"speed": 200,
+			"hitSound": none,
 			
-			"spawnBullets":[
-				{
-					"type": ShrapnelBulletType
-					"length": 200
-					"width": 15
-					"fromColor": f3e979
-					"toColor": f3e979
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 600
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 16
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 200
-					"width": 15
-					"fromColor": f3e979
-					"toColor": f3e979
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 600
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 8
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 200
-					"width": 15
-					"fromColor": f3e979
-					"toColor": f3e979
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 600
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -8
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 200
-					"width": 15
-					"fromColor": f3e979
-					"toColor": f3e979
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 600
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -16
-				}
-			]
+			"damage": 600,
+			"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+			
+			"fragBullets": 5,
+			"fragOnHit": false,
+			"fragRandomSpread": 0,
+			"fragSpread": 8,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 0,
+			"fragOffsetMax": 0,
+			"fragBullet":{
+				"type": ShrapnelBulletType
+				"length": 200
+				"width": 15
+				"fromColor": f3e979
+				"toColor": f3e979
+				"hitLarge": true
+				"serrations": 0
+				
+				"damage": 600
+				"buildingDamageMultiplier": 0.1
+			}
 		},
 		"phase-fabric":{
-			"type": ShrapnelBulletType
 			"ammoMultiplier": 8
-			"length": 240
-			"width": 10
-			"fromColor": f4ba6e
-			"toColor": f4ba6e
-			"hitLarge": true
-			"serrations": 0
-			
 			"rangeChange": 80
 			
-			"damage": 240
-			"buildingDamageMultiplier": 0.1
+			"type": BasicBulletType,
+			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+			"lifetime": 1,
+			"speed": 240,
+			"hitSound": none,
 			
-			"spawnBullets":[
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 36
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 30
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 24
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 18
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 12
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": 6
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -6
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -12
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -18
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -24
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -30
-				},
-				{
-					"type": ShrapnelBulletType
-					"length": 240
-					"width": 10
-					"fromColor": f4ba6e
-					"toColor": f4ba6e
-					"hitLarge": true
-					"serrations": 0
-					
-					"damage": 240
-					"buildingDamageMultiplier": 0.1
-					
-					"angleOffset": -36
-				}
-			]
-		},
+			"damage": 240,
+			"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+			
+			"fragBullets": 13,
+			"fragOnHit": false,
+			"fragRandomSpread": 0,
+			"fragSpread": 6,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 0,
+			"fragOffsetMax": 0,
+			"fragBullet":{
+				"type": ShrapnelBulletType
+				"length": 240
+				"width": 10
+				"fromColor": f4ba6e
+				"toColor": f4ba6e
+				"hitLarge": true
+				"serrations": 0
+				
+				"damage": 240
+				"buildingDamageMultiplier": 0.1
+			}
+		}
 	}
-
 }

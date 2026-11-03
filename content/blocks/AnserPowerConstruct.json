@@ -28,42 +28,42 @@
 	{
         "unit": "Zatopud",
         "requirements": [],
-        "time": 10800
+        "time": 3600
     },
 	{
         "unit": "Kerexa",
         "requirements": [],
-        "time": 10800
+        "time": 3600
     },
 	{
         "unit": "Heliana",
         "requirements": [],
-        "time": 10800
+        "time": 3600
     },
 	{
         "unit": "Rizzen",
         "requirements": [],
-        "time": 3600
+        "time": 1200
     },
 	{
         "unit": "AnserTank",
         "requirements": [],
-        "time": 1800
+        "time": 600
     },
 	{
         "unit": "VeryFlare",
         "requirements": [],
-        "time": 360
+        "time": 120
     },
 	{
         "unit": "ScoutStellar",
         "requirements": [],
-        "time": 360
+        "time": 120
     },
 	{
         "unit": "Tantau",
         "requirements": [],
-        "time": 30
+        "time": 10
     }
     ],
 }

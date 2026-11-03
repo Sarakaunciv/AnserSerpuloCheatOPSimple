@@ -9,7 +9,7 @@
 	"template": "ErekirUnitType",
 	"flying": true,
 	"lowAltitude": true,
-	"health": 2300,
+	"health": 8000,
 	"armor": 0,
 	"hitSize": 21,
 	"speed": 8,
@@ -20,13 +20,17 @@
 	"engineOffset": 16,
 	"engineSize": 4,
 
+	"isEnemy":false,
+	"targetable":false,
+	"hittable":false,
+
 	//stats [build]
 
 	"mineWalls": true,
 	"mineFloor": true,
 	"mineSpeed": 100,
 	"mineTier": 10,
-	"buildSpeed": 60,
+	"buildSpeed": 120,
 	"itemCapacity": 8000,
 	
 	"pickupUnits":true,
@@ -39,9 +43,36 @@
 	"weapons":[
 		{
 			"name": Blank,
+			"type":"RepairBeamWeapon",
 			"x": 0,
 			"y": 10,
-			"reload": 40,
+			"reload": 1,
+			"mirror": false,
+			"shootX": 0,
+			"shootY": 0,
+			"recoil":0,
+			"rotate": false,
+			"rotateSpeed": 4,
+			"shootCone": 180,
+			
+			"laserColor": 00a0a0,
+			"healColor": 00a0a0,
+			"beamWidth":1.2,
+			"repairSpeed":40,
+			"targetUnits":false,
+			"targetBuildings":true,
+			"autoTarget":false,
+			"controllable":true,
+			
+			"bullet": {
+				"maxRange": 320
+			}
+		},
+		{
+			"name": Blank,
+			"x": 0,
+			"y": 10,
+			"reload": 80,
 			"shootSound": shootFuse,
 			"mirror": false,
 			"recoil": 2,
@@ -49,80 +80,41 @@
 			"shootY": 12,
 			"soundPitchMin": 0.8,
 			"soundPitchMax": 1.2,
-			"shootEffect": shootPyraFlame,
+			"shootEffect": none,
 			"inaccuracy": 0,
 			"rotate": false,
 			"rotateSpeed": 4,
 			"shootCone": 180,
 			"bullet": {
-				"type": ShrapnelBulletType,
-				"length": 120,
-				"width": 20,
-				"fromColor": 808080,
-				"toColor": 00ffff,
-				"hitLarge": true,
-				"serrations": 0,
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"lifetime": 1,
+				"speed": 180,
+				"hitSound": none,
 				
-				"damage": 250,
-				"buildingDamageMultiplier": 0.1,
-				"spawnBullets":[
-					{
-						"type": ShrapnelBulletType,
-						"length": 120,
-						"width": 20,
-						"fromColor": 808080,
-						"toColor": 00ffff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 250,
-						"buildingDamageMultiplier": 0.1,
-						
-						"angleOffset": 12
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 120,
-						"width": 20,
-						"fromColor": 808080,
-						"toColor": 00ffff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 250,
-						"buildingDamageMultiplier": 0.1,
-						
-						"angleOffset": 6
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 120,
-						"width": 20,
-						"fromColor": 808080,
-						"toColor": 00ffff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 250,
-						"buildingDamageMultiplier": 0.1,
-						
-						"angleOffset": -6
-					},
-					{
-						"type": ShrapnelBulletType,
-						"length": 120,
-						"width": 20,
-						"fromColor": 808080,
-						"toColor": 00ffff,
-						"hitLarge": true,
-						"serrations": 0,
-						
-						"damage": 250,
-						"buildingDamageMultiplier": 0.1,
-						
-						"angleOffset": -12
-					}
-				]
+				"damage": 1300,
+				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				
+				"fragBullets": 8,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 9,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": ShrapnelBulletType,
+					"length": 180,
+					"width": 20,
+					"fromColor": 808080,
+					"toColor": 00ffff,
+					"hitLarge": true,
+					"serrations": 0,
+					
+					"damage": 1300,
+					"buildingDamageMultiplier": 0
+				}
 			}
 		}
 	]
