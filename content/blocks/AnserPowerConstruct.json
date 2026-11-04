@@ -26,6 +26,11 @@
 
     "plans": [
 	{
+        "unit": "Ziraz",
+        "requirements": [],
+        "time": 10800
+    },
+	{
         "unit": "Zatopud",
         "requirements": [],
         "time": 3600

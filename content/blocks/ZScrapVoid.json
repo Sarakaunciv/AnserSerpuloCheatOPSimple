@@ -1,0 +1,24 @@
+
+{
+    //details
+
+    "type": "Wall",
+    "name": "ZScrapVoid",
+
+    //campaign
+
+	"requirements":["scrap/20000000"],
+    "category": "logic",
+	"research":{
+		"parent": "SourceItemSilican",
+		"requirements":[
+		    "scrap/2000000000"
+		]
+	},
+	
+    //specs
+
+    "size": 1,
+	"health": 2000000,
+    "absorbLasers": true,
+}

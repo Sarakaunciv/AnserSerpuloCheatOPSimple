@@ -210,7 +210,7 @@
 				"speed": 240,
 				"hitSound": none,
 				
-				"damage": 80000,
+				"damage": 5000,
 				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
@@ -227,9 +227,9 @@
 					"hitSound": explosion,
 					"hitSoundPitch": 1,
 					
-					"damage": 40000,
+					"damage": 5000,
 					"splashDamageRadius": 40,
-					"splashDamage": 800,
+					"splashDamage": 160,
 					"splashDamagePierce": true,
 					"pierce": false,
 					"pierceBuilding": true,
@@ -261,9 +261,9 @@
 						"hitSound": explosion,
 						"hitSoundPitch": 1,
 						
-						"damage": 20000,
+						"damage": 5000,
 						"splashDamageRadius": 40,
-						"splashDamage": 400,
+						"splashDamage": 160,
 						"splashDamagePierce": true,
 						"pierce": false,
 						"pierceBuilding": true,
@@ -294,9 +294,9 @@
 							"hitSound": explosion,
 							"hitSoundPitch": 1,
 							
-							"damage": 20000,
+							"damage": 5000,
 							"splashDamageRadius": 40,
-							"splashDamage": 400,
+							"splashDamage": 160,
 							"splashDamagePierce": true,
 							"pierce": false,
 							"pierceBuilding": true,
@@ -327,9 +327,9 @@
 								"hitSound": explosion,
 								"hitSoundPitch": 1,
 								
-								"damage": 20000,
+								"damage": 5000,
 								"splashDamageRadius": 40,
-								"splashDamage": 400,
+								"splashDamage": 160,
 								"splashDamagePierce": true,
 								"pierce": false,
 								"pierceBuilding": true,

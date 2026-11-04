@@ -13,7 +13,7 @@
 	"hovering": true,
 	"canDrown": false,
 	"lowAltitude": true,
-	"health": 95000,
+	"health": 115000,
 	"armor": 115,
 	"hitSize": 60,
 	"speed": 2,
@@ -48,7 +48,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":1000,
+				"damage":250,
 				"length":300,
 				"width":12,
 				"drawSize":300,
@@ -800,7 +800,7 @@
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
 			}
-		},
+		}
 	]
 
 	//campaign
