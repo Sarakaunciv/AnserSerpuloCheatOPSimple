@@ -36,20 +36,21 @@
 			"shootY": 4,
 			"soundPitchMin": 2,
 			"soundPitchMax": 2.4,
-			"shootEffect": none,
+			"ejectEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 250,
 				"hitSound": none,
 				
-				"damage": 4000,
-				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				"damage": 2000,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,
 				"fragOnHit": false,
@@ -68,7 +69,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 4000
+					"damage": 2000
 				}
 			}
 		},
@@ -84,20 +85,21 @@
 			"shootY": 4,
 			"soundPitchMin": 3,
 			"soundPitchMax": 3.4,
-			"shootEffect": none,
+			"ejectEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 220,
 				"hitSound": none,
 				
 				"damage": 600,
-				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -132,20 +134,21 @@
 			"shootY": 4,
 			"soundPitchMin": 4,
 			"soundPitchMax": 4.4,
-			"shootEffect": none,
+			"ejectEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 220,
 				"hitSound": none,
 				
-				"damage": 300,
-				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				"damage": 400,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -164,7 +167,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 300
+					"damage": 400
 				}
 			}
 		},
@@ -180,20 +183,21 @@
 			"shootY": 4,
 			"soundPitchMin": 5,
 			"soundPitchMax": 5.4,
-			"shootEffect": none,
+			"ejectEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 220,
 				"hitSound": none,
 				
-				"damage": 120,
-				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				"damage": 200,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -212,7 +216,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 120
+					"damage": 200
 				}
 			}
 		}

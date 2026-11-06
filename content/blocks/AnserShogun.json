@@ -44,7 +44,6 @@
 			"height": 16
 			"lifetime": 32
 			"speed": 10
-			"hitSound": spark
 			"hitSoundPitch": 4
 			"hittable": false
 			"reflectable": false
@@ -66,13 +65,14 @@
 			"ammoMultiplier": 8
 			
 			"type": BasicBulletType,
-			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 			"lifetime": 1,
 			"speed": 160,
 			"hitSound": none,
 			
 			"damage": 240,
-			"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+			"instantDisappear": true,
+			"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 			
 			"fragBullets": 3,
 			"fragOnHit": false,
@@ -100,13 +100,14 @@
 			"rangeChange": 40
 			
 			"type": BasicBulletType,
-			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 			"lifetime": 1,
 			"speed": 200,
 			"hitSound": none,
 			
 			"damage": 600,
-			"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+			"instantDisappear": true,
+			"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 			
 			"fragBullets": 5,
 			"fragOnHit": false,
@@ -134,13 +135,14 @@
 			"rangeChange": 80
 			
 			"type": BasicBulletType,
-			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 			"lifetime": 1,
 			"speed": 240,
 			"hitSound": none,
 			
 			"damage": 240,
-			"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+			"instantDisappear": true,
+			"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 			
 			"fragBullets": 13,
 			"fragOnHit": false,

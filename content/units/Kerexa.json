@@ -13,12 +13,12 @@
 	"hovering": true,
 	"canDrown": false,
 	"lowAltitude": true,
-	"health": 115000,
+	"health": 95000,
 	"armor": 115,
 	"hitSize": 60,
 	"speed": 2,
-	"rotateSpeed": 1,
-	"accel": 0.02
+	"rotateSpeed": 1.5,
+	"accel": 0.05
 	"drag": 0.1,
 	
 	"fogRadius": 50,
@@ -32,7 +32,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -48,11 +48,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -63,7 +63,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -79,11 +79,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -94,7 +94,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -110,11 +110,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -125,7 +125,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -141,11 +141,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -156,7 +156,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -172,11 +172,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -187,7 +187,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -203,11 +203,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -218,7 +218,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -234,11 +234,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -249,7 +249,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -265,11 +265,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -280,7 +280,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -296,11 +296,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -311,7 +311,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -327,11 +327,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -342,7 +342,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -358,11 +358,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -373,7 +373,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -389,11 +389,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -404,7 +404,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -420,11 +420,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -435,7 +435,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -451,11 +451,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -466,7 +466,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -482,11 +482,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -497,7 +497,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -513,11 +513,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -528,7 +528,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -544,11 +544,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -559,7 +559,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -575,11 +575,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -590,7 +590,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -606,11 +606,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -621,7 +621,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -637,11 +637,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -652,7 +652,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -668,11 +668,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -683,7 +683,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -699,11 +699,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -714,7 +714,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -730,11 +730,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -745,7 +745,7 @@
 			"display": false,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": none,
 			"mirror": false,
 			"recoil": 0,
@@ -761,11 +761,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]
@@ -775,7 +775,7 @@
 			"name": Blank,
 			"x": 0,
 			"y": 8,
-			"reload": 120,
+			"reload": 20,
 			"shootSound": beamMeltdown,
 			"mirror": false,
 			"recoil": 0,
@@ -791,11 +791,11 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":250,
-				"length":300,
+				"damage":500,
+				"length":360,
 				"width":12,
 				"drawSize":300,
-				"lifetime":240,
+				"lifetime":180,
 				"shake":1,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ]

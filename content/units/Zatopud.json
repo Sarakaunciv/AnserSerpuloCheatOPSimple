@@ -33,7 +33,7 @@
 	"armor": 225,
 	"hitSize": 60,
 	"speed": 2.5,
-	"rotateSpeed": 3,
+	"rotateSpeed": 2.5,
 	"accel": 0.05
 	"drag": 0.1,
 	
@@ -61,7 +61,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":1500,
+				"damage":3000,
 				"length":160,
 				"width":8,
 				"drawSize":300,
@@ -83,7 +83,7 @@
 			"shootY": 20,
 			"soundPitchMin": 1,
 			"soundPitchMax": 1,
-			"shootEffect": shootPyraFlame,
+			"ejectEffect": none,
 			"inaccuracy": 0,
 			"rotate": false,
 			"shootCone": 180,
@@ -99,10 +99,12 @@
 				"speed": 16,
 				"hitSound": explosion,
 				"hitSoundPitch": 1,
-				"damage": 6500,
+				"damage": 3000,
 				"splashDamageRadius": 64,
-				"splashDamage": 450,
+				"splashDamage": 900,
 				"splashDamagePierce": true,
+				"reflectable": false,"absorbable": false,
+				
 				"lightRadius": 0,
 				"lightColor": 000000,
 				"hitEffect": massiveExplosion,
@@ -129,10 +131,12 @@
 					"speed": 8,
 					"hitSound": explosion,
 					"hitSoundPitch": 1,
-					"damage": 1200,
+					"damage": 1000,
 					"splashDamageRadius": 32,
-					"splashDamage": 150,
+					"splashDamage": 300,
 					"splashDamagePierce": true,
+					"reflectable": false,"absorbable": false,
+					
 					"lightRadius": 0,
 					"lightColor": 000000,
 					"hitEffect": explosion,

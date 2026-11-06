@@ -31,6 +31,16 @@
         "time": 10800
     },
 	{
+        "unit": "Korosu",
+        "requirements": [],
+        "time": 18000
+    },
+	{
+        "unit": "Hivuni",
+        "requirements": [],
+        "time": 10800
+    },
+	{
         "unit": "Zatopud",
         "requirements": [],
         "time": 3600

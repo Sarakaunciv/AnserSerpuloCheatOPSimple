@@ -1,0 +1,18 @@
+
+{
+    //details
+
+    "type": "PayloadSource",
+    "name": "SourcePayloadSilican",
+
+    //campaign
+
+	"requirements":[],
+    "category": "units",
+    "research": "SourceLiquidSilican"
+	
+    //specs
+
+    "size": 5,
+	"health": 20000,
+}

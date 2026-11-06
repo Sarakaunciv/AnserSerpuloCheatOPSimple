@@ -11,7 +11,7 @@
 	"legGroupSize":2,
 	"legMoveSpace":1,
 	"legPairOffset":1.5,
-	"stepshake": 1,
+	"stepShake": 1,
 	"legExtension": -18,
 	"legLength":108,
 	"legBaseOffset":30,
@@ -29,10 +29,10 @@
 	
 	"flying": false,
 	"canDrown": false,
-	"health": 325000,
-	"armor": 900,
-	"hitSize": 68,
-	"speed": 1.5,
+	"health": 485000,
+	"armor": 1100,
+	"hitSize": 72,
+	"speed": 1.8,
 	"rotateSpeed": 1.5,
 	"accel": 0.05
 	"drag": 0.1,
@@ -44,29 +44,31 @@
 	"weapons":[
 		{
 			"name": Blank,
-			"x": 28,
-			"y": 26,
+			"x": 32,
+			"y": 46,
 			"reload": 6,
 			"shootSound": shootArc,
 			"mirror": true,
 			"recoil": 6,
-			"shootX": 5,
-			"shootY": 20,
+			"shootX": 0,
+			"shootY": 0,
 			"soundPitchMin": 1.5,
 			"soundPitchMax": 1.5,
-			"shootEffect": none,
+			"ejectEffect": none,
 			"inaccuracy": 10,
 			"rotate": false,
 			"shootCone": 180,
+			
 			"bullet": {
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 16,"height": 16,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 1500,
-				"reflectable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 16,
+				"damage": 2000,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,
 				"fragOnHit": false,
@@ -85,14 +87,82 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 1500
+					"damage": 2000
+				}
+			}
+		},
+		{
+			"name": Ziraz-weapon,
+			"x": 22,
+			"y": -34,
+			"reload": 40,
+			"shootSound": shootArc,
+			"mirror": true,
+			"recoil": 6,
+			"shootX": 0,
+			"shootY": 16,
+			"soundPitchMin": 0.2,
+			"soundPitchMax": 0.2,
+			"ejectEffect": none,
+			"inaccuracy": 10,
+			"rotate": false,
+			"shootCone": 180,
+			"baseRotation": -150,
+			
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 300000,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				
+				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+
+				"fragBullet":{
+					"type": BasicBulletType,
+					"backColor": ff0000,
+					"frontColor": ff0080,
+					"mixColorFrom": ff0080,
+					"mixColorTo": ff0000,
+					"width": 32,
+					"height": 32,
+					"lifetime": 50,
+					"speed": 10,
+					"hitSound": explosion,
+					"hitSoundPitch": 1,
+					
+					"damage": 300000,
+					"splashDamageRadius": 120,
+					"splashDamage": 30000,
+					"splashDamagePierce": true,
+					"buildingDamageMultiplier": 0.1
+					"pierce": false,
+					"pierceBuilding": false,
+					"reflectable": false,"absorbable": false,
+					"lightRadius": 0,
+					"lightColor": 000000,
+					"hitEffect": none,
+					"hitColor": 000000,
+					"hitSize": 32,
+					
+					"trailChance": 1,
+					"trailColor": ff00a0ff,
+					"trailLength": 10,
+					"trailWidth": 6,
+					
+					"homingPower": 0.4,
+					"homingRange": 500
 				}
 			}
 		},
 		{
 			"name": Blank,
 			"display": false,
-			"x": -12,
+			"x": -10,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
@@ -109,7 +179,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":1000,
+				"damage":5000,
 				"length":280,
 				"width":8,
 				"drawSize":300,
@@ -122,7 +192,7 @@
 		{
 			"name": Blank,
 			"display": false,
-			"x": -9,
+			"x": -5,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
@@ -139,7 +209,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":1000,
+				"damage":5000,
 				"length":280,
 				"width":8,
 				"drawSize":300,
@@ -152,7 +222,7 @@
 		{
 			"name": Blank,
 			"display": false,
-			"x": -6,
+			"x": 10,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
@@ -169,7 +239,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":1000,
+				"damage":5000,
 				"length":280,
 				"width":8,
 				"drawSize":300,
@@ -182,7 +252,7 @@
 		{
 			"name": Blank,
 			"display": false,
-			"x": -3,
+			"x": 5,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
@@ -199,127 +269,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":1000,
-				"length":280,
-				"width":8,
-				"drawSize":300,
-				"lifetime":400,
-				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
-			}
-		},
-		{
-			"name": Blank,
-			"display": false,
-			"x": 12,
-			"y": 0,
-			"reload": 180,
-			"shootSound": none,
-			"mirror": false,
-			"recoil": 0,
-			"shootX": 0,
-			"shootY": 0,
-			"inaccuracy": 0,
-			"rotate": false,
-			"shootCone": 180,
-			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
-			
-			"bullet":{
-				"damage":1000,
-				"length":280,
-				"width":8,
-				"drawSize":300,
-				"lifetime":400,
-				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
-			}
-		},
-		{
-			"name": Blank,
-			"display": false,
-			"x": 9,
-			"y": 0,
-			"reload": 180,
-			"shootSound": none,
-			"mirror": false,
-			"recoil": 0,
-			"shootX": 0,
-			"shootY": 0,
-			"inaccuracy": 0,
-			"rotate": false,
-			"shootCone": 180,
-			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
-			
-			"bullet":{
-				"damage":1000,
-				"length":280,
-				"width":8,
-				"drawSize":300,
-				"lifetime":400,
-				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
-			}
-		},
-		{
-			"name": Blank,
-			"display": false,
-			"x": 6,
-			"y": 0,
-			"reload": 180,
-			"shootSound": none,
-			"mirror": false,
-			"recoil": 0,
-			"shootX": 0,
-			"shootY": 0,
-			"inaccuracy": 0,
-			"rotate": false,
-			"shootCone": 180,
-			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
-			
-			"bullet":{
-				"damage":1000,
-				"length":280,
-				"width":8,
-				"drawSize":300,
-				"lifetime":400,
-				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
-			}
-		},
-		{
-			"name": Blank,
-			"display": false,
-			"x": 3,
-			"y": 0,
-			"reload": 180,
-			"shootSound": none,
-			"mirror": false,
-			"recoil": 0,
-			"shootX": 0,
-			"shootY": 0,
-			"inaccuracy": 0,
-			"rotate": false,
-			"shootCone": 180,
-			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
-			
-			"bullet":{
-				"damage":1000,
+				"damage":5000,
 				"length":280,
 				"width":8,
 				"drawSize":300,
@@ -348,7 +298,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":1000,
+				"damage":5000,
 				"length":280,
 				"width":8,
 				"drawSize":300,

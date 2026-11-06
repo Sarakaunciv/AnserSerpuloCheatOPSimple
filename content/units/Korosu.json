@@ -1,0 +1,93 @@
+{
+	//details
+
+	"name": "Korosu",
+
+	//stats
+	
+	"type": "tank",
+	
+	"template": "ErekirUnitType",
+	
+	"flying": false,
+	"hovering": true,
+	"canDrown": false,
+	"lowAltitude": true,
+	"health": 160000,
+	"armor": 580,
+	"hitSize": 76,
+	"speed": 1.5,
+	"rotateSpeed": 1,
+	"accel": 0.05
+	"drag": 0.1,
+	
+	"fogRadius": 200,
+	
+	//weapon
+
+
+	"weapons":[
+		{
+			"name": Korosu-weapon,
+			"x": 0,
+			"y": 0,
+			"reload": 180,
+			"shootSound": shootToxopidShotgun,
+			"mirror": false,
+			"recoil": 12,
+			"shootX": 0,
+			"shootY": 40,
+			"soundPitchMin": 1.6,
+			"soundPitchMax": 1.8,
+			"ejectEffect": none,
+			"inaccuracy": 0,
+			"rotate": true,
+			"rotateSpeed": 3,
+			"shootCone": 0,
+			
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": ff0000,
+				"frontColor": ff4000,
+				"mixColorFrom": ff4000,
+				"mixColorTo": ff0000,
+				"width": 48,
+				"height": 48,
+				"lifetime": 64,
+				"speed": 24,
+				"hitSound": explosionReactorNeoplasm,
+				"hitSoundPitch": 1,
+				
+				"damage": 3000000,
+				"splashDamageRadius": 250,
+				"splashDamage": 300000,
+				"splashDamagePierce": true,
+				"buildingDamageMultiplier": 0.01
+				"pierce": false,
+				"pierceBuilding": false,
+				"reflectable": false,"absorbable": false,
+				"lightRadius": 0,
+				"lightColor": 000000,
+				"hitEffect": impactReactorExplosion,
+				"hitColor": 000000,
+				"hitSize": 32,
+				
+				"trailChance": 1,
+				"trailColor": ff4000ff,
+				"trailLength": 16,
+				"trailWidth": 9,
+			}
+		}
+	]
+
+	//campaign
+
+	"research": {
+		"parent": "AnserPowerConstruct",
+		"requirements":[
+			"silicon/1600000",
+			"surge-alloy/400000",
+			"phase-fabric/1200000"
+		]
+	}
+}

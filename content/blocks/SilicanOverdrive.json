@@ -26,6 +26,5 @@
 	"hasLiquids":false,
 	"hasItems":false,
 	
-	"craftTime":60,
 	"consumes":{"power":10},
 }

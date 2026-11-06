@@ -1,0 +1,409 @@
+{
+	//details
+
+	"name": "Hivuni",
+
+	//stats
+
+	"type": "flying",
+	
+	"template": "ErekirUnitType",
+	
+	"flying": true,
+	"canDrown": false,
+	"health": 695000,
+	"armor": 1800,
+	"hitSize": 60,
+	"speed": 5,
+	"rotateSpeed": 4,
+	"accel": 0.1
+	"drag": 0.2,
+	
+	"engineOffset": 40,
+	"engineSize": 16,
+	
+	"fogRadius": 60,
+	
+	//weapon
+
+
+	"weapons":[
+		{
+			"name": Blank,
+			"x": 32,
+			"y": 24,
+			"reload": 120,
+			"shootSound": shootToxopidShotgun,
+			"mirror": false,
+			"recoil": 12,
+			"shootX": 0,
+			"shootY": 40,
+			"soundPitchMin": 0.6,
+			"soundPitchMax": 0.8,
+			"ejectEffect": none,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": 00ffff,
+				"frontColor": 80ffff,
+				"mixColorFrom": 80ffff,
+				"mixColorTo": 00ffff,
+				"width": 64,
+				"height": 64,
+				"lifetime": 80,
+				"speed": 5,
+				"hitSound": none,
+				
+				"damage": 1,
+				"pierce": true,
+				"pierceBuilding": true,
+				"reflectable": false,"absorbable": false,
+				"lightRadius": 0,
+				"lightColor": 000000,
+				"hitEffect": none,
+				"hitColor": 000000,
+				"hitSize": 64,
+				
+				"bulletInterval": 5,
+				"intervalBullets": 1,
+				"intervalBullet":{
+					"type": BasicBulletType,
+					"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+					"lifetime": 1,
+					"speed": 1,
+					"hitSound": none,
+					
+					"damage": 500000,
+					"instantDisappear": true,
+					"splashDamageRadius": 40,
+					"splashDamage": 50000,
+					"splashDamagePierce": true,
+					"buildingDamageMultiplier": 0.02,
+					"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				}
+			}
+		},
+		{
+			"name": Blank,
+			"x": 0,
+			"y": -20,
+			"reload": 100,
+			"shootSound": shootArc,
+			"soundPitchMin": 3,
+			"soundPitchMax": 3.6,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 10000,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				
+				"spawnBullets":[
+					{
+						"type": BasicBulletType,
+						"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+						"lifetime": 3,
+						"speed": 140,
+						"hitSound": none,
+						
+						"damage": 1,
+						"pierce": false,
+						"pierceBuilding": false,
+						"instantDisappear": false,
+						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						
+						"fragBullets": 6,
+						"fragOnHit": false,
+						"fragRandomSpread": 0,
+						"fragSpread": 60,
+						"fragAngle": 0,
+						"fragVelocityMin": 1,
+						"fragOffsetMin": 0,
+						"fragOffsetMax": 0,
+						"fragBullet":{
+							"type": ShrapnelBulletType,
+							"length": 120,
+							"width": 8,
+							"fromColor": ffffff,
+							"toColor": 00ffff,
+							"hitLarge": true,
+							"serrations": 0,
+							
+							"damage": 5000,
+							"buildingDamageMultiplier": 0.1
+						}
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 280,
+						"width": 8,
+						"fromColor": ffffff,
+						"toColor": 00ffff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 20000,
+						"buildingDamageMultiplier": 0.1
+					}
+				]
+			}
+		},
+		{
+			"name": Blank,
+			"x": -12,
+			"y": -20,
+			"reload": 80,
+			"shootSound": shootArc,
+			"soundPitchMin": 3,
+			"soundPitchMax": 3.6,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 10000,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				
+				"spawnBullets":[
+					{
+						"type": BasicBulletType,
+						"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+						"lifetime": 3,
+						"speed": 140,
+						"hitSound": none,
+						
+						"damage": 1,
+						"pierce": false,
+						"pierceBuilding": false,
+						"instantDisappear": false,
+						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						
+						"fragBullets": 6,
+						"fragOnHit": false,
+						"fragRandomSpread": 0,
+						"fragSpread": 60,
+						"fragAngle": 0,
+						"fragVelocityMin": 1,
+						"fragOffsetMin": 0,
+						"fragOffsetMax": 0,
+						"fragBullet":{
+							"type": ShrapnelBulletType,
+							"length": 120,
+							"width": 8,
+							"fromColor": ffffff,
+							"toColor": 00ffff,
+							"hitLarge": true,
+							"serrations": 0,
+							
+							"damage": 5000,
+							"buildingDamageMultiplier": 0.1
+						}
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 280,
+						"width": 8,
+						"fromColor": ffffff,
+						"toColor": 00ffff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 20000,
+						"buildingDamageMultiplier": 0.1
+					}
+				]
+			}
+		},
+		{
+			"name": Blank,
+			"x": -24,
+			"y": -20,
+			"reload": 60,
+			"shootSound": shootArc,
+			"soundPitchMin": 3,
+			"soundPitchMax": 3.6,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 10000,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				
+				"spawnBullets":[
+					{
+						"type": BasicBulletType,
+						"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+						"lifetime": 3,
+						"speed": 140,
+						"hitSound": none,
+						
+						"damage": 1,
+						"pierce": false,
+						"pierceBuilding": false,
+						"instantDisappear": false,
+						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						
+						"fragBullets": 6,
+						"fragOnHit": false,
+						"fragRandomSpread": 0,
+						"fragSpread": 60,
+						"fragAngle": 0,
+						"fragVelocityMin": 1,
+						"fragOffsetMin": 0,
+						"fragOffsetMax": 0,
+						"fragBullet":{
+							"type": ShrapnelBulletType,
+							"length": 120,
+							"width": 8,
+							"fromColor": ffffff,
+							"toColor": 00ffff,
+							"hitLarge": true,
+							"serrations": 0,
+							
+							"damage": 5000,
+							"buildingDamageMultiplier": 0.1
+						}
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 280,
+						"width": 8,
+						"fromColor": ffffff,
+						"toColor": 00ffff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 20000,
+						"buildingDamageMultiplier": 0.1
+					}
+				]
+			}
+		},
+		{
+			"name": Blank,
+			"x": -36,
+			"y": -20,
+			"reload": 40,
+			"shootSound": shootArc,
+			"soundPitchMin": 3,
+			"soundPitchMax": 3.6,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"inaccuracy": 0,
+			"rotate": false,
+			"shootCone": 180,
+			
+			"bullet":{
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+				"lifetime": 1,
+				"speed": 280,
+				"hitSound": none,
+				
+				"damage": 10000,
+				"instantDisappear": true,
+				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				
+				"spawnBullets":[
+					{
+						"type": BasicBulletType,
+						"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+						"lifetime": 3,
+						"speed": 140,
+						"hitSound": none,
+						
+						"damage": 1,
+						"pierce": false,
+						"pierceBuilding": false,
+						"instantDisappear": false,
+						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						
+						"fragBullets": 6,
+						"fragOnHit": false,
+						"fragRandomSpread": 0,
+						"fragSpread": 60,
+						"fragAngle": 0,
+						"fragVelocityMin": 1,
+						"fragOffsetMin": 0,
+						"fragOffsetMax": 0,
+						"fragBullet":{
+							"type": ShrapnelBulletType,
+							"length": 120,
+							"width": 8,
+							"fromColor": ffffff,
+							"toColor": 00ffff,
+							"hitLarge": true,
+							"serrations": 0,
+							
+							"damage": 5000,
+							"buildingDamageMultiplier": 0.1
+						}
+					},
+					{
+						"type": ShrapnelBulletType,
+						"length": 280,
+						"width": 8,
+						"fromColor": ffffff,
+						"toColor": 00ffff,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 20000,
+						"buildingDamageMultiplier": 0.1
+					}
+				]
+			}
+		}
+	]
+
+	//campaign
+
+	"research": {
+		"parent": "AnserPowerConstruct",
+		"requirements":[
+			"silicon/1600000",
+			"surge-alloy/1200000",
+			"phase-fabric/400000"
+		]
+	}
+}

@@ -20,7 +20,6 @@
 	"hasLiquids":true,
 	"liquidCapacity":600
 	
-	"tier":10,
 	"pumpAmount":0.666666666666,
 	"consumes":{"power":12},
 }

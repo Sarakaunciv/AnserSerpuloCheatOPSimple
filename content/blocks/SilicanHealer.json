@@ -1,0 +1,27 @@
+{
+    //details
+
+    "type": "RegenProjector",
+    "name": "SilicanHealer",
+
+    //campaign
+
+	"requirements":["silicon/1500","surge-alloy/50","phase-fabric/500"],
+    "category": "effect",
+    "research": "SilicanWall1"
+	
+    //specs
+
+    "size": 3,
+    "canOverdrive": false,
+	"health": 1200,
+	
+    "range": 80,
+    "healPercent": 0.6,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":false,
+	
+	"consumes":{"power":60},
+}
