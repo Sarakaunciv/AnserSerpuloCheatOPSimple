@@ -65,15 +65,15 @@
 				"buildingDamageMultiplier": 0.01
 				"pierce": false,
 				"pierceBuilding": false,
-				"reflectable": false,"absorbable": false,
+				"hittable": false,"reflectable": false,"absorbable": false,
 				"lightRadius": 0,
 				"lightColor": 000000,
-				"hitEffect": impactReactorExplosion,
-				"hitColor": 000000,
+				"hitEffect": scatheExplosion,
+				"hitColor": ff0000,
 				"hitSize": 32,
 				
 				"trailChance": 1,
-				"trailColor": ff4000ff,
+				"trailColor": ff400080,
 				"trailLength": 16,
 				"trailWidth": 9,
 			}

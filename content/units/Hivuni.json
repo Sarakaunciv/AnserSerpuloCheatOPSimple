@@ -60,7 +60,7 @@
 				"damage": 1,
 				"pierce": true,
 				"pierceBuilding": true,
-				"reflectable": false,"absorbable": false,
+				"hittable": false,"reflectable": false,"absorbable": false,
 				"lightRadius": 0,
 				"lightColor": 000000,
 				"hitEffect": none,
@@ -81,8 +81,8 @@
 					"splashDamageRadius": 40,
 					"splashDamage": 50000,
 					"splashDamagePierce": true,
-					"buildingDamageMultiplier": 0.02,
-					"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+					"buildingDamageMultiplier": 0.01,
+					"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				}
 			}
 		},
@@ -111,7 +111,7 @@
 				
 				"damage": 10000,
 				"instantDisappear": true,
-				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets":[
 					{
@@ -125,7 +125,7 @@
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
-						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 						
 						"fragBullets": 6,
 						"fragOnHit": false,
@@ -188,7 +188,7 @@
 				
 				"damage": 10000,
 				"instantDisappear": true,
-				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets":[
 					{
@@ -202,7 +202,7 @@
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
-						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 						
 						"fragBullets": 6,
 						"fragOnHit": false,
@@ -265,7 +265,7 @@
 				
 				"damage": 10000,
 				"instantDisappear": true,
-				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets":[
 					{
@@ -279,7 +279,7 @@
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
-						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 						
 						"fragBullets": 6,
 						"fragOnHit": false,
@@ -342,7 +342,7 @@
 				
 				"damage": 10000,
 				"instantDisappear": true,
-				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets":[
 					{
@@ -356,7 +356,7 @@
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
-						"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 						
 						"fragBullets": 6,
 						"fragOnHit": false,

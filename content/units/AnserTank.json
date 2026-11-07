@@ -81,7 +81,7 @@
 				"lifetime": 20,
 				"speed": 12,
 				"hitSoundPitch": 4,
-				"hittable": false,
+				"hittable": false,"reflectable": false,"absorbable": false,
 				"damage": 850,
 				"splashDamageRadius": 60,
 				"splashDamage": 330,

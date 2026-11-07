@@ -68,7 +68,7 @@
 				
 				"damage": 2000,
 				"instantDisappear": true,
-				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,
 				"fragOnHit": false,
@@ -118,7 +118,7 @@
 				
 				"damage": 300000,
 				"instantDisappear": true,
-				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
 
@@ -142,7 +142,7 @@
 					"buildingDamageMultiplier": 0.1
 					"pierce": false,
 					"pierceBuilding": false,
-					"reflectable": false,"absorbable": false,
+					"hittable": false,"reflectable": false,"absorbable": false,
 					"lightRadius": 0,
 					"lightColor": 000000,
 					"hitEffect": none,

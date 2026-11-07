@@ -45,8 +45,7 @@
 			"lifetime": 32
 			"speed": 10
 			"hitSoundPitch": 4
-			"hittable": false
-			"reflectable": false
+			"hittable": false,"reflectable": false,"absorbable": false,
 			"damage": 240
 			"splashDamageRadius": 40
 			"splashDamage": 120
@@ -72,7 +71,7 @@
 			
 			"damage": 240,
 			"instantDisappear": true,
-			"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+			"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 			
 			"fragBullets": 3,
 			"fragOnHit": false,
@@ -107,7 +106,7 @@
 			
 			"damage": 600,
 			"instantDisappear": true,
-			"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+			"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 			
 			"fragBullets": 5,
 			"fragOnHit": false,
@@ -142,7 +141,7 @@
 			
 			"damage": 240,
 			"instantDisappear": true,
-			"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+			"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 			
 			"fragBullets": 13,
 			"fragOnHit": false,

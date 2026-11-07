@@ -94,7 +94,7 @@
 				
 				"damage": 1300,
 				"instantDisappear": true,
-				"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 8,
 				"fragOnHit": false,
