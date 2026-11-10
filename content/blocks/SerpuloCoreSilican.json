@@ -18,9 +18,9 @@
     //specs
 
     "size": 7,
-	"health": 16000,
-	"itemCapacity":150000,
-	"unitCapModifier":32,
+	"health": 25000,
+	"itemCapacity":400000,
+	"unitCapModifier":40,
 	"unitType":"Sila",
 	
 }

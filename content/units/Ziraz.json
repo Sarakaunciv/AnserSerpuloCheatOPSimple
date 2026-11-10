@@ -315,9 +315,9 @@
 	"research": {
 		"parent": "AnserPowerConstruct",
 		"requirements":[
-			"silicon/1600000",
-			"surge-alloy/800000",
-			"phase-fabric/800000"
+			"silicon/3200000",
+			"surge-alloy/1600000",
+			"phase-fabric/1600000"
 		]
 	}
 }

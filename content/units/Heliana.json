@@ -64,8 +64,8 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"buildingDamageMultiplier": 0.1,
-					"damage": 8000
+					"damage": 8000,
+					"buildingDamageMultiplier": 0.1
 				}
 			}
 		},
@@ -106,8 +106,8 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"buildingDamageMultiplier": 0.1,
-					"damage": 6000
+					"damage": 6000,
+					"buildingDamageMultiplier": 0.1
 				}
 			}
 		},
@@ -148,8 +148,8 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"buildingDamageMultiplier": 0.1,
-					"damage": 4000
+					"damage": 4000,
+					"buildingDamageMultiplier": 0.1
 				}
 			}
 		},
@@ -190,8 +190,8 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"buildingDamageMultiplier": 0.1,
-					"damage": 2000
+					"damage": 2000,
+					"buildingDamageMultiplier": 0.1
 				}
 			}
 		},
