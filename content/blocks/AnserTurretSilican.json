@@ -1,0 +1,803 @@
+	{
+	//details
+
+	"type": "ItemTurret",
+	"name": "AnserTurretSilican",
+
+	//campaign
+
+	"requirements":["silicon/200"],
+	"category": "turret",
+	"research": {
+		"parent": "SilicanWall1",
+		"requirements":["silicon/200"]
+	}
+	
+	//specs
+
+	"size": 2,
+	"health": 800,
+	
+	"rotateSpeed": 8,
+	"reload":  6,
+	"ammoPerShot": 1,
+	"maxAmmo": 50,
+	"recoil":  4,
+	
+	"hasLiquids":false,
+	"hasItems":true,
+	
+    "canOverdrive": false,
+	
+	"range": 160,
+	"inaccuracy": 0,
+	"shootSound": "shootArc",
+	"soundPitchMin": 5,
+	"soundPitchMax": 6,
+	"shootCone": 5,
+	"shootY": 0,
+	
+	"ammoTypes":{
+		"sand":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f7cba4,
+			"frontColor": f7cba4,
+			"mixColorFrom": f7cba4,
+			"mixColorTo": f7cba4,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 5,
+			"hitSound": none,
+			
+			"damage": 2,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": -80,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"scrap":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 777777,
+			"frontColor": 777777,
+			"mixColorFrom": 777777,
+			"mixColorTo": 777777,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 7,
+			"hitSound": none,
+			
+			"damage": 6,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": -40,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"copper":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": d99d73,
+			"frontColor": d99d73,
+			"mixColorFrom": d99d73,
+			"mixColorTo": d99d73,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 9,
+			"hitSound": none,
+			
+			"damage": 9,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"lead":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 8c7fa9,
+			"frontColor": 8c7fa9,
+			"mixColorFrom": 8c7fa9,
+			"mixColorTo": 8c7fa9,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 10,
+			"hitSound": none,
+			
+			"damage": 15,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 20,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"metaglass":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": ebeef5,
+			"frontColor": ebeef5,
+			"mixColorFrom": ebeef5,
+			"mixColorTo": ebeef5,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 9,
+			"hitSound": none,
+			
+			"damage": 18,
+			"splashDamageRadius": 32,
+			"splashDamage": 12,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"coal":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 272727,
+			"frontColor": 272727,
+			"mixColorFrom": 272727,
+			"mixColorTo": 272727,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 9,
+			"hitSound": none,
+			
+			"damage": 12,
+			"splashDamageRadius": 16,
+			"splashDamage": 12,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": burning,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"graphite":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": b2c6d2,
+			"frontColor": b2c6d2,
+			"mixColorFrom": b2c6d2,
+			"mixColorTo": b2c6d2,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 11,
+			"hitSound": none,
+			
+			"damage": 18,
+			"splashDamageRadius": 16,
+			"splashDamage": 18,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 40,
+			"status": burning,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"silicon":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 53565c,
+			"frontColor": 53565c,
+			"mixColorFrom": 53565c,
+			"mixColorTo": 53565c,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 28,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 32,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 160,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"spore-pod":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 7457ce,
+			"frontColor": 7457ce,
+			"mixColorFrom": 7457ce,
+			"mixColorTo": 7457ce,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 9,
+			"hitSound": none,
+			
+			"damage": 24,
+			"splashDamageRadius": 16,
+			"splashDamage": 18,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": burning,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"pyratite":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": ffaa5f,
+			"frontColor": ffaa5f,
+			"mixColorFrom": ffaa5f,
+			"mixColorTo": ffaa5f,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 9,
+			"hitSound": none,
+			
+			"damage": 80,
+			"splashDamageRadius": 32,
+			"splashDamage": 40,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": burning,
+			"statusDuration": 1800,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"blast-compound":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": ff795e,
+			"frontColor": ff795e,
+			"mixColorFrom": ff795e,
+			"mixColorTo": ff795e,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 9,
+			"hitSound": none,
+			
+			"damage": 120,
+			"splashDamageRadius": 48,
+			"splashDamage": 60,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": burning,
+			"statusDuration": 3600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"titanium":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 8da1e3,
+			"frontColor": 8da1e3,
+			"mixColorFrom": 8da1e3,
+			"mixColorTo": 8da1e3,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 22,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 40,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": true,
+			"pierceBuilding": false,
+			"pierceCap": 3,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 80,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"plastanium":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": cbd97f,
+			"frontColor": cbd97f,
+			"mixColorFrom": cbd97f,
+			"mixColorTo": cbd97f,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 28,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 80,
+			"splashDamageRadius": 32,
+			"splashDamage": 20,
+			"pierce": true,
+			"pierceBuilding": false,
+			"pierceCap": 3,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 160,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"surge-alloy":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f3e979,
+			"frontColor": f3e979,
+			"mixColorFrom": f3e979,
+			"mixColorTo": f3e979,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 36,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 240,
+			"splashDamageRadius": 16,
+			"splashDamage": 120,
+			"pierce": true,
+			"pierceBuilding": false,
+			"pierceCap": 3,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 240,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+			
+			"fragBullets": 3,
+			"fragOnHit": false,
+			"fragRandomSpread": 80,
+			"fragSpread": 120,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 0,
+			"fragOffsetMax": 0,
+			"fragBullet":{
+				"type": ShrapnelBulletType,
+				"length": 64,
+				"width": 4,
+				"fromColor": f3e979,
+				"toColor": f3e979,
+				"hitLarge": true,
+				"serrations": 0,
+				
+				"damage": 120,
+				"buildingDamageMultiplier": 0,
+			}
+		},
+		"thorium":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f9a3c7,
+			"frontColor": f9a3c7,
+			"mixColorFrom": f9a3c7,
+			"mixColorTo": f9a3c7,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 22,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 40,
+			"splashDamageRadius": 24,
+			"splashDamage": 40,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 80,
+			"status": melting,
+			"statusDuration": 60,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"phase-fabric":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f4ba6e,
+			"frontColor": f4ba6e,
+			"mixColorFrom": f4ba6e,
+			"mixColorTo": f4ba6e,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 28,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 240,
+			"splashDamageRadius": 48,
+			"splashDamage": 120,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 160,
+			"status": melting,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"beryllium":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 3a8f64,
+			"frontColor": 3a8f64,
+			"mixColorFrom": 3a8f64,
+			"mixColorTo": 3a8f64,
+			
+			"trailColor": ffffff80,
+			"trailLength": 4,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 22,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 60,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": true,
+			"pierceBuilding": false,
+			"pierceCap": 4,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 80,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"tungsten":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 768a9a,
+			"frontColor": 768a9a,
+			"mixColorFrom": 768a9a,
+			"mixColorTo": 768a9a,
+			
+			"trailColor": ffffff80,
+			"trailLength": 4,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 28,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 80,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": true,
+			"pierceBuilding": false,
+			"pierceCap": 8,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 160,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"oxide":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": e4ffd6,
+			"frontColor": e4ffd6,
+			"mixColorFrom": e4ffd6,
+			"mixColorTo": e4ffd6,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 22,
+			"speed": 12,
+			"hitSound": none,
+			
+			"damage": 40,
+			"splashDamageRadius": 64,
+			"splashDamage": 20,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 80,
+			"status": corroded,
+			"statusDuration": 1800,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"carbide":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 89769a,
+			"frontColor": 89769a,
+			"mixColorFrom": 89769a,
+			"mixColorTo": 89769a,
+			
+			"trailColor": ffffff80,
+			"trailLength": -1,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 20,
+			"speed": 9,
+			"hitSound": none,
+			
+			"damage": 320,
+			"splashDamageRadius": 48,
+			"splashDamage": 80,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": true,
+			"reflectable": true,
+			"absorbable": true,
+			
+			"rangeChange": 480,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		}
+	}
+}

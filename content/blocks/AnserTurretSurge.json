@@ -1,0 +1,245 @@
+	{
+	//details
+
+	"type": "ItemTurret",
+	"name": "AnserTurretSurge",
+
+	//campaign
+
+	"requirements":["silicon/4000","surge-alloy/2000"],
+	"category": "turret",
+	"research": "AnserTurretSilican",
+	
+	//specs
+
+	"size": 3,
+	"health": 3000,
+	
+	"rotateSpeed": 4,
+	"reload": 20,
+	"ammoPerShot": 5,
+	"maxAmmo": 100,
+	"recoil":  6,
+	
+	"hasLiquids":false,
+	"hasItems":true,
+	
+    "canOverdrive": false,
+	
+	"range": 400,
+	"inaccuracy": 0,
+	"shootSound": "shootArc",
+	"soundPitchMin": 0.3,
+	"soundPitchMax": 0.4,
+	"shootCone": 5,
+	"shootY": 0,
+	
+	"ammoTypes":{
+		"graphite":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": b2c6d2,
+			"frontColor": b2c6d2,
+			"mixColorFrom": b2c6d2,
+			"mixColorTo": b2c6d2,
+			
+			"trailColor": ffffff80,
+			"trailLength": 2,
+			"trailWidth": 2,
+			
+			"width": 6,
+			"height": 6,
+			"lifetime": 26,
+			"speed": 16,
+			"hitSound": none,
+			
+			"damage": 200,
+			"splashDamageRadius": 16,
+			"splashDamage": 200,
+			"pierce": true,
+			"pierceBuilding": false,
+			"pierceCap": 3,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": burning,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"silicon":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": 53565c,
+			"frontColor": 53565c,
+			"mixColorFrom": 53565c,
+			"mixColorTo": 53565c,
+			
+			"trailColor": ffffff80,
+			"trailLength": 2,
+			"trailWidth": 2,
+			
+			"width": 16,
+			"height": 16,
+			"lifetime": 38,
+			"speed": 16,
+			"hitSound": none,
+			
+			"damage": 800,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"pierce": true,
+			"pierceBuilding": true,
+			"pierceCap": 8,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": true,
+			
+			"rangeChange": 200,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"thorium":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f9a3c7,
+			"frontColor": f9a3c7,
+			"mixColorFrom": f9a3c7,
+			"mixColorTo": f9a3c7,
+			
+			"trailColor": ffffff80,
+			"trailLength": 3,
+			"trailWidth": 2,
+			
+			"width": 16,
+			"height": 16,
+			"lifetime": 26,
+			"speed": 16,
+			"hitSound": none,
+			
+			"damage": 1600,
+			"splashDamageRadius": 64,
+			"splashDamage": 900,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": true,
+			
+			"rangeChange": 0,
+			"status": melting,
+			"statusDuration": 300,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		},
+		"surge-alloy":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f3e979,
+			"frontColor": f3e979,
+			"mixColorFrom": f3e979,
+			"mixColorTo": f3e979,
+			
+			"trailColor": ffffff80,
+			"trailLength": 4,
+			"trailWidth": 2,
+			
+			"width": 16,
+			"height": 16,
+			"lifetime": 38,
+			"speed": 16,
+			"hitSound": none,
+			
+			"damage": 1600,
+			"splashDamageRadius": 32,
+			"splashDamage": 1600,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"rangeChange": 200,
+			"status": none,
+			"statusDuration": 600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+			
+			"fragBullets": 6,
+			"fragOnHit": false,
+			"fragRandomSpread": 40,
+			"fragSpread": 60,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 0,
+			"fragOffsetMax": 0,
+			"fragBullet":{
+				"type": ShrapnelBulletType,
+				"length": 120,
+				"width": 8,
+				"fromColor": f3e979,
+				"toColor": f3e979,
+				"hitLarge": true,
+				"serrations": 0,
+				
+				"damage": 600,
+				"buildingDamageMultiplier": 0,
+			}
+		},
+		"phase-fabric":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f4ba6e,
+			"frontColor": f4ba6e,
+			"mixColorFrom": f4ba6e,
+			"mixColorTo": f4ba6e,
+			
+			"trailColor": ffffff80,
+			"trailLength": 3,
+			"trailWidth": 2,
+			
+			"width": 16,
+			"height": 16,
+			"lifetime": 26,
+			"speed": 16,
+			"hitSound": none,
+			
+			"damage": 3000,
+			"splashDamageRadius": 80,
+			"splashDamage": 1200,
+			"pierce": false,
+			"pierceBuilding": false,
+			"pierceCap": -1,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"rangeChange": 0,
+			"status": melting,
+			"statusDuration": 3600,
+			
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"hitSize": 32,
+		}
+	}
+}

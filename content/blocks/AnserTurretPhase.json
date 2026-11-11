@@ -1,0 +1,42 @@
+	{
+	//details
+
+	"type": "ContinuousTurret",
+	"name": "AnserTurretPhase",
+
+	//campaign
+
+	"requirements":["silicon/6000","surge-alloy/2000","phase-fabric/4000"],
+	"category": "turret",
+	"research": "AnserTurretSurge",
+	
+	//specs
+
+	"size": 4,
+	"health": 6000,
+	
+	"rotateSpeed": 12,
+	
+	"hasLiquids":false,
+	"hasItems":true,
+	
+    "canOverdrive": false,
+	
+	"range": 240,
+	"inaccuracy": 0,
+	"shootSound": none,
+	"shootCone": 180,
+	"shootY": 0,
+	
+	"consumes":{"power":180},
+	
+	"shootType":{
+		"damage":2000,
+		"length":280,
+		"width":8,
+		"lifetime":20,
+		"shake":1,
+		"type":"ContinuousLaserBulletType",
+		"colors":[ ff000040, ff800040, ffff0040, ffffff80 ]
+	}
+}

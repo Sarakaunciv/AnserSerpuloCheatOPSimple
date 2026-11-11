@@ -6,162 +6,233 @@
 
 	//campaign
 
-	"requirements":["silicon/3000"],
+	"requirements":["silicon/40000","surge-alloy/20000","phase-fabric/20000"],
 	"category": "turret",
-	"research": "SilicanWall1"
+	"research": {
+		"parent": "AnserTurretPhase",
+		"requirements":[
+			"silicon/2000000",
+			"surge-alloy/1000000",
+			"phase-fabric/1000000"
+		]
+	}
 	
 	//specs
 
-	"size": 4,
-	"health": 8000,
+	"size": 5,
+	"health": 50000,
 	
 	"rotateSpeed": 6,
-	"reload":  10,
-	"ammoPerShot": 1,
-	"maxAmmo": 80,
-	"recoil":  3,
+	"reload": 120,
+	"ammoPerShot": 50,
+	"maxAmmo": 500,
+	"recoil": 8,
 	
 	"hasLiquids":false,
 	"hasItems":true,
 	
-	"range": 160,
-	"inaccuracy": 1,
-	"shootSound": "shootArc",
-	"soundPitchMin": 3,
-	"soundPitchMax": 3.3,
-	"shootCone": 180,
-	"squareSprite":false,
+    "canOverdrive": false,
+	
+	"range": 960,
+	"inaccuracy": 0,
+	"shootSound": "shootArtillery",
+	"soundPitchMin": 0.4,
+	"soundPitchMax": 0.5,
+	"shootCone": 5,
 	
 	"ammoTypes":{
 		"silicon":{
-			"type": BasicBulletType
-			"ammoMultiplier": 8
-			"backColor": 53565c
-			"frontColor": 53565c
-			"mixColorFrom": 53565c
-			"mixColorTo": 53565c
-			"width": 16
-			"height": 16
-			"lifetime": 32
-			"speed": 10
-			"hitSoundPitch": 4
-			"hittable": false,"reflectable": false,"absorbable": false,
-			"damage": 240
-			"splashDamageRadius": 40
-			"splashDamage": 120
-			"splashDamagePierce": false
-			"buildingDamageMultiplier": 0.1
+			"ammoMultiplier": 1,
 			
-			"rangeChange": 160
+			"type": BasicBulletType,
+			"backColor": 53565c,
+			"frontColor": 53565c,
+			"mixColorFrom": 53565c,
+			"mixColorTo": 53565c,
 			
-			"lightRadius": 0
-			"lightColor": 000000
-			"hitEffect": explosion
-			"hitColor": ff0000
-			"hitSize": 16
+			"trailColor": ffffff80,
+			"trailLength": 8,
+			"trailWidth": 4,
+			
+			"width": 32,
+			"height": 32,
+			"lifetime": 64,
+			"speed": 16,
+			
+			"damage": 40000,
+			"splashDamageRadius": 120,
+			"splashDamage": 10000,
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"pierce": false,
+			"pierceBuilding": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"lightRadius": 0,
+			"lightColor": 000000,
+			"hitEffect": none,
+			"hitColor": ff0000,
+			"hitSize": 32,
 		},
 		"thorium":{
-			"ammoMultiplier": 8
+			"rangeChange": -640,
+			"reloadMultiplier": 6,
+			"ammoMultiplier": 6,
 			
 			"type": BasicBulletType,
-			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+			"backColor": 000000,
+			"frontColor": 000000,
+			"mixColorFrom": 000000,
+			"mixColorTo": 000000,
+			"width": 1,
+			"height": 1,
 			"lifetime": 1,
 			"speed": 160,
-			"hitSound": none,
 			
-			"damage": 240,
+			"damage": 2000,
 			"instantDisappear": true,
-			"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
-			
-			"fragBullets": 3,
-			"fragOnHit": false,
-			"fragRandomSpread": 0,
-			"fragSpread": 10,
-			"fragAngle": 0,
-			"fragVelocityMin": 1,
-			"fragOffsetMin": 0,
-			"fragOffsetMax": 0,
-			"fragBullet":{
-				"type": ShrapnelBulletType
-				"length": 160
-				"width": 10
-				"fromColor": f9a3c7
-				"toColor": f9a3c7
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
-			}
-		},
-		"surge-alloy":{
-			"ammoMultiplier": 8
-			"rangeChange": 40
-			
-			"type": BasicBulletType,
-			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
-			"lifetime": 1,
-			"speed": 200,
-			"hitSound": none,
-			
-			"damage": 600,
-			"instantDisappear": true,
-			"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
-			
-			"fragBullets": 5,
-			"fragOnHit": false,
-			"fragRandomSpread": 0,
-			"fragSpread": 8,
-			"fragAngle": 0,
-			"fragVelocityMin": 1,
-			"fragOffsetMin": 0,
-			"fragOffsetMax": 0,
-			"fragBullet":{
-				"type": ShrapnelBulletType
-				"length": 200
-				"width": 15
-				"fromColor": f3e979
-				"toColor": f3e979
-				"hitLarge": true
-				"serrations": 0
-				
-				"damage": 600
-				"buildingDamageMultiplier": 0.1
-			}
-		},
-		"phase-fabric":{
-			"ammoMultiplier": 8
-			"rangeChange": 80
-			
-			"type": BasicBulletType,
-			"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
-			"lifetime": 1,
-			"speed": 240,
-			"hitSound": none,
-			
-			"damage": 240,
-			"instantDisappear": true,
-			"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			"lightRadius": 0,
+			"lightColor": 000000,
+			"hitEffect": none,
+			"hitColor": 000000,
+			"hitSize": 1,
 			
 			"fragBullets": 13,
 			"fragOnHit": false,
 			"fragRandomSpread": 0,
-			"fragSpread": 6,
+			"fragSpread": 3,
 			"fragAngle": 0,
 			"fragVelocityMin": 1,
 			"fragOffsetMin": 0,
 			"fragOffsetMax": 0,
 			"fragBullet":{
-				"type": ShrapnelBulletType
-				"length": 240
-				"width": 10
-				"fromColor": f4ba6e
-				"toColor": f4ba6e
-				"hitLarge": true
-				"serrations": 0
+				"type": ShrapnelBulletType,
+				"length": 360,
+				"width": 8,
+				"fromColor": f9a3c7,
+				"toColor": f9a3c7,
+				"hitLarge": true,
+				"serrations": 0,
 				
-				"damage": 240
-				"buildingDamageMultiplier": 0.1
+				"damage": 1000,
+				"buildingDamageMultiplier": 0,
+			}
+		},
+		"surge-alloy":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f3e979,
+			"frontColor": f3e979,
+			"mixColorFrom": f3e979,
+			"mixColorTo": f3e979,
+			
+			"trailColor": ffffff80,
+			"trailLength": 8,
+			"trailWidth": 4,
+			
+			"width": 32,
+			"height": 32,
+			"lifetime": 64,
+			"speed": 16,
+			
+			"damage": 40000,
+			"splashDamageRadius": 200,
+			"splashDamage": 10000,
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"pierce": false,
+			"pierceBuilding": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"lightRadius": 0,
+			"lightColor": 000000,
+			"hitEffect": none,
+			"hitColor": ff0000,
+			"hitSize": 32,
+			
+			"fragBullets": 18,
+			"fragOnHit": false,
+			"fragRandomSpread": 0,
+			"fragSpread": 20,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 0,
+			"fragOffsetMax": 0,
+			"fragBullet":{
+				"type": ShrapnelBulletType,
+				"length": 200,
+				"width": 16,
+				"fromColor": f3e979,
+				"toColor": f3e979,
+				"hitLarge": true,
+				"serrations": 0,
+				
+				"damage": 2000,
+				"buildingDamageMultiplier": 0,
+			}
+		},
+		"phase-fabric":{
+			"ammoMultiplier": 1,
+			
+			"type": BasicBulletType,
+			"backColor": f4ba6e,
+			"frontColor": f4ba6e,
+			"mixColorFrom": f4ba6e,
+			"mixColorTo": f4ba6e,
+			
+			"trailColor": ffffff80,
+			"trailLength": 8,
+			"trailWidth": 4,
+			
+			"width": 32,
+			"height": 32,
+			"lifetime": 64,
+			"speed": 16,
+			
+			"damage": 10000,
+			"splashDamageRadius": -1,
+			"splashDamage": 0,
+			"splashDamagePierce": true,
+			"buildingDamageMultiplier": 0,
+			"pierce": true,
+			"pierceBuilding": true,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"lightRadius": 0,
+			"lightColor": 000000,
+			"hitEffect": none,
+			"hitColor": ff0000,
+			"hitSize": 32,
+			
+			"intervalBullets": 6,
+			"bulletInterval": 2,
+			"intervalRandomSpread": 40,
+			"intervalSpread": 60,
+			"intervalAngle": 0,
+			"intervalBullet":{
+				"type": ShrapnelBulletType,
+				"length": 160,
+				"width": 12,
+				"fromColor": f4ba6e,
+				"toColor": f4ba6e,
+				"hitLarge": true,
+				"serrations": 0,
+				
+				"damage": 1000,
+				"buildingDamageMultiplier": 0,
+				
+				"status": melting,
+				"statusDuration": 600,
 			}
 		}
 	}

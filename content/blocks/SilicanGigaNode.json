@@ -1,0 +1,23 @@
+{
+    //details
+
+    "type": "PowerNode",
+    "name": "SilicanGigaNode",
+
+    //campaign
+
+	"requirements":["silicon/2000"],
+    "category": "power",
+    "research": "BatterySilican",
+	
+    //specs
+
+    "size": 3,
+	"health": 5000,
+	
+	"laserRange": 40,
+	"maxNodes": 120,
+	"laserScale": 0.2,
+	"laserColor1": a080ff,
+	"laserColor2": ff00a0,
+}

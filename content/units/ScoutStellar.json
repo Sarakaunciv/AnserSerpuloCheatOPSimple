@@ -62,7 +62,9 @@
 				"damage": 5000,
 				"killShooter": true,
 				"instantDisappear": true,
-				"hittable": false,"reflectable": false,"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"hittable": false,
+				"reflectable": false,
+				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
 				"fragBullet":{
@@ -78,7 +80,9 @@
 					"splashDamageRadius": 140,
 					"splashDamage": 1000,
 					"splashDamagePierce": false,
-					"hittable": false,"reflectable": false,"absorbable": false,
+					"hittable": false,
+					"reflectable": false,
+					"absorbable": false,
 					"instantDisappear": true,
 					"lightRadius": 0,
 					"hitEffect": none,
