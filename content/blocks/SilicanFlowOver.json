@@ -1,0 +1,22 @@
+
+{
+    //details
+
+    "type": "OverflowGate",
+    "name": "SilicanFlowOver",
+
+    //campaign
+
+	"requirements":["silicon/4"],
+    "category": "distribution",
+    "research": "SilicanConveyor"
+	
+    //specs
+
+    "size": 1,
+    "canOverdrive": false,
+	"health": 400,
+	
+	"speed": 1,
+	"invert":false,
+}
