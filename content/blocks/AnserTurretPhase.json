@@ -37,6 +37,8 @@
 		"lifetime":20,
 		"shake":1,
 		"type":"ContinuousLaserBulletType",
-		"colors":[ ff000040, ff800040, ffff0040, ffffff80 ]
+		"colors":[ ff000040, ff800040, ffff0040, ffffff80 ],
+		
+		"buildingDamageMultiplier": 0,
 	}
 }

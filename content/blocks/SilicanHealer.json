@@ -6,7 +6,7 @@
 
     //campaign
 
-	"requirements":["silicon/1500","surge-alloy/50","phase-fabric/500"],
+	"requirements":["silicon/2500"],
     "category": "effect",
     "research": "SilicanWall1"
 	
@@ -17,11 +17,11 @@
 	"health": 1200,
 	
     "range": 80,
-    "healPercent": 0.6,
+    "healPercent": 1.5,
 	
 	"hasPower":true,
 	"hasLiquids":false,
 	"hasItems":false,
 	
-	"consumes":{"power":60},
+	"consumes":{"power":120},
 }
