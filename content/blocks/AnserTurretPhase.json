@@ -26,7 +26,7 @@
 	"inaccuracy": 0,
 	"shootSound": none,
 	"shootCone": 180,
-	"shootY": 0,
+	"shootY": 8,
 	
 	"consumes":{"power":180},
 	
