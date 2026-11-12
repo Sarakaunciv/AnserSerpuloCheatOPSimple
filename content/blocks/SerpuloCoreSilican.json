@@ -19,7 +19,7 @@
 
     "size": 7,
 	"health": 25000,
-	"itemCapacity":400000,
+	"itemCapacity":200000,
 	"unitCapModifier":40,
 	"unitType":"Sila",
 	
