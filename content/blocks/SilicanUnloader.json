@@ -1,0 +1,21 @@
+
+{
+    //details
+
+    "type": "Unloader",
+    "name": "SilicanUnloader",
+
+    //campaign
+
+	"requirements":["silicon/20"],
+    "category": "distribution",
+    "research": "SilicanFlowOver"
+	
+    //specs
+
+    "size": 1,
+    "canOverdrive": false,
+	"health": 400,
+	
+	"speed": 0.0001,
+}

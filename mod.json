@@ -9,11 +9,12 @@
 	
 	-Over simplified factories. and heaters.
 	-Super Drill and pump.
-	-Op conveyer, Overdrive x10 speed.
+	-Op conveyer, unloader, Overdrive x10 speed.
+	-And more.
 	
 	You can watch mod sample on my Youtube. Link in Repo
 	
 	There are both Serpulo and Erekir version of this mod. make sure to download both mods",
-    "version": "2.6",
+    "version": "2.7",
     "minGameVersion": 147
 }
