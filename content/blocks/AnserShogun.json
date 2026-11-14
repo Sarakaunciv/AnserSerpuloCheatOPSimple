@@ -24,7 +24,7 @@
 	
 	"rotateSpeed": 6,
 	"reload": 120,
-	"ammoPerShot": 50,
+	"ammoPerShot": 100,
 	"maxAmmo": 500,
 	"recoil": 8,
 	

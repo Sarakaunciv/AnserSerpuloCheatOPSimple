@@ -1,0 +1,41 @@
+
+{
+    //details
+
+    "type": "HeaterGenerator",
+    "name": "AnserReactThorium",
+
+    //campaign
+
+	"requirements":["thorium/50"],
+    "category": "power",
+	"research":{
+		"parent": "AnserReactSilican",
+		"requirements":[
+		    "thorium/200000"
+		]
+	},
+	
+    //specs
+
+    "size": 1,
+	"health": 1,
+	"buildTime":1,
+	
+	"liquidCapacity":300,
+	
+	"consumes":{},
+	
+	"explosionRadius": 30,
+	"explosionDamage": 1200,
+	"powerProduction": 0.2,
+	
+	"explodeOnFull": true,
+	"outputLiquid":{
+		"liquid":water,
+		"amount":1
+	},
+	
+	"heatOutput": 2,
+	"warmupRate": 1,
+}

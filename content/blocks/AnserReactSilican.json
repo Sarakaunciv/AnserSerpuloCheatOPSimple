@@ -1,0 +1,41 @@
+
+{
+    //details
+
+    "type": "HeaterGenerator",
+    "name": "AnserReactSilican",
+
+    //campaign
+
+	"requirements":["silicon/50"],
+    "category": "power",
+	"research":{
+		"parent": "AnserTurretSilican",
+		"requirements":[
+		    "silicon/20000"
+		]
+	},
+	
+    //specs
+
+    "size": 1,
+	"health": 1,
+	"buildTime":1,
+	
+	"liquidCapacity":300,
+	
+	"consumes":{},
+	
+	"explosionRadius": 20,
+	"explosionDamage": 300,
+	"powerProduction": 0.05,
+	
+	"explodeOnFull": true,
+	"outputLiquid":{
+		"liquid":water,
+		"amount":1
+	},
+	
+	"heatOutput": 2,
+	"warmupRate": 1,
+}

@@ -16,9 +16,9 @@
 	"health": 3000,
 	
 	"rotateSpeed": 4,
-	"reload": 20,
-	"ammoPerShot": 5,
-	"maxAmmo": 100,
+	"reload": 12,
+	"ammoPerShot": 20,
+	"maxAmmo": 200,
 	"recoil":  6,
 	
 	"hasLiquids":false,

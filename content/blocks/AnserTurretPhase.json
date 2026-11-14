@@ -28,7 +28,7 @@
 	"shootCone": 180,
 	"shootY": 8,
 	
-	"consumes":{"power":180},
+	"consumes":{"power":300},
 	
 	"shootType":{
 		"damage":2000,
@@ -38,6 +38,9 @@
 		"shake":1,
 		"type":"ContinuousLaserBulletType",
 		"colors":[ ff000040, ff800040, ffff0040, ffffff80 ],
+		
+		"status": melting,
+		"statusDuration": 4000,
 		
 		"buildingDamageMultiplier": 0,
 	}
