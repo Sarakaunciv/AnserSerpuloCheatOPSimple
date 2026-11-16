@@ -1,0 +1,21 @@
+
+{
+    //details
+
+    "type": "Wall",
+    "name": "AnserWallSurge2",
+
+    //campaign
+
+	"requirements":["silicon/160","surge-alloy/160"],
+    "category": "defense",
+    "research": "AnserWallSurge1"
+	"researchCostMultiplier": 2,
+	
+    //specs
+
+    "size": 2,
+	"health": 16000,
+	"buildTime": 160,
+    "absorbLasers": true,
+}

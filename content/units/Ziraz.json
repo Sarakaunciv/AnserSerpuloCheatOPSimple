@@ -29,8 +29,8 @@
 	
 	"flying": false,
 	"canDrown": false,
-	"health": 485000,
-	"armor": 1100,
+	"health": 865000,
+	"armor": 9500,
 	"hitSize": 72,
 	"speed": 1.8,
 	"rotateSpeed": 1.5,
@@ -48,6 +48,7 @@
 			"y": 46,
 			"reload": 6,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"mirror": true,
 			"recoil": 6,
 			"shootX": 0,
@@ -58,6 +59,7 @@
 			"inaccuracy": 10,
 			"rotate": false,
 			"shootCone": 180,
+			
 			
 			"bullet": {
 				"type": BasicBulletType,
@@ -75,21 +77,41 @@
 				"fragBullets": 5,
 				"fragOnHit": false,
 				"fragRandomSpread": 3,
-				"fragSpread": 5,
+				"fragSpread": 4,
 				"fragAngle": 0,
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
 				"fragBullet":{
 					"type": ShrapnelBulletType,
-					"length": 260,
+					"length": 280,
 					"width": 20,
 					"fromColor": ffffff,
 					"toColor": ff0080,
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 2000
+					"damage": 2000,
+					
+					"status": melting,
+					"statusDuration": 3600,
+					
+					spawnBullets":[
+						{
+							"type": ShrapnelBulletType,
+							"length": 260,
+							"width": 20,
+							"fromColor": ffffff,
+							"toColor": ff0080,
+							"hitLarge": true,
+							"serrations": 0,
+							
+							"damage": 2000,
+							
+							"status": sapped,
+							"statusDuration": 3600,
+						}
+					]
 				}
 			}
 		},
@@ -99,6 +121,7 @@
 			"y": -34,
 			"reload": 40,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"mirror": true,
 			"recoil": 6,
 			"shootX": 0,
@@ -139,11 +162,11 @@
 					"hitSound": explosion,
 					"hitSoundPitch": 1,
 					
-					"damage": 300000,
+					"damage": 1,
 					"splashDamageRadius": 120,
-					"splashDamage": 30000,
+					"splashDamage": 100000,
 					"splashDamagePierce": true,
-					"buildingDamageMultiplier": 0.1
+					"buildingDamageMultiplier": 0.01
 					"pierce": false,
 					"pierceBuilding": false,
 					"hittable": false,
@@ -160,20 +183,56 @@
 					"trailWidth": 6,
 					
 					"homingPower": 0.4,
-					"homingRange": 500
+					"homingRange": 500,
+					
+					"status": melting,
+					"statusDuration": 3600,
+					
+					"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+					"fragBullet":{
+						"type": BasicBulletType,
+						"backColor": ff0000,
+						"frontColor": ff0080,
+						"mixColorFrom": ff0080,
+						"mixColorTo": ff0000,
+						"width": 1,
+						"height": 1,
+						"lifetime": 1,
+						"speed": 1,
+						
+						"damage": 1,
+						"splashDamageRadius": 120,
+						"splashDamage": 100000,
+						"splashDamagePierce": true,
+						"buildingDamageMultiplier": 0.01
+						"pierce": false,
+						"pierceBuilding": false,
+						"hittable": false,
+						"reflectable": false,
+						"absorbable": false,
+						"lightRadius": 0,
+						"lightColor": 000000,
+						"hitEffect": none,
+						"hitColor": 000000,
+						"hitSize": 32,
+						
+						"status": sapped,
+						"statusDuration": 3600,
+					}
 				}
 			}
 		},
 		{
 			"name": Blank,
 			"display": false,
-			"x": -10,
+			"x": 0,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 0,
-			"shootX": 0,
+			"shootX": -10,
 			"shootY": 0,
 			"inaccuracy": 0,
 			"rotate": false,
@@ -184,25 +243,29 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":5000,
+				"damage": 12500,
 				"length":280,
 				"width":8,
 				"lifetime":400,
 				"shake": 0,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				
+				"status": melting,
+				"statusDuration": 3600,
 			}
 		},
 		{
 			"name": Blank,
 			"display": false,
-			"x": -5,
+			"x": 0,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 0,
-			"shootX": 0,
+			"shootX": -5,
 			"shootY": 0,
 			"inaccuracy": 0,
 			"rotate": false,
@@ -213,25 +276,29 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":5000,
+				"damage": 12500,
 				"length":280,
 				"width":8,
 				"lifetime":400,
 				"shake": 0,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				
+				"status": melting,
+				"statusDuration": 3600,
 			}
 		},
 		{
 			"name": Blank,
 			"display": false,
-			"x": 10,
+			"x": 0,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 0,
-			"shootX": 0,
+			"shootX": 10,
 			"shootY": 0,
 			"inaccuracy": 0,
 			"rotate": false,
@@ -242,25 +309,29 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":5000,
+				"damage": 12500,
 				"length":280,
 				"width":8,
 				"lifetime":400,
 				"shake": 0,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				
+				"status": melting,
+				"statusDuration": 3600,
 			}
 		},
 		{
 			"name": Blank,
 			"display": false,
-			"x": 5,
+			"x": 0,
 			"y": 0,
 			"reload": 180,
 			"shootSound": none,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 0,
-			"shootX": 0,
+			"shootX": 5,
 			"shootY": 0,
 			"inaccuracy": 0,
 			"rotate": false,
@@ -271,13 +342,16 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":5000,
+				"damage": 12500,
 				"length":280,
 				"width":8,
 				"lifetime":400,
 				"shake": 0,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				
+				"status": melting,
+				"statusDuration": 3600,
 			}
 		},
 		{
@@ -286,6 +360,7 @@
 			"y": 0,
 			"reload": 180,
 			"shootSound": beamMeltdown,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 0,
 			"shootX": 0,
@@ -299,13 +374,16 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":5000,
+				"damage": 12500,
 				"length":280,
 				"width":8,
 				"lifetime":400,
 				"shake": 0,
 				"type":"ContinuousLaserBulletType",
 				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				
+				"status": melting,
+				"statusDuration": 3600,
 			}
 		}
 	]

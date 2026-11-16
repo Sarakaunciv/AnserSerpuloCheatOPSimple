@@ -1,16 +1,17 @@
 {
 	//details
 
-	"name": "ScoutStellar",
+	"name": "Ssutela",
 
 	//stats
 
 	"type": "flying",
+	
 	"template": "ErekirUnitType",
+	
 	"flying": true,
-	"lowAltitude": true,
-	"health": 3600,
-	"armor": 1,
+	"health": 6000,
+	"armor": 5,
 	"hitSize": 26,
 	"speed": 3,
 	"rotateSpeed": 5,
@@ -20,16 +21,7 @@
 	"engineOffset": 16,
 	"engineSize": 8,
 
-	"fogRadius": 45,
-
-	//stats [build]
-
-	//"mineWalls": true,
-	//"mineFloor": true,
-	//"mineSpeed": 10000,
-	//"mineTier": 10,
-	//"buildSpeed": 10000,
-	//"itemCapacity": 10000,
+	"fogRadius": 40,
 
 	//weapon
 
@@ -40,13 +32,14 @@
 			"y": 0,
 			"reload": 60,
 			"shootSound": explosionReactor,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 2,
 			"shootX": 0,
 			"shootY": 0,
-			"soundPitchMin": 0.5,
+			"soundPitchMin": 0.4,
 			"soundPitchMax": 0.5,
-			"ejectEffect": reactorExplosion,
+			"ejectEffect": none,
 			"inaccuracy": 0,
 			"rotate": true,
 			"shootOnDeath": true,
@@ -56,10 +49,10 @@
 				"type": BasicBulletType,
 				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
-				"speed": 59,
+				"speed": 40,
 				"hitSound": none,
 				
-				"damage": 5000,
+				"damage": 4000,
 				"killShooter": true,
 				"instantDisappear": true,
 				"hittable": false,
@@ -76,14 +69,16 @@
 					"lifetime": 1,
 					"speed": 1,
 					"hitSound": none,
+					
 					"damage": 0,
-					"splashDamageRadius": 140,
-					"splashDamage": 1000,
+					"splashDamageRadius": 160,
+					"splashDamage": 800,
 					"splashDamagePierce": false,
 					"hittable": false,
 					"reflectable": false,
 					"absorbable": false,
 					"instantDisappear": true,
+					
 					"lightRadius": 0,
 					"hitEffect": none,
 					"hitSize": 16
@@ -97,8 +92,8 @@
 	"research": {
 		"parent": "VeryFlare",
 		"requirements":[
-			"silicon/30000",
-			"thorium/1000"
+			"silicon/20000",
+			"thorium/2000"
 		]
 	}
 }

@@ -74,6 +74,7 @@
 			"y": 10,
 			"reload": 80,
 			"shootSound": shootFuse,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 2,
 			"shootX": 0,

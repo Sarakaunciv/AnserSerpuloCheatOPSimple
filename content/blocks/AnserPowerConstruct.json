@@ -33,12 +33,17 @@
 	{
         "unit": "Korosu",
         "requirements": [],
-        "time": 18000
+        "time": 10800
     },
 	{
         "unit": "Hivuni",
         "requirements": [],
         "time": 10800
+    },
+	{
+        "unit": "Ssoara",
+        "requirements": [],
+        "time": 21600
     },
 	{
         "unit": "Zatopud",
@@ -56,6 +61,11 @@
         "time": 3600
     },
 	{
+        "unit": "Ssangt",
+        "requirements": [],
+        "time": 7200
+    },
+	{
         "unit": "Rizzen",
         "requirements": [],
         "time": 1200
@@ -71,7 +81,7 @@
         "time": 120
     },
 	{
-        "unit": "ScoutStellar",
+        "unit": "Ssutela",
         "requirements": [],
         "time": 120
     },

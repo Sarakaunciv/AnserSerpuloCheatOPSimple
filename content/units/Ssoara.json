@@ -1,0 +1,156 @@
+{
+	//details
+
+	"name": "Ssoara",
+
+	//stats
+
+	"type": "flying",
+	
+	"template": "ErekirUnitType",
+	
+	"flying": true,
+	"health": 490000,
+	"armor": 6000,
+	"hitSize": 58,
+	"speed": 5,
+	"rotateSpeed": 5,
+	"accel": 0.1,
+	"drag": 0.2,
+	
+	"engineOffset": 40,
+	"engineSize": 16,
+
+	"fogRadius": 40,
+
+	//weapon
+
+	"weapons":[
+		{
+			"name": Blank,
+			"x": 0,
+			"y": 0,
+			"reload": 60,
+			"shootSound": explosionReactor,
+			"shootSoundVolume": 1.0,
+			"mirror": false,
+			"recoil": 2,
+			"shootX": 0,
+			"shootY": 0,
+			"soundPitchMin": 0.4,
+			"soundPitchMax": 0.5,
+			"ejectEffect": none,
+			"inaccuracy": 0,
+			"rotate": true,
+			"shootOnDeath": true,
+			"rotateSpeed": 4,
+			"shootCone": 180,
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+				"lifetime": 1,
+				"speed": 80,
+				"hitSound": none,
+				
+				"damage": 2400000,
+				"killShooter": true,
+				"instantDisappear": true,
+				"hittable": false,
+				"reflectable": false,
+				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				
+				"spawnBullets":[
+					{
+						"type": BasicBulletType,
+						"backColor": 000000,
+						"frontColor": 000000,
+						"width": 1,
+						"height": 1,
+						"lifetime": 1,
+						"speed": 1,
+						"hitSound": none,
+						
+						"damage": 0,
+						"splashDamageRadius": 280,
+						"splashDamage": 1,
+						"splashDamagePierce": true,
+						"hittable": false,
+						"reflectable": false,
+						"absorbable": false,
+						"instantDisappear": true,
+						
+						"lightRadius": 0,
+						"hitEffect": none,
+						"hitSize": 16,
+						
+						"status": melting,
+						"statusDuration": 3600,
+					},
+					{
+						"type": BasicBulletType,
+						"backColor": 000000,
+						"frontColor": 000000,
+						"width": 1,
+						"height": 1,
+						"lifetime": 1,
+						"speed": 1,
+						"hitSound": none,
+						
+						"damage": 0,
+						"splashDamageRadius": 280,
+						"splashDamage": 1,
+						"splashDamagePierce": true,
+						"hittable": false,
+						"reflectable": false,
+						"absorbable": false,
+						"instantDisappear": true,
+						
+						"lightRadius": 0,
+						"hitEffect": none,
+						"hitSize": 16,
+						
+						"status": sapped,
+						"statusDuration": 3600,
+						
+						"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+						"fragBullet":{
+							"type": BasicBulletType,
+							"backColor": 000000,
+							"frontColor": 000000,
+							"width": 1,
+							"height": 1,
+							"lifetime": 3,
+							"speed": 1,
+							"hitSound": none,
+							
+							"damage": 1,
+							"splashDamageRadius": 320,
+							"splashDamage": 2400000,
+							"splashDamagePierce": true,
+							"buildingDamageMultiplier": 0.01
+							"hittable": false,
+							"reflectable": false,
+							"absorbable": false,
+							"instantDisappear": true,
+							
+							"lightRadius": 0,
+							"hitEffect": none,
+							"hitSize": 16
+						}
+					}
+				]
+			}
+		}
+	]
+
+	//campaign
+
+	"research": {
+		"parent": "AnserPowerConstruct",
+		"requirements":[
+			"silicon/3200000",
+			"surge-alloy/800000",
+			"phase-fabric/6400000"
+		]
+	}
+}

@@ -1,0 +1,30 @@
+
+{
+    //details
+
+    "type": "ShieldWall",
+    "name": "AnserWallPhase1",
+
+    //campaign
+
+	"requirements":["silicon/40","phase-fabric/40"],
+    "category": "defense",
+    "research": "SilicanWall1",
+	"researchCostMultiplier": 2,
+	
+    //specs
+
+    "size": 1,
+	"health": 1000,
+	"buildTime": 40,
+    "absorbLasers": false,
+	
+	"shieldHealth": 4000,
+	"breakCooldown": 66,
+	"regenSpeed": 60,
+	
+	"hasPower":true,
+	"consumes":{"power":5},
+	"conductivePower":true,
+    "canOverdrive": false,
+}

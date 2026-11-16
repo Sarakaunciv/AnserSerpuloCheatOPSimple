@@ -7,13 +7,15 @@
 
     //campaign
 
-	"requirements":["silicon/54"],
+	"requirements":["silicon/180"],
     "category": "defense",
     "research": "SilicanWall2"
+	"researchCostMultiplier": 3,
 	
     //specs
 
     "size": 3,
-	"health": 18000,
+	"health": 9000,
+	"buildTime": 180,
     "absorbLasers": true,
 }

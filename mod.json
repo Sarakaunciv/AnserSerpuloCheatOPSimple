@@ -6,15 +6,19 @@
 	
 	-9 new units and 1 turret.
 	[[]#ffff00]-V2.0 with 3 new GIGA units[[]]
+	[[]#ffff00]-V2.9 with 3 new nuke units[[]]
 	
 	-Over simplified factories. and heaters.
 	-Super Drill and pump.
 	-Op conveyer, unloader, Overdrive x10 speed.
 	-And more.
 	
+	This mod can beat vanilla with [[]#ff0000]64x health and damage[[]] enemy
+	Recommend to play vanilla with atleast [[]#ffff00]16x health and damage[[]] enemy
+	
 	You can watch mod sample on my Youtube. Link in Repo
 	
 	There are both Serpulo and Erekir version of this mod. make sure to download both mods",
-    "version": "2.8",
+    "version": "2.9",
     "minGameVersion": 147
 }

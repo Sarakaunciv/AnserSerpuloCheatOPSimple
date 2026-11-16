@@ -54,9 +54,9 @@
 			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 200,
+			"damage": 400,
 			"splashDamageRadius": 16,
-			"splashDamage": 200,
+			"splashDamage": 400,
 			"pierce": true,
 			"pierceBuilding": false,
 			"pierceCap": 3,
@@ -91,7 +91,7 @@
 			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 800,
+			"damage": 1600,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"pierce": true,
@@ -128,9 +128,9 @@
 			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 1600,
+			"damage": 3200,
 			"splashDamageRadius": 64,
-			"splashDamage": 900,
+			"splashDamage": 1800,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -165,9 +165,9 @@
 			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 1600,
+			"damage": 3200,
 			"splashDamageRadius": 32,
-			"splashDamage": 1600,
+			"splashDamage": 3200,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -200,7 +200,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 600,
+				"damage": 1200,
 				"buildingDamageMultiplier": 0,
 			}
 		},
@@ -223,9 +223,9 @@
 			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 3000,
-			"splashDamageRadius": 80,
-			"splashDamage": 1200,
+			"damage": 6000,
+			"splashDamageRadius": 96,
+			"splashDamage": 2400,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,

@@ -24,7 +24,7 @@
 	
 	"rotateSpeed": 6,
 	"reload": 120,
-	"ammoPerShot": 100,
+	"ammoPerShot": 500,
 	"maxAmmo": 500,
 	"recoil": 8,
 	
@@ -59,9 +59,9 @@
 			"lifetime": 64,
 			"speed": 16,
 			
-			"damage": 40000,
+			"damage": 400000,
 			"splashDamageRadius": 120,
-			"splashDamage": 10000,
+			"splashDamage": 100000,
 			"splashDamagePierce": true,
 			"buildingDamageMultiplier": 0,
 			"pierce": false,
@@ -91,7 +91,7 @@
 			"lifetime": 1,
 			"speed": 160,
 			
-			"damage": 2000,
+			"damage": 20000,
 			"instantDisappear": true,
 			"hittable": false,
 			"reflectable": false,
@@ -119,7 +119,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 1000,
+				"damage": 10000,
 				"buildingDamageMultiplier": 0,
 			}
 		},
@@ -141,9 +141,9 @@
 			"lifetime": 64,
 			"speed": 16,
 			
-			"damage": 40000,
+			"damage": 400000,
 			"splashDamageRadius": 200,
-			"splashDamage": 10000,
+			"splashDamage": 100000,
 			"splashDamagePierce": true,
 			"buildingDamageMultiplier": 0,
 			"pierce": false,
@@ -175,7 +175,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 2000,
+				"damage": 20000,
 				"buildingDamageMultiplier": 0,
 			}
 		},
@@ -197,7 +197,7 @@
 			"lifetime": 64,
 			"speed": 16,
 			
-			"damage": 10000,
+			"damage": 100000,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"splashDamagePierce": true,
@@ -228,7 +228,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 1000,
+				"damage": 10000,
 				"buildingDamageMultiplier": 0,
 				
 				"status": melting,

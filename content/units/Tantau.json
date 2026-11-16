@@ -31,6 +31,7 @@
 			"y": 0,
 			"reload": 20,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 4,
 			"shootX": 0,

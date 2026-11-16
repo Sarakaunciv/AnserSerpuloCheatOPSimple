@@ -10,9 +10,8 @@
 	"template": "ErekirUnitType",
 	
 	"flying": true,
-	"canDrown": false,
 	"health": 185000,
-	"armor": 360,
+	"armor": 1300,
 	"hitSize": 52,
 	"speed": 3,
 	"rotateSpeed": 4,
@@ -33,6 +32,7 @@
 			"y": -16,
 			"reload": 40,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 2,
 			"soundPitchMax": 2.4,
 			"mirror": false,
@@ -67,7 +67,10 @@
 					"serrations": 0,
 					
 					"damage": 8000,
-					"buildingDamageMultiplier": 0.1
+					"buildingDamageMultiplier": 0.1,
+					
+					"status": melting,
+					"statusDuration": 3600,
 				}
 			}
 		},
@@ -77,6 +80,7 @@
 			"y": -16,
 			"reload": 30,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 2,
 			"soundPitchMax": 2.4,
 			"mirror": false,
@@ -111,7 +115,10 @@
 					"serrations": 0,
 					
 					"damage": 6000,
-					"buildingDamageMultiplier": 0.1
+					"buildingDamageMultiplier": 0.1,
+					
+					"status": melting,
+					"statusDuration": 3600,
 				}
 			}
 		},
@@ -121,6 +128,7 @@
 			"y": -16,
 			"reload": 20,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 2,
 			"soundPitchMax": 2.4,
 			"mirror": false,
@@ -155,7 +163,10 @@
 					"serrations": 0,
 					
 					"damage": 4000,
-					"buildingDamageMultiplier": 0.1
+					"buildingDamageMultiplier": 0.1,
+					
+					"status": melting,
+					"statusDuration": 3600,
 				}
 			}
 		},
@@ -165,6 +176,7 @@
 			"y": -16,
 			"reload": 10,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 2,
 			"soundPitchMax": 2.4,
 			"mirror": false,
@@ -199,7 +211,10 @@
 					"serrations": 0,
 					
 					"damage": 2000,
-					"buildingDamageMultiplier": 0.1
+					"buildingDamageMultiplier": 0.1,
+					
+					"status": melting,
+					"statusDuration": 3600,
 				}
 			}
 		},
@@ -209,6 +224,7 @@
 			"y": 32,
 			"reload": 80,
 			"shootSound": shootToxopidShotgun,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 6,
 			"shootX": 0,
@@ -226,7 +242,7 @@
 				"speed": 240,
 				"hitSound": none,
 				
-				"damage": 5000,
+				"damage": 4000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -246,15 +262,19 @@
 					"hitSound": explosion,
 					"hitSoundPitch": 1,
 					
-					"damage": 5000,
+					"damage": 20000,
 					"splashDamageRadius": 40,
-					"splashDamage": 160,
+					"splashDamage": 8000,
 					"splashDamagePierce": true,
 					"pierce": true,
 					"pierceBuilding": true,
+					"buildingDamageMultiplier": 0.1,
 					"hittable": false,
 					"reflectable": false,
 					"absorbable": false,
+					
+					"status": melting,
+					"statusDuration": 3600,
 					
 					"lightRadius": 0,
 					"lightColor": 000000,
@@ -283,15 +303,19 @@
 						"hitSound": explosion,
 						"hitSoundPitch": 1,
 						
-						"damage": 5000,
+						"damage": 4000,
 						"splashDamageRadius": 40,
-						"splashDamage": 160,
+						"splashDamage": 1600,
 						"splashDamagePierce": true,
 						"pierce": true,
 						"pierceBuilding": true,
+						"buildingDamageMultiplier": 0.1,
 						"hittable": false,
 						"reflectable": false,
 						"absorbable": false,
+						
+						"status": melting,
+						"statusDuration": 3600,
 						
 						"lightRadius": 0,
 						"lightColor": 000000,
@@ -320,15 +344,19 @@
 							"hitSound": explosion,
 							"hitSoundPitch": 1,
 							
-							"damage": 5000,
+							"damage": 4000,
 							"splashDamageRadius": 40,
-							"splashDamage": 160,
+							"splashDamage": 1600,
 							"splashDamagePierce": true,
 							"pierce": true,
 							"pierceBuilding": true,
+							"buildingDamageMultiplier": 0.1,
 							"hittable": false,
 							"reflectable": false,
 							"absorbable": false,
+							
+							"status": melting,
+							"statusDuration": 3600,
 							
 							"lightRadius": 0,
 							"lightColor": 000000,
@@ -357,15 +385,19 @@
 								"hitSound": explosion,
 								"hitSoundPitch": 1,
 								
-								"damage": 5000,
+								"damage": 4000,
 								"splashDamageRadius": 40,
-								"splashDamage": 160,
+								"splashDamage": 1600,
 								"splashDamagePierce": true,
 								"pierce": true,
 								"pierceBuilding": true,
+								"buildingDamageMultiplier": 0.1,
 								"hittable": false,
 								"reflectable": false,
 								"absorbable": false,
+								
+								"status": melting,
+								"statusDuration": 3600,
 								
 								"lightRadius": 0,
 								"lightColor": 000000,

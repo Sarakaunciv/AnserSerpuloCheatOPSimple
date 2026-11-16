@@ -1,0 +1,104 @@
+{
+	//details
+
+	"name": "Ssangt",
+
+	//stats
+
+	"type": "flying",
+	
+	"template": "ErekirUnitType",
+	
+	"flying": true,
+	"health": 66000,
+	"armor": 500,
+	"hitSize": 48,
+	"speed": 4,
+	"rotateSpeed": 5,
+	"accel": 0.1,
+	"drag": 0.2,
+	
+	"engineOffset": 32,
+	"engineSize": 12,
+
+	"fogRadius": 60,
+
+	//weapon
+
+	"weapons":[
+		{
+			"name": Blank,
+			"x": 0,
+			"y": 0,
+			"reload": 60,
+			"shootSound": explosionReactor,
+			"shootSoundVolume": 1.0,
+			"mirror": false,
+			"recoil": 2,
+			"shootX": 0,
+			"shootY": 0,
+			"soundPitchMin": 0.4,
+			"soundPitchMax": 0.5,
+			"ejectEffect": none,
+			"inaccuracy": 0,
+			"rotate": true,
+			"shootOnDeath": true,
+			"rotateSpeed": 4,
+			"shootCone": 180,
+			"bullet": {
+				"type": BasicBulletType,
+				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
+				"lifetime": 1,
+				"speed": 60,
+				"hitSound": none,
+				
+				"damage": 300000,
+				"killShooter": true,
+				"instantDisappear": true,
+				"hittable": false,
+				"reflectable": false,
+				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				
+				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
+				"fragBullet":{
+					"type": BasicBulletType,
+					"backColor": 000000,
+					"frontColor": 000000,
+					"width": 1,
+					"height": 1,
+					"lifetime": 1,
+					"speed": 1,
+					"hitSound": none,
+					
+					"damage": 0,
+					"splashDamageRadius": 240,
+					"splashDamage": 300000,
+					"splashDamagePierce": true,
+					"buildingDamageMultiplier": 0.01,
+					"hittable": false,
+					"reflectable": false,
+					"absorbable": false,
+					"instantDisappear": true,
+					
+					"lightRadius": 0,
+					"hitEffect": none,
+					"hitSize": 16,
+					
+					"status": melting,
+					"statusDuration": 3600,
+				}
+			}
+		}
+	]
+
+	//campaign
+
+	"research": {
+		"parent": "Rizzen",
+		"requirements":[
+			"silicon/400000",
+			"surge-alloy/100000",
+			"phase-fabric/1200000"
+		]
+	}
+}

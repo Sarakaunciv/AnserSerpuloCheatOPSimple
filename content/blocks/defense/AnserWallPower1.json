@@ -1,0 +1,30 @@
+
+{
+    //details
+
+    "type": "ShieldWall",
+    "name": "AnserWallPower1",
+
+    //campaign
+
+	"requirements":["silicon/100","surge-alloy/100","phase-fabric/100"],
+    "category": "defense",
+    "research": "AnserWallPhase1",
+	"researchCostMultiplier": 40,
+	
+    //specs
+
+    "size": 1,
+	"health": 20000,
+	"buildTime": 60,
+    "absorbLasers": true,
+	
+	"shieldHealth": 20000,
+	"breakCooldown": 66,
+	"regenSpeed": 300,
+	
+	"hasPower":true,
+	"consumes":{"power":50},
+	"conductivePower":true,
+    "canOverdrive": false,
+}

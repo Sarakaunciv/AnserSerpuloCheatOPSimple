@@ -1,0 +1,21 @@
+
+{
+    //details
+
+    "type": "Wall",
+    "name": "AnserWallSurge1",
+
+    //campaign
+
+	"requirements":["silicon/40","surge-alloy/40"],
+    "category": "defense",
+    "research": "SilicanWall1"
+	"researchCostMultiplier": 1,
+	
+    //specs
+
+    "size": 1,
+	"health": 4000,
+	"buildTime": 40,
+    "absorbLasers": true,
+}

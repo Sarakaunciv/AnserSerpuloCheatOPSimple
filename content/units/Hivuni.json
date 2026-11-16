@@ -10,9 +10,8 @@
 	"template": "ErekirUnitType",
 	
 	"flying": true,
-	"canDrown": false,
-	"health": 695000,
-	"armor": 1800,
+	"health": 1390000,
+	"armor": 11000,
 	"hitSize": 60,
 	"speed": 3,
 	"rotateSpeed": 4,
@@ -34,6 +33,7 @@
 			"y": 28,
 			"reload": 180,
 			"shootSound": shootToxopidShotgun,
+			"shootSoundVolume": 1.0,
 			"mirror": false,
 			"recoil": 12,
 			"shootX": 0,
@@ -75,8 +75,29 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 20000
-					"buildingDamageMultiplier": 0.4
+					"damage": 10000,
+					"buildingDamageMultiplier": 0.4,
+					
+					"status": melting,
+					"statusDuration": 3600,
+					
+					"spawnBullets":[
+						{
+							"type": ShrapnelBulletType,
+							"length": 360,
+							"width": 20,
+							"fromColor": ffffff,
+							"toColor": ffffff,
+							"hitLarge": true,
+							"serrations": 0,
+							
+							"damage": 10000,
+							"buildingDamageMultiplier": 0.4,
+							
+							"status": sapped,
+							"statusDuration": 3600,
+						}
+					]
 				}
 			}
 		},
@@ -86,6 +107,7 @@
 			"y": -20,
 			"reload": 60,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 3,
 			"soundPitchMax": 3.6,
 			"mirror": false,
@@ -117,7 +139,7 @@
 						"speed": 32,
 						"hitSound": none,
 						
-						"damage": 8000,
+						"damage": 1,
 						"buildingDamageMultiplier": 0.4,
 						"pierce": false,
 						"pierceBuilding": false,
@@ -143,8 +165,28 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 8000,
-							"buildingDamageMultiplier": 0.4
+							"damage": 4000,
+							"buildingDamageMultiplier": 0.4,
+							
+							"status": melting,
+							"statusDuration": 3600,
+							"spawnBullets":[
+								{
+									"type": ShrapnelBulletType,
+									"length": 160,
+									"width": 8,
+									"fromColor": ffffff,
+									"toColor": 00ffff,
+									"hitLarge": true,
+									"serrations": 0,
+									
+									"damage": 4000,
+									"buildingDamageMultiplier": 0.4,
+									
+									"status": sapped,
+									"statusDuration": 3600,
+								}
+							]
 						}
 					},
 					{
@@ -156,8 +198,28 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 20000,
-						"buildingDamageMultiplier": 0.4
+						"damage": 10000,
+						"buildingDamageMultiplier": 0.4,
+						
+						"status": melting,
+						"statusDuration": 3600,
+						"spawnBullets":[
+							{
+								"type": ShrapnelBulletType,
+								"length": 320,
+								"width": 8,
+								"fromColor": ffffff,
+								"toColor": 00ffff,
+								"hitLarge": true,
+								"serrations": 0,
+								
+								"damage": 10000,
+								"buildingDamageMultiplier": 0.4,
+								
+								"status": sapped,
+								"statusDuration": 3600,
+							}
+						]
 					}
 				]
 			}
@@ -168,6 +230,7 @@
 			"y": -20,
 			"reload": 50,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 3,
 			"soundPitchMax": 3.6,
 			"mirror": false,
@@ -182,7 +245,7 @@
 				"type": BasicBulletType,
 				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
-				"speed": 280,
+				"speed": 320,
 				"hitSound": none,
 				
 				"damage": 20000,
@@ -199,7 +262,7 @@
 						"speed": 32,
 						"hitSound": none,
 						
-						"damage": 8000,
+						"damage": 1,
 						"buildingDamageMultiplier": 0.4,
 						"pierce": false,
 						"pierceBuilding": false,
@@ -225,8 +288,28 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 8000,
-							"buildingDamageMultiplier": 0.4
+							"damage": 4000,
+							"buildingDamageMultiplier": 0.4,
+							
+							"status": melting,
+							"statusDuration": 3600,
+							"spawnBullets":[
+								{
+									"type": ShrapnelBulletType,
+									"length": 160,
+									"width": 8,
+									"fromColor": ffffff,
+									"toColor": 00ffff,
+									"hitLarge": true,
+									"serrations": 0,
+									
+									"damage": 4000,
+									"buildingDamageMultiplier": 0.4,
+									
+									"status": sapped,
+									"statusDuration": 3600,
+								}
+							]
 						}
 					},
 					{
@@ -238,8 +321,28 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 20000,
-						"buildingDamageMultiplier": 0.4
+						"damage": 10000,
+						"buildingDamageMultiplier": 0.4,
+						
+						"status": melting,
+						"statusDuration": 3600,
+						"spawnBullets":[
+							{
+								"type": ShrapnelBulletType,
+								"length": 320,
+								"width": 8,
+								"fromColor": ffffff,
+								"toColor": 00ffff,
+								"hitLarge": true,
+								"serrations": 0,
+								
+								"damage": 10000,
+								"buildingDamageMultiplier": 0.4,
+								
+								"status": sapped,
+								"statusDuration": 3600,
+							}
+						]
 					}
 				]
 			}
@@ -250,6 +353,7 @@
 			"y": -20,
 			"reload": 40,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 3,
 			"soundPitchMax": 3.6,
 			"mirror": false,
@@ -264,7 +368,7 @@
 				"type": BasicBulletType,
 				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
-				"speed": 280,
+				"speed": 320,
 				"hitSound": none,
 				
 				"damage": 20000,
@@ -281,7 +385,7 @@
 						"speed": 32,
 						"hitSound": none,
 						
-						"damage": 8000,
+						"damage": 1,
 						"buildingDamageMultiplier": 0.4,
 						"pierce": false,
 						"pierceBuilding": false,
@@ -307,8 +411,28 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 8000,
-							"buildingDamageMultiplier": 0.4
+							"damage": 4000,
+							"buildingDamageMultiplier": 0.4,
+							
+							"status": melting,
+							"statusDuration": 3600,
+							"spawnBullets":[
+								{
+									"type": ShrapnelBulletType,
+									"length": 160,
+									"width": 8,
+									"fromColor": ffffff,
+									"toColor": 00ffff,
+									"hitLarge": true,
+									"serrations": 0,
+									
+									"damage": 4000,
+									"buildingDamageMultiplier": 0.4,
+									
+									"status": sapped,
+									"statusDuration": 3600,
+								}
+							]
 						}
 					},
 					{
@@ -320,8 +444,28 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 20000,
-						"buildingDamageMultiplier": 0.4
+						"damage": 10000,
+						"buildingDamageMultiplier": 0.4,
+						
+						"status": melting,
+						"statusDuration": 3600,
+						"spawnBullets":[
+							{
+								"type": ShrapnelBulletType,
+								"length": 320,
+								"width": 8,
+								"fromColor": ffffff,
+								"toColor": 00ffff,
+								"hitLarge": true,
+								"serrations": 0,
+								
+								"damage": 10000,
+								"buildingDamageMultiplier": 0.4,
+								
+								"status": sapped,
+								"statusDuration": 3600,
+							}
+						]
 					}
 				]
 			}
@@ -332,6 +476,7 @@
 			"y": -20,
 			"reload": 30,
 			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
 			"soundPitchMin": 3,
 			"soundPitchMax": 3.6,
 			"mirror": false,
@@ -346,7 +491,7 @@
 				"type": BasicBulletType,
 				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
-				"speed": 280,
+				"speed": 320,
 				"hitSound": none,
 				
 				"damage": 20000,
@@ -363,7 +508,7 @@
 						"speed": 32,
 						"hitSound": none,
 						
-						"damage": 8000,
+						"damage": 1,
 						"buildingDamageMultiplier": 0.4,
 						"pierce": false,
 						"pierceBuilding": false,
@@ -389,8 +534,28 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 8000,
-							"buildingDamageMultiplier": 0.4
+							"damage": 4000,
+							"buildingDamageMultiplier": 0.4,
+							
+							"status": melting,
+							"statusDuration": 3600,
+							"spawnBullets":[
+								{
+									"type": ShrapnelBulletType,
+									"length": 160,
+									"width": 8,
+									"fromColor": ffffff,
+									"toColor": 00ffff,
+									"hitLarge": true,
+									"serrations": 0,
+									
+									"damage": 4000,
+									"buildingDamageMultiplier": 0.4,
+									
+									"status": sapped,
+									"statusDuration": 3600,
+								}
+							]
 						}
 					},
 					{
@@ -402,8 +567,28 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 20000,
-						"buildingDamageMultiplier": 0.4
+						"damage": 10000,
+						"buildingDamageMultiplier": 0.4,
+						
+						"status": melting,
+						"statusDuration": 3600,
+						"spawnBullets":[
+							{
+								"type": ShrapnelBulletType,
+								"length": 320,
+								"width": 8,
+								"fromColor": ffffff,
+								"toColor": 00ffff,
+								"hitLarge": true,
+								"serrations": 0,
+								
+								"damage": 10000,
+								"buildingDamageMultiplier": 0.4,
+								
+								"status": sapped,
+								"statusDuration": 3600,
+							}
+						]
 					}
 				]
 			}

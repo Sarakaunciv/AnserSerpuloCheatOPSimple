@@ -7,13 +7,15 @@
 
     //campaign
 
-	"requirements":["silicon/6"],
+	"requirements":["silicon/20"],
     "category": "defense",
     "research": "SilicanDuplicator"
+	"researchCostMultiplier": 1,
 	
     //specs
 
     "size": 1,
-	"health": 2000,
+	"health": 1000,
+	"buildTime": 20,
     "absorbLasers": true,
 }
