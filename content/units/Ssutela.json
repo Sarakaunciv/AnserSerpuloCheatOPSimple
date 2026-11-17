@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Ssutela",
 
-	//stats
+	//stats,
 
 	"type": "flying",
 	
@@ -13,7 +13,7 @@
 	"health": 6000,
 	"armor": 5,
 	"hitSize": 26,
-	"speed": 3,
+	"speed": 5,
 	"rotateSpeed": 5,
 	"accel": 0.1,
 	"drag": 0.2,
@@ -23,9 +23,9 @@
 
 	"fogRadius": 40,
 
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
 			"x": 0,
@@ -52,15 +52,19 @@
 				"speed": 40,
 				"hitSound": none,
 				
-				"damage": 4000,
+				"damage": 5000,
 				"killShooter": true,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": BasicBulletType,
 					"backColor": 000000,
 					"frontColor": 000000,
@@ -72,7 +76,7 @@
 					
 					"damage": 0,
 					"splashDamageRadius": 160,
-					"splashDamage": 800,
+					"splashDamage": 1000,
 					"splashDamagePierce": false,
 					"hittable": false,
 					"reflectable": false,
@@ -81,19 +85,20 @@
 					
 					"lightRadius": 0,
 					"hitEffect": none,
-					"hitSize": 16
+					"despawnEffect": none,
+					"hitSize": 16,
 				}
 			}
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "VeryFlare",
-		"requirements":[
+		"requirements": [
 			"silicon/20000",
-			"thorium/2000"
+			"thorium/2000",
 		]
 	}
 }

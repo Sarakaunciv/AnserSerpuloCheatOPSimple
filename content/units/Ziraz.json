@@ -1,29 +1,29 @@
 {
-	//details
+	//details,
 
 	"name": "Ziraz",
 
-	//stats
+	//stats,
 
-	"type":"legs",
+	"type": "legs",
 	
-	"legCount":8,
-	"legGroupSize":2,
-	"legMoveSpace":1,
-	"legPairOffset":1.5,
+	"legCount": 8,
+	"legGroupSize": 2,
+	"legMoveSpace": 1,
+	"legPairOffset": 1.5,
 	"stepShake": 1,
 	"legExtension": -18,
-	"legLength":108,
-	"legBaseOffset":30,
-	"legSpeed":0.1,
-	"legLengthScl":1,
-	"rippleScale":1,
-	"lockLegBase":false,
-	"legContinuousMove":true ,
-	"legSplashDamage":6000,
-	"legSplashRange":64,
-	"allowLegStep":true,
-	"hovering":true,
+	"legLength": 108,
+	"legBaseOffset": 30,
+	"legSpeed": 0.1,
+	"legLengthScl": 1,
+	"rippleScale": 1,
+	"lockLegBase": false,
+	"legContinuousMove": true ,
+	"legSplashDamage": 6000,
+	"legSplashRange": 64,
+	"allowLegStep": true,
+	"hovering": true,
 	
 	"template": "ErekirUnitType",
 	
@@ -34,14 +34,14 @@
 	"hitSize": 72,
 	"speed": 1.8,
 	"rotateSpeed": 1.5,
-	"accel": 0.05
+	"accel": 0.05,
 	"drag": 0.1,
 	
 	"fogRadius": 60,
 	
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
 			"x": 32,
@@ -72,7 +72,11 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,
 				"fragOnHit": false,
@@ -82,8 +86,11 @@
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": ShrapnelBulletType,
+					"hitEffect": none,
+					"despawnEffect": none,
+					
 					"length": 280,
 					"width": 20,
 					"fromColor": ffffff,
@@ -97,9 +104,12 @@
 					"status": melting,
 					"statusDuration": 3600,
 					
-					spawnBullets":[
+					"spawnBullets": [
 						{
 							"type": ShrapnelBulletType,
+							"hitEffect": none,
+							"despawnEffect": none,
+							
 							"length": 260,
 							"width": 20,
 							"fromColor": ffffff,
@@ -147,11 +157,15 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
 
-				"fragBullet":{
+				"fragBullet": {
 					"type": BasicBulletType,
 					"backColor": ff0000,
 					"frontColor": ff0080,
@@ -168,7 +182,7 @@
 					"splashDamageRadius": 120,
 					"splashDamage": 50000,
 					"splashDamagePierce": true,
-					"buildingDamageMultiplier": 0.02
+					"buildingDamageMultiplier": 0.02,
 					"pierce": false,
 					"pierceBuilding": false,
 					"hittable": false,
@@ -177,6 +191,7 @@
 					"lightRadius": 0,
 					"lightColor": 000000,
 					"hitEffect": none,
+					"despawnEffect": none,
 					"hitColor": 000000,
 					"hitSize": 32,
 					
@@ -191,7 +206,7 @@
 					"statusDuration": 3600,
 					
 					"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
-					"fragBullet":{
+					"fragBullet": {
 						"type": BasicBulletType,
 						"backColor": ff0000,
 						"frontColor": ff0080,
@@ -206,7 +221,7 @@
 						"splashDamageRadius": 120,
 						"splashDamage": 50000,
 						"splashDamagePierce": true,
-						"buildingDamageMultiplier": 0.02
+						"buildingDamageMultiplier": 0.02,
 						"pierce": false,
 						"pierceBuilding": false,
 						"hittable": false,
@@ -215,6 +230,7 @@
 						"lightRadius": 0,
 						"lightColor": 000000,
 						"hitEffect": none,
+						"despawnEffect": none,
 						"hitColor": 000000,
 						"hitSize": 32,
 						
@@ -240,18 +256,18 @@
 			"rotate": false,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
+			"bullet": {
 				"damage": 6000,
-				"length":280,
-				"width":8,
-				"lifetime":400,
+				"length": 280,
+				"width": 8,
+				"lifetime": 400,
 				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000010, ff008010, ff00ff10, ffffff20 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -273,18 +289,18 @@
 			"rotate": false,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
+			"bullet": {
 				"damage": 6000,
-				"length":280,
-				"width":8,
-				"lifetime":400,
+				"length": 280,
+				"width": 8,
+				"lifetime": 400,
 				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000010, ff008010, ff00ff10, ffffff20 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -306,18 +322,18 @@
 			"rotate": false,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
+			"bullet": {
 				"damage": 6000,
-				"length":280,
-				"width":8,
-				"lifetime":400,
+				"length": 280,
+				"width": 8,
+				"lifetime": 400,
 				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000010, ff008010, ff00ff10, ffffff20 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -339,18 +355,18 @@
 			"rotate": false,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
+			"bullet": {
 				"damage": 6000,
-				"length":280,
-				"width":8,
-				"lifetime":400,
+				"length": 280,
+				"width": 8,
+				"lifetime": 400,
 				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000010, ff008010, ff00ff10, ffffff20 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -371,18 +387,18 @@
 			"rotate": false,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
+			"bullet": {
 				"damage": 6000,
-				"length":280,
-				"width":8,
-				"lifetime":400,
+				"length": 280,
+				"width": 8,
+				"lifetime": 400,
 				"shake": 0,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000010, ff008010, ff00ff10, ffffff20 ],
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000010, ff008010, ff00ff10, ffffff20 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -390,14 +406,14 @@
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "AnserPowerConstruct",
-		"requirements":[
+		"requirements": [
 			"silicon/3200000",
 			"surge-alloy/1600000",
-			"phase-fabric/1600000"
+			"phase-fabric/1600000",
 		]
 	}
 }

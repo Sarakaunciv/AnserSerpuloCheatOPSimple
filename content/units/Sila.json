@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Sila",
 
-	//stats
+	//stats,
 
 	"type": "payload",
 	"template": "ErekirUnitType",
@@ -20,9 +20,9 @@
 	"engineOffset": 16,
 	"engineSize": 4,
 
-	"isEnemy":false,
-	"targetable":false,
-	"hittable":false,
+	"isEnemy": false,
+	"targetable": false,
+	"hittable": false,
 
 	//stats [build]
 
@@ -33,39 +33,39 @@
 	"buildSpeed": 120,
 	"itemCapacity": 8000,
 	
-	"pickupUnits":true,
-	"payloadCapacity":576,
+	"pickupUnits": true,
+	"payloadCapacity": 576,
 	
-	"coreUnitDock":true,
+	"coreUnitDock": true,
 
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
-			"type":"RepairBeamWeapon",
+			"type": "RepairBeamWeapon",
 			"x": 0,
 			"y": 10,
 			"reload": 1,
 			"mirror": false,
 			"shootX": 0,
 			"shootY": 0,
-			"recoil":0,
+			"recoil": 0,
 			"rotate": false,
 			"rotateSpeed": 4,
 			"shootCone": 180,
 			
 			"laserColor": 00a0a0,
 			"healColor": 00a0a0,
-			"beamWidth":1.2,
-			"repairSpeed":40,
-			"targetUnits":false,
-			"targetBuildings":true,
-			"autoTarget":false,
-			"controllable":true,
+			"beamWidth": 1.2,
+			"repairSpeed": 40,
+			"targetUnits": false,
+			"targetBuildings": true,
+			"autoTarget": false,
+			"controllable": true,
 			
 			"bullet": {
-				"maxRange": 320
+				"maxRange": 320,
 			}
 		},
 		{
@@ -97,7 +97,11 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 8,
 				"fragOnHit": false,
@@ -107,8 +111,11 @@
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": ShrapnelBulletType,
+					"hitEffect": none,
+					"despawnEffect": none,
+					
 					"length": 180,
 					"width": 20,
 					"fromColor": 808080,
@@ -117,7 +124,7 @@
 					"serrations": 0,
 					
 					"damage": 1300,
-					"buildingDamageMultiplier": 0
+					"buildingDamageMultiplier": 0,
 				}
 			}
 		}

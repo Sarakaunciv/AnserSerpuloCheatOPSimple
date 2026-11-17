@@ -1,21 +1,21 @@
 
 {
-    //details
+	//details,
 
-    "type": "Wall",
-    "name": "AnserWallSurge3",
+	"type": "Wall",
+	"name": "AnserWallSurge3",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/360","surge-alloy/360"],
-    "category": "defense",
-    "research": "AnserWallSurge2",
+	"requirements": ["silicon/360","surge-alloy/360"],
+	"category": "defense",
+	"research": "AnserWallSurge2",
 	"researchCostMultiplier": 3,
 	
-    //specs
+	//specs,
 
-    "size": 3,
+	"size": 3,
 	"health": 36000,
 	"buildTime": 260,
-    "absorbLasers": true,
+	"absorbLasers": true,
 }

@@ -1,19 +1,19 @@
 
 {
-    //details
+	//details,
 
-    "type": "LiquidSource",
-    "name": "SourceLiquidSilican",
+	"type": "LiquidSource",
+	"name": "SourceLiquidSilican",
 
-    //campaign
+	//campaign,
 
-	"requirements":[],
-    "category": "liquid",
-    "research": "SourceItemSilican",
+	"requirements": [],
+	"category": "liquid",
+	"research": "SourceItemSilican",
 	
-    //specs
+	//specs,
 
-    "size": 1,
-    "canOverdrive": false,
+	"size": 1,
+	"canOverdrive": false,
 	"health": 2000,
 }

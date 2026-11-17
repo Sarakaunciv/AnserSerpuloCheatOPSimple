@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "AnserTank",
 
-	//stats
+	//stats,
 
 	"type": "tank",
 	"template": "ErekirUnitType",
@@ -16,14 +16,14 @@
 	"hitSize": 26,
 	"speed": 3,
 	"rotateSpeed": 3,
-	"accel": 0.05
+	"accel": 0.05,
 	"drag": 0.1,
 	
 	"fogRadius": 32,
 	
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": AnserTank-weapon1,
 			"x": 0,
@@ -44,6 +44,9 @@
 			"shootCone": 180,
 			"bullet": {
 				"type": ShrapnelBulletType,
+				"hitEffect": none,
+				"despawnEffect": none,
+				
 				"length": 200,
 				"width": 20,
 				"fromColor": ffffff,
@@ -51,7 +54,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 8800
+				"damage": 8800,
 			}
 		},
 		{
@@ -92,20 +95,21 @@
 				"splashDamagePierce": false,
 				"lightRadius": 0,
 				"lightColor": 000000,
-				"hitEffect": explosion,
+				"hitEffect": none,
+				"despawnEffect": none,
 				"hitColor": ff0000,
-				"hitSize": 16
+				"hitSize": 16,
 			}
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "VeryFlare",
-		"requirements":[
+		"requirements": [
 			"silicon/180000",
-			"surge-alloy/40000"
+			"surge-alloy/40000",
 		]
 	}
 }

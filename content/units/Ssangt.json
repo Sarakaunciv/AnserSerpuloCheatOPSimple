@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Ssangt",
 
-	//stats
+	//stats,
 
 	"type": "flying",
 	
@@ -13,7 +13,7 @@
 	"health": 66000,
 	"armor": 500,
 	"hitSize": 48,
-	"speed": 4,
+	"speed": 3,
 	"rotateSpeed": 5,
 	"accel": 0.1,
 	"drag": 0.2,
@@ -23,9 +23,9 @@
 
 	"fogRadius": 60,
 
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
 			"x": 0,
@@ -57,10 +57,14 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": BasicBulletType,
 					"backColor": 000000,
 					"frontColor": 000000,
@@ -82,6 +86,7 @@
 					
 					"lightRadius": 0,
 					"hitEffect": none,
+					"despawnEffect": none,
 					"hitSize": 16,
 					
 					"status": melting,
@@ -91,14 +96,14 @@
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "Rizzen",
-		"requirements":[
+		"requirements": [
 			"silicon/400000",
 			"surge-alloy/100000",
-			"phase-fabric/1200000"
+			"phase-fabric/1200000",
 		]
 	}
 }

@@ -1,0 +1,29 @@
+{
+	//details,
+
+	"type": "GenericCrafter",
+	"name": "DuplicateWaterSilican",
+
+	//campaign,
+
+	"requirements": ["silicon/40"],
+	"category": "liquid",
+	"research": "SilicanDuplicator",
+	
+	//specs,
+
+	"size": 1,
+	"canOverdrive": false,
+	"health": 220,
+	
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": false,
+	
+	"conductivePower": true,
+	"liquidCapacity": 600,
+	
+	"craftTime": 60,
+	"consumes": {"power": 1},
+	"outputLiquid": "water/10",
+}

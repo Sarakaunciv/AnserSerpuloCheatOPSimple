@@ -1,30 +1,30 @@
 
 {
-    //details
+	//details,
 
-    "type": "ShieldWall",
-    "name": "AnserWallPower3",
+	"type": "ShieldWall",
+	"name": "AnserWallPower3",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/900","surge-alloy/900","phase-fabric/900"],
-    "category": "defense",
-    "research": "AnserWallPower2",
+	"requirements": ["silicon/900","surge-alloy/900","phase-fabric/900"],
+	"category": "defense",
+	"research": "AnserWallPower2",
 	"researchCostMultiplier": 40,
 	
-    //specs
+	//specs,
 
-    "size": 3,
+	"size": 3,
 	"health": 180000,
 	"buildTime": 540,
-    "absorbLasers": true,
+	"absorbLasers": true,
 	
 	"shieldHealth": 180000,
 	"breakCooldown": 66,
 	"regenSpeed": 2700,
 	
-	"hasPower":true,
-	"consumes":{"power":180},
-	"conductivePower":true,
-    "canOverdrive": false,
+	"hasPower": true,
+	"consumes": {"power": 180},
+	"conductivePower": true,
+	"canOverdrive": false,
 }

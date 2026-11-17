@@ -1,0 +1,30 @@
+{
+	//details,
+
+	"type": "OverdriveProjector",
+	"name": "SilicanOverdrive",
+
+	//campaign,
+
+	"requirements": ["silicon/1000"],
+	"category": "effect",
+	"research": "SilicanDuplicator",
+	
+	//specs,
+
+	"size": 3,
+	"canOverdrive": false,
+	"health": 9000,
+	
+	"range": 80,
+	"speedBoost": 10,
+	"speedBoostPhase": 0,
+	"useTime": 600,
+	"phaseRangeBoost": 0,
+	
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+	
+	"consumes": {"power": 10},
+}

@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "VeryFlare",
 
-	//stats
+	//stats,
 
 	"type": "flying",
 	
@@ -23,9 +23,9 @@
 
 	"fogRadius": 19,
 	
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": VeryFlare-weapon,
 			"x": 0,
@@ -61,19 +61,20 @@
 				"splashDamagePierce": false,
 				"lightRadius": 0,
 				"lightColor": 000000,
-				"hitEffect": explosion,
+				"hitEffect": none,
+				"despawnEffect": none,
 				"hitColor": ff0000,
-				"hitSize": 16
+				"hitSize": 16,
 			}
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "AnserConstruct",
-		"requirements":[
-			"silicon/30000"
+		"requirements": [
+			"silicon/30000",
 		]
 	}
 }

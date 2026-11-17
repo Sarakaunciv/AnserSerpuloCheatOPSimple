@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Kerexa",
 
-	//stats
+	//stats,
 	
 	"type": "tank",
 	
@@ -18,15 +18,15 @@
 	"hitSize": 60,
 	"speed": 2.5,
 	"rotateSpeed": 1.5,
-	"accel": 0.05
+	"accel": 0.05,
 	"drag": 0.1,
 	
 	"fogRadius": 50,
 	
-	//weapon
+	//weapon,
 
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
 			"display": false,
@@ -44,19 +44,19 @@
 			"baseRotation": -36,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -79,19 +79,19 @@
 			"baseRotation": 36,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -114,19 +114,19 @@
 			"baseRotation": -33,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -149,19 +149,19 @@
 			"baseRotation": 33,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -184,19 +184,19 @@
 			"baseRotation": -30,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -219,19 +219,19 @@
 			"baseRotation": 30,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -254,19 +254,19 @@
 			"baseRotation": -27,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -289,19 +289,19 @@
 			"baseRotation": 27,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -324,19 +324,19 @@
 			"baseRotation": -24,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -359,19 +359,19 @@
 			"baseRotation": 24,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -394,19 +394,19 @@
 			"baseRotation": -21,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -429,19 +429,19 @@
 			"baseRotation": 21,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -464,19 +464,19 @@
 			"baseRotation": -18,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -499,19 +499,19 @@
 			"baseRotation": 18,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -534,19 +534,19 @@
 			"baseRotation": -15,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -569,19 +569,19 @@
 			"baseRotation": 15,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -604,19 +604,19 @@
 			"baseRotation": -12,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -639,19 +639,19 @@
 			"baseRotation": 12,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -674,19 +674,19 @@
 			"baseRotation": -9,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -709,19 +709,19 @@
 			"baseRotation": 9,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -744,19 +744,19 @@
 			"baseRotation": -6,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -779,19 +779,19 @@
 			"baseRotation": 6,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -814,19 +814,19 @@
 			"baseRotation": -3,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -849,19 +849,19 @@
 			"baseRotation": 3,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -883,19 +883,19 @@
 			"baseRotation": 0,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":800,
+			"bullet": {
+				"damage": 800,
 				"buildingDamageMultiplier": 0.5,
-				"length":360,
-				"width":12,
-				"lifetime":180,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000008, ff800008, ffff0008, ffffff10 ],
+				"length": 360,
+				"width": 12,
+				"lifetime": 180,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000008, ff800008, ffff0008, ffffff10 ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -903,14 +903,14 @@
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "Rizzen",
-		"requirements":[
+		"requirements": [
 			"silicon/600000",
 			"surge-alloy/200000",
-			"phase-fabric/800000"
+			"phase-fabric/800000",
 		]
 	}
 }

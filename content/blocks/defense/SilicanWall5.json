@@ -1,21 +1,21 @@
 
 {
-    //details
+	//details,
 
-    "type": "Wall",
-    "name": "SilicanWall5",
+	"type": "Wall",
+	"name": "SilicanWall5",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/500"],
-    "category": "defense",
-    "research": "SilicanWall4",
+	"requirements": ["silicon/500"],
+	"category": "defense",
+	"research": "SilicanWall4",
 	"researchCostMultiplier": 5,
 	
-    //specs
+	//specs,
 
-    "size": 5,
+	"size": 5,
 	"health": 25000,
 	"buildTime": 500,
-    "absorbLasers": true,
+	"absorbLasers": true,
 }

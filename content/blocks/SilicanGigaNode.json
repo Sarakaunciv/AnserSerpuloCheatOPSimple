@@ -1,18 +1,18 @@
 {
-    //details
+	//details,
 
-    "type": "PowerNode",
-    "name": "SilicanGigaNode",
+	"type": "PowerNode",
+	"name": "SilicanGigaNode",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/2000"],
-    "category": "power",
-    "research": "BatterySilican",
+	"requirements": ["silicon/2000"],
+	"category": "power",
+	"research": "BatterySilican",
 	
-    //specs
+	//specs,
 
-    "size": 3,
+	"size": 3,
 	"health": 5000,
 	
 	"laserRange": 40,

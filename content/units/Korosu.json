@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Korosu",
 
-	//stats
+	//stats,
 	
 	"type": "tank",
 	
@@ -18,15 +18,15 @@
 	"hitSize": 76,
 	"speed": 2,
 	"rotateSpeed": 1,
-	"accel": 0.05
+	"accel": 0.05,
 	"drag": 0.1,
 	
 	"fogRadius": 60,
 	
-	//weapon
+	//weapon,
 
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Korosu-weapon,
 			"x": 0,
@@ -46,7 +46,7 @@
 			"rotateSpeed": 3,
 			"shootCone": 180,
 			
-			"bullet":{
+			"bullet": {
 				"type": BasicBulletType,
 				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
@@ -57,9 +57,13 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
-				"spawnBullets":[
+				"spawnBullets": [
 					{
 						"type": BasicBulletType,
 						"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
@@ -73,7 +77,11 @@
 						"instantDisappear": false,
 						"hittable": false,
 						"reflectable": false,
-						"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						"absorbable": false,
+						"lightRadius": 0,"lightColor": 000000,
+						"hitEffect": none,
+						"despawnEffect": none,
+						"hitColor": 000000,"hitSize": 1,
 						"collidesTiles": false,
 						
 						"fragBullets": 3,
@@ -84,7 +92,7 @@
 						"fragVelocityMin": 1,
 						"fragOffsetMin": 0,
 						"fragOffsetMax": 0,
-						"fragBullet":{
+						"fragBullet": {
 							"type": BasicBulletType,
 							"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 							"lifetime": 5,
@@ -97,7 +105,11 @@
 							"instantDisappear": false,
 							"hittable": false,
 							"reflectable": false,
-							"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+							"absorbable": false,
+							"lightRadius": 0,"lightColor": 000000,
+							"hitEffect": none,
+							"despawnEffect": none,
+							"hitColor": 000000,"hitSize": 1,
 							"collidesTiles": false,
 							
 							"fragBullets": 1,
@@ -108,8 +120,11 @@
 							"fragVelocityMin": 1,
 							"fragOffsetMin": 0,
 							"fragOffsetMax": 0,
-							"fragBullet":{
+							"fragBullet": {
 								"type": ShrapnelBulletType,
+								"hitEffect": none,
+								"despawnEffect": none,
+								
 								"length": 340,
 								"width": 8,
 								"fromColor": ffffff,
@@ -138,7 +153,11 @@
 						"instantDisappear": false,
 						"hittable": false,
 						"reflectable": false,
-						"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+						"absorbable": false,
+						"lightRadius": 0,"lightColor": 000000,
+						"hitEffect": none,
+						"despawnEffect": none,
+						"hitColor": 000000,"hitSize": 1,
 						"collidesTiles": false,
 						
 						"fragBullets": 2,
@@ -149,7 +168,7 @@
 						"fragVelocityMin": 1,
 						"fragOffsetMin": 0,
 						"fragOffsetMax": 0,
-						"fragBullet":{
+						"fragBullet": {
 							"type": BasicBulletType,
 							"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 							"lifetime": 5,
@@ -162,7 +181,11 @@
 							"instantDisappear": false,
 							"hittable": false,
 							"reflectable": false,
-							"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+							"absorbable": false,
+							"lightRadius": 0,"lightColor": 000000,
+							"hitEffect": none,
+							"despawnEffect": none,
+							"hitColor": 000000,"hitSize": 1,
 							"collidesTiles": false,
 							
 							"fragBullets": 1,
@@ -173,8 +196,11 @@
 							"fragVelocityMin": 1,
 							"fragOffsetMin": 0,
 							"fragOffsetMax": 0,
-							"fragBullet":{
+							"fragBullet": {
 								"type": ShrapnelBulletType,
+								"hitEffect": none,
+								"despawnEffect": none,
+								
 								"length": 360,
 								"width": 8,
 								"fromColor": ffffff,
@@ -195,14 +221,14 @@
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "AnserPowerConstruct",
-		"requirements":[
+		"requirements": [
 			"silicon/3200000",
 			"surge-alloy/800000",
-			"phase-fabric/2400000"
+			"phase-fabric/2400000",
 		]
 	}
 }

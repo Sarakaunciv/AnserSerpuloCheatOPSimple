@@ -1,72 +1,72 @@
 {
-    //details
+	//details,
 
-    "type": "UnitFactory",
-    "name": "AnserConstruct",
+	"type": "UnitFactory",
+	"name": "AnserConstruct",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/5000"],
-    "category": "units",
-	"research":{
+	"requirements": ["silicon/5000"],
+	"category": "units",
+	"research": {
 		"parent": "SilicanWall1",
-		"requirements":[
-		    "silicon/5000"
+		"requirements": [
+			"silicon/5000",
 		]
 	},
 	
-    //specs
+	//specs,
 
-    "size": 10,
-	"health":68000,
+	"size": 10,
+	"health": 68000,
 	
-	"consumes":{"power":300},
+	"consumes": {"power": 300},
 
-    "plans": [
+	"plans": [
 	{
-        "unit": "Zatopud",
-        "requirements": ["silicon/40000","surge-alloy/16000","phase-fabric/24000"],
-        "time": 10800
-    },
+		"unit": "Zatopud",
+		"requirements": ["silicon/40000","surge-alloy/16000","phase-fabric/24000"],
+		"time": 10800,
+	},
 	{
-        "unit": "Kerexa",
-        "requirements": ["silicon/30000","surge-alloy/10000","phase-fabric/40000"],
-        "time": 10800
-    },
+		"unit": "Kerexa",
+		"requirements": ["silicon/30000","surge-alloy/10000","phase-fabric/40000"],
+		"time": 10800,
+	},
 	{
-        "unit": "Heliana",
-        "requirements": ["silicon/60000","surge-alloy/30000","phase-fabric/10000"],
-        "time": 10800
-    },
+		"unit": "Heliana",
+		"requirements": ["silicon/60000","surge-alloy/30000","phase-fabric/10000"],
+		"time": 10800,
+	},
 	{
-        "unit": "Ssangt",
-        "requirements": ["silicon/20000","surge-alloy/5000","phase-fabric/60000"],
-        "time": 21600
-    },
+		"unit": "Ssangt",
+		"requirements": ["silicon/20000","surge-alloy/5000","phase-fabric/60000"],
+		"time": 21600,
+	},
 	{
-        "unit": "Rizzen",
-        "requirements": ["silicon/12000","surge-alloy/4000","phase-fabric/4000"],
-        "time": 3600
-    },
+		"unit": "Rizzen",
+		"requirements": ["silicon/12000","surge-alloy/4000","phase-fabric/4000"],
+		"time": 3600,
+	},
 	{
-        "unit": "AnserTank",
-        "requirements": ["silicon/9000","surge-alloy/2000"],
-        "time": 1800
-    },
+		"unit": "AnserTank",
+		"requirements": ["silicon/9000","surge-alloy/2000"],
+		"time": 1800,
+	},
 	{
-        "unit": "VeryFlare",
-        "requirements": ["silicon/1500"],
-        "time": 360
-    },
+		"unit": "VeryFlare",
+		"requirements": ["silicon/1500"],
+		"time": 360,
+	},
 	{
-        "unit": "Ssutela",
-        "requirements": ["silicon/1000","thorium/100"],
-        "time": 360
-    },
+		"unit": "Ssutela",
+		"requirements": ["silicon/1000","thorium/100"],
+		"time": 360,
+	},
 	{
-        "unit": "Tantau",
-        "requirements": ["silicon/200"],
-        "time": 30
-    }
-    ],
+		"unit": "Tantau",
+		"requirements": ["silicon/200"],
+		"time": 30,
+	}
+	],
 }

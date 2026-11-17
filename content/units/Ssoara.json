@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Ssoara",
 
-	//stats
+	//stats,
 
 	"type": "flying",
 	
@@ -13,7 +13,7 @@
 	"health": 490000,
 	"armor": 6000,
 	"hitSize": 58,
-	"speed": 5,
+	"speed": 3,
 	"rotateSpeed": 5,
 	"accel": 0.1,
 	"drag": 0.2,
@@ -21,11 +21,11 @@
 	"engineOffset": 40,
 	"engineSize": 16,
 
-	"fogRadius": 40,
+	"fogRadius": 80,
 
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
 			"x": 0,
@@ -57,9 +57,13 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
-				"spawnBullets":[
+				"spawnBullets": [
 					{
 						"type": BasicBulletType,
 						"backColor": 000000,
@@ -71,7 +75,7 @@
 						"hitSound": none,
 						
 						"damage": 0,
-						"splashDamageRadius": 280,
+						"splashDamageRadius": 320,
 						"splashDamage": 1,
 						"splashDamagePierce": true,
 						"hittable": false,
@@ -81,6 +85,7 @@
 						
 						"lightRadius": 0,
 						"hitEffect": none,
+						"despawnEffect": none,
 						"hitSize": 16,
 						
 						"status": melting,
@@ -97,7 +102,7 @@
 						"hitSound": none,
 						
 						"damage": 0,
-						"splashDamageRadius": 280,
+						"splashDamageRadius": 320,
 						"splashDamage": 1,
 						"splashDamagePierce": true,
 						"hittable": false,
@@ -107,13 +112,14 @@
 						
 						"lightRadius": 0,
 						"hitEffect": none,
+						"despawnEffect": none,
 						"hitSize": 16,
 						
 						"status": sapped,
 						"statusDuration": 3600,
 						
 						"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
-						"fragBullet":{
+						"fragBullet": {
 							"type": BasicBulletType,
 							"backColor": 000000,
 							"frontColor": 000000,
@@ -127,7 +133,7 @@
 							"splashDamageRadius": 320,
 							"splashDamage": 2400000,
 							"splashDamagePierce": true,
-							"buildingDamageMultiplier": 0.01
+							"buildingDamageMultiplier": 0.01,
 							"hittable": false,
 							"reflectable": false,
 							"absorbable": false,
@@ -135,7 +141,8 @@
 							
 							"lightRadius": 0,
 							"hitEffect": none,
-							"hitSize": 16
+							"despawnEffect": none,
+							"hitSize": 16,
 						}
 					}
 				]
@@ -143,14 +150,14 @@
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "AnserPowerConstruct",
-		"requirements":[
+		"requirements": [
 			"silicon/3200000",
 			"surge-alloy/800000",
-			"phase-fabric/6400000"
+			"phase-fabric/6400000",
 		]
 	}
 }

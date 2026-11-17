@@ -1,29 +1,29 @@
 {
-	//details
+	//details,
 
 	"name": "Zatopud",
 
-	//stats
+	//stats,
 
-	"type":"legs",
+	"type": "legs",
 	
-	"legCount":8,
-	"legGroupSize":2,
-	"legMoveSpace":1,
-	"legPairOffset":1.5,
-	"stepShake":1,
+	"legCount": 8,
+	"legGroupSize": 2,
+	"legMoveSpace": 1,
+	"legPairOffset": 1.5,
+	"stepShake": 1,
 	"legExtension": -14,
-	"legLength":96,
-	"legBaseOffset":26,
-	"legSpeed":0.1,
-	"legLengthScl":1,
-	"rippleScale":1,
-	"lockLegBase":false,
-	"legContinuousMove":true ,
-	"legSplashDamage":1350,
-	"legSplashRange":48,
-	"allowLegStep":true,
-	"hovering":true,
+	"legLength": 96,
+	"legBaseOffset": 26,
+	"legSpeed": 0.1,
+	"legLengthScl": 1,
+	"rippleScale": 1,
+	"lockLegBase": false,
+	"legContinuousMove": true ,
+	"legSplashDamage": 1350,
+	"legSplashRange": 48,
+	"allowLegStep": true,
+	"hovering": true,
 	
 	"template": "ErekirUnitType",
 	
@@ -34,14 +34,14 @@
 	"hitSize": 60,
 	"speed": 2.5,
 	"rotateSpeed": 2.5,
-	"accel": 0.05
+	"accel": 0.05,
 	"drag": 0.1,
 	
 	"fogRadius": 48,
 	
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
 			"x": 0,
@@ -57,18 +57,18 @@
 			"rotate": false,
 			"shootCone": 180,
 			
-			"cooldownTime":540,
-			"continuous":true,
-			"velocityRnd":0.22,
+			"cooldownTime": 540,
+			"continuous": true,
+			"velocityRnd": 0.22,
 			
-			"bullet":{
-				"damage":3000,
-				"length":180,
-				"width":8,
-				"lifetime":300,
-				"shake":1,
-				"type":"ContinuousLaserBulletType",
-				"colors":[ ff000080, ff800080, ffff0080, ffffffff ],
+			"bullet": {
+				"damage": 3000,
+				"length": 180,
+				"width": 8,
+				"lifetime": 300,
+				"shake": 1,
+				"type": "ContinuousLaserBulletType",
+				"colors": [ ff000080, ff800080, ffff0080, ffffffff ],
 				
 				"status": melting,
 				"statusDuration": 3600,
@@ -116,7 +116,8 @@
 				
 				"lightRadius": 0,
 				"lightColor": 000000,
-				"hitEffect": massiveExplosion,
+				"hitEffect": none,
+				"despawnEffect": none,
 				"hitColor": ff0000,
 				"hitSize": 16,
 				
@@ -128,7 +129,7 @@
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": BasicBulletType,
 					"backColor": ff8000,
 					"frontColor": ffaa44,
@@ -150,7 +151,8 @@
 					
 					"lightRadius": 0,
 					"lightColor": 000000,
-					"hitEffect": explosion,
+					"hitEffect": none,
+					"despawnEffect": none,
 					"hitColor": ff0000,
 					"hitSize": 16,
 					
@@ -161,14 +163,14 @@
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "Rizzen",
-		"requirements":[
+		"requirements": [
 			"silicon/800000",
 			"surge-alloy/320000",
-			"phase-fabric/480000"
+			"phase-fabric/480000",
 		]
 	}
 }

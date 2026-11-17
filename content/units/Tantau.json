@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Tantau",
 
-	//stats
+	//stats,
 
 	"type": "flying",
 	"template": "ErekirUnitType",
@@ -22,9 +22,9 @@
 
 	"fogRadius": 19,
 	
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Tantau-weapon,
 			"x": 0,
@@ -58,19 +58,20 @@
 				"splashDamagePierce": false,
 				"lightRadius": 0,
 				"lightColor": 000000,
-				"hitEffect": explosion,
+				"hitEffect": none,
+				"despawnEffect": none,
 				"hitColor": ff0000,
-				"hitSize": 16
+				"hitSize": 16,
 			}
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "AnserConstruct",
-		"requirements":[
-			"silicon/4000"
+		"requirements": [
+			"silicon/4000",
 		]
 	}
 }

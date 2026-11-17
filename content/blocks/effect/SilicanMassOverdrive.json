@@ -1,0 +1,30 @@
+{
+	//details,
+
+	"type": "OverdriveProjector",
+	"name": "SilicanMassOverdrive",
+
+	//campaign,
+
+	"requirements": ["silicon/4500","phase-fabric/500"],
+	"category": "effect",
+	"research": "SilicanOverdrive",
+	
+	//specs,
+
+	"size": 5,
+	"canOverdrive": false,
+	"health": 9000,
+	
+	"range": 640,
+	"speedBoost": 10,
+	"speedBoostPhase": 0,
+	"useTime": 600,
+	"phaseRangeBoost": 0,
+	
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+	
+	"consumes": {"power": 100},
+}

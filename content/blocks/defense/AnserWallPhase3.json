@@ -1,30 +1,30 @@
 
 {
-    //details
+	//details,
 
-    "type": "ShieldWall",
-    "name": "AnserWallPhase3",
+	"type": "ShieldWall",
+	"name": "AnserWallPhase3",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/360","phase-fabric/360"],
-    "category": "defense",
-    "research": "AnserWallPhase2",
+	"requirements": ["silicon/360","phase-fabric/360"],
+	"category": "defense",
+	"research": "AnserWallPhase2",
 	"researchCostMultiplier": 10,
 	
-    //specs
+	//specs,
 
-    "size": 3,
+	"size": 3,
 	"health": 9000,
 	"buildTime": 360,
-    "absorbLasers": false,
+	"absorbLasers": false,
 	
 	"shieldHealth": 36000,
 	"breakCooldown": 66,
 	"regenSpeed": 540,
 	
-	"hasPower":true,
-	"consumes":{"power":45},
-	"conductivePower":true,
-    "canOverdrive": false,
+	"hasPower": true,
+	"consumes": {"power": 45},
+	"conductivePower": true,
+	"canOverdrive": false,
 }

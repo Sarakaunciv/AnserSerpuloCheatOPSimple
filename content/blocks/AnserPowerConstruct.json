@@ -1,94 +1,94 @@
 {
-    //details
+	//details,
 
-    "type": "UnitFactory",
-    "name": "AnserPowerConstruct",
+	"type": "UnitFactory",
+	"name": "AnserPowerConstruct",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/10000","surge-alloy/50","phase-fabric/50"],
-    "category": "units",
-	"research":{
+	"requirements": ["silicon/10000","surge-alloy/50","phase-fabric/50"],
+	"category": "units",
+	"research": {
 		"parent": "AnserConstruct",
-		"requirements":[
-		    "silicon/12000000",
+		"requirements": [
+			"silicon/12000000",
 			"surge-alloy/1000000",
-			"phase-fabric/1000000"
+			"phase-fabric/1000000",
 		]
 	},
 	
-    //specs
+	//specs,
 
-    "size": 10,
-	"health":122000,
+	"size": 10,
+	"health": 122000,
 	
-	"consumes":{"power":900},
+	"consumes": {"power": 900},
 
-    "plans": [
+	"plans": [
 	{
-        "unit": "Ziraz",
-        "requirements": [],
-        "time": 10800
-    },
+		"unit": "Ziraz",
+		"requirements": [],
+		"time": 10800,
+	},
 	{
-        "unit": "Korosu",
-        "requirements": [],
-        "time": 10800
-    },
+		"unit": "Korosu",
+		"requirements": [],
+		"time": 10800,
+	},
 	{
-        "unit": "Hivuni",
-        "requirements": [],
-        "time": 10800
-    },
+		"unit": "Hivuni",
+		"requirements": [],
+		"time": 10800,
+	},
 	{
-        "unit": "Ssoara",
-        "requirements": [],
-        "time": 21600
-    },
+		"unit": "Ssoara",
+		"requirements": [],
+		"time": 21600,
+	},
 	{
-        "unit": "Zatopud",
-        "requirements": [],
-        "time": 3600
-    },
+		"unit": "Zatopud",
+		"requirements": [],
+		"time": 3600,
+	},
 	{
-        "unit": "Kerexa",
-        "requirements": [],
-        "time": 3600
-    },
+		"unit": "Kerexa",
+		"requirements": [],
+		"time": 3600,
+	},
 	{
-        "unit": "Heliana",
-        "requirements": [],
-        "time": 3600
-    },
+		"unit": "Heliana",
+		"requirements": [],
+		"time": 3600,
+	},
 	{
-        "unit": "Ssangt",
-        "requirements": [],
-        "time": 7200
-    },
+		"unit": "Ssangt",
+		"requirements": [],
+		"time": 7200,
+	},
 	{
-        "unit": "Rizzen",
-        "requirements": [],
-        "time": 1200
-    },
+		"unit": "Rizzen",
+		"requirements": [],
+		"time": 1200,
+	},
 	{
-        "unit": "AnserTank",
-        "requirements": [],
-        "time": 600
-    },
+		"unit": "AnserTank",
+		"requirements": [],
+		"time": 600,
+	},
 	{
-        "unit": "VeryFlare",
-        "requirements": [],
-        "time": 120
-    },
+		"unit": "VeryFlare",
+		"requirements": [],
+		"time": 120,
+	},
 	{
-        "unit": "Ssutela",
-        "requirements": [],
-        "time": 120
-    },
+		"unit": "Ssutela",
+		"requirements": [],
+		"time": 120,
+	},
 	{
-        "unit": "Tantau",
-        "requirements": [],
-        "time": 10
-    }
-    ],
+		"unit": "Tantau",
+		"requirements": [],
+		"time": 10,
+	}
+	],
 }

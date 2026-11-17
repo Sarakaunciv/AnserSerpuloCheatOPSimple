@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Rizzen",
 
-	//stats
+	//stats,
 
 	"type": "tank",
 	"template": "ErekirUnitType",
@@ -21,11 +21,11 @@
 
 	"fogRadius": 33,
 	
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
-			"name": Rizzen-weapon
+			"name": Rizzen-weapon,
 			"x": 0,
 			"y": -16,
 			"reload": 40,
@@ -53,7 +53,11 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,
 				"fragOnHit": false,
@@ -63,8 +67,11 @@
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": ShrapnelBulletType,
+					"hitEffect": none,
+					"despawnEffect": none,
+					
 					"length": 250,
 					"width": 8,
 					"fromColor": ffffff,
@@ -72,7 +79,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 2000
+					"damage": 2000,
 				}
 			}
 		},
@@ -105,7 +112,11 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -115,8 +126,11 @@
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": ShrapnelBulletType,
+					"hitEffect": none,
+					"despawnEffect": none,
+					
 					"length": 220,
 					"width": 6,
 					"fromColor": e0e0e0,
@@ -124,7 +138,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 600
+					"damage": 600,
 				}
 			}
 		},
@@ -157,7 +171,11 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -167,8 +185,11 @@
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": ShrapnelBulletType,
+					"hitEffect": none,
+					"despawnEffect": none,
+					
 					"length": 220,
 					"width": 5,
 					"fromColor": c0c0c0,
@@ -176,7 +197,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 400
+					"damage": 400,
 				}
 			}
 		},
@@ -209,7 +230,11 @@
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
-				"absorbable": false,"lightRadius": 0,"lightColor": 000000,"hitEffect": none,"hitColor": 000000,"hitSize": 1,
+				"absorbable": false,
+				"lightRadius": 0,"lightColor": 000000,
+				"hitEffect": none,
+				"despawnEffect": none,
+				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -219,8 +244,11 @@
 				"fragVelocityMin": 1,
 				"fragOffsetMin": 0,
 				"fragOffsetMax": 0,
-				"fragBullet":{
+				"fragBullet": {
 					"type": ShrapnelBulletType,
+					"hitEffect": none,
+					"despawnEffect": none,
+					
 					"length": 220,
 					"width": 4,
 					"fromColor": 808080,
@@ -228,20 +256,20 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 200
+					"damage": 200,
 				}
 			}
 		}
 	]
 
-	//campaign
+	//campaign,
 
 	"research": {
 		"parent": "AnserTank",
-		"requirements":[
+		"requirements": [
 		"silicon/240000",
 		"surge-alloy/80000",
-		"phase-fabric/80000"
+		"phase-fabric/80000",
 		]
 	}
 }

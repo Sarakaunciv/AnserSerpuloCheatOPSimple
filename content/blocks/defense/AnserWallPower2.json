@@ -1,30 +1,30 @@
 
 {
-    //details
+	//details,
 
-    "type": "ShieldWall",
-    "name": "AnserWallPower2",
+	"type": "ShieldWall",
+	"name": "AnserWallPower2",
 
-    //campaign
+	//campaign,
 
-	"requirements":["silicon/400","surge-alloy/400","phase-fabric/400"],
-    "category": "defense",
-    "research": "AnserWallPower1",
+	"requirements": ["silicon/400","surge-alloy/400","phase-fabric/400"],
+	"category": "defense",
+	"research": "AnserWallPower1",
 	"researchCostMultiplier": 40,
 	
-    //specs
+	//specs,
 
-    "size": 2,
+	"size": 2,
 	"health": 80000,
 	"buildTime": 240,
-    "absorbLasers": true,
+	"absorbLasers": true,
 	
 	"shieldHealth": 80000,
 	"breakCooldown": 66,
 	"regenSpeed": 1200,
 	
-	"hasPower":true,
-	"consumes":{"power":80},
-	"conductivePower":true,
-    "canOverdrive": false,
+	"hasPower": true,
+	"consumes": {"power": 80},
+	"conductivePower": true,
+	"canOverdrive": false,
 }
