@@ -24,7 +24,7 @@
 	"regenSpeed": 1200,
 	
 	"hasPower":true,
-	"consumes":{"power":200},
+	"consumes":{"power":80},
 	"conductivePower":true,
     "canOverdrive": false,
 }
