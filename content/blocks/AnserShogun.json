@@ -197,7 +197,7 @@
 			"lifetime": 64,
 			"speed": 16,
 			
-			"damage": 100000,
+			"damage": 20000,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"splashDamagePierce": true,
@@ -228,7 +228,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 10000,
+				"damage": 20000,
 				"buildingDamageMultiplier": 0,
 				
 				"status": melting,
