@@ -9,7 +9,7 @@
 
 	"requirements":["silicon/160","surge-alloy/160"],
     "category": "defense",
-    "research": "AnserWallSurge1"
+    "research": "AnserWallSurge1",
 	"researchCostMultiplier": 2,
 	
     //specs

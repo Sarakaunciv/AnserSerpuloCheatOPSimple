@@ -9,7 +9,7 @@
 
 	"requirements":["silicon/1","surge-alloy/1"],
     "category": "distribution",
-    "research": "SilicanConveyor"
+    "research": "SilicanConveyor",
 	
     //specs
 

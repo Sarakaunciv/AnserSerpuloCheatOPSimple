@@ -52,7 +52,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 20000,
+				"damage": 10000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -75,8 +75,8 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 10000,
-					"buildingDamageMultiplier": 0.4,
+					"damage": 5000,
+					"buildingDamageMultiplier": 0.8,
 					
 					"status": melting,
 					"statusDuration": 3600,
@@ -91,8 +91,8 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 10000,
-							"buildingDamageMultiplier": 0.4,
+							"damage": 5000,
+							"buildingDamageMultiplier": 0.8,
 							
 							"status": sapped,
 							"statusDuration": 3600,
@@ -125,7 +125,7 @@
 				"speed": 320,
 				"hitSound": none,
 				
-				"damage": 20000,
+				"damage": 10000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -140,7 +140,7 @@
 						"hitSound": none,
 						
 						"damage": 1,
-						"buildingDamageMultiplier": 0.4,
+						"buildingDamageMultiplier": 0.8,
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
@@ -165,8 +165,8 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 4000,
-							"buildingDamageMultiplier": 0.4,
+							"damage": 2000,
+							"buildingDamageMultiplier": 0.8,
 							
 							"status": melting,
 							"statusDuration": 3600,
@@ -180,8 +180,8 @@
 									"hitLarge": true,
 									"serrations": 0,
 									
-									"damage": 4000,
-									"buildingDamageMultiplier": 0.4,
+									"damage": 2000,
+									"buildingDamageMultiplier": 0.8,
 									
 									"status": sapped,
 									"statusDuration": 3600,
@@ -198,8 +198,8 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 10000,
-						"buildingDamageMultiplier": 0.4,
+						"damage": 5000,
+						"buildingDamageMultiplier": 0.8,
 						
 						"status": melting,
 						"statusDuration": 3600,
@@ -213,8 +213,8 @@
 								"hitLarge": true,
 								"serrations": 0,
 								
-								"damage": 10000,
-								"buildingDamageMultiplier": 0.4,
+								"damage": 5000,
+								"buildingDamageMultiplier": 0.8,
 								
 								"status": sapped,
 								"statusDuration": 3600,
@@ -248,7 +248,7 @@
 				"speed": 320,
 				"hitSound": none,
 				
-				"damage": 20000,
+				"damage": 10000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -263,7 +263,7 @@
 						"hitSound": none,
 						
 						"damage": 1,
-						"buildingDamageMultiplier": 0.4,
+						"buildingDamageMultiplier": 0.8,
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
@@ -288,8 +288,8 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 4000,
-							"buildingDamageMultiplier": 0.4,
+							"damage": 2000,
+							"buildingDamageMultiplier": 0.8,
 							
 							"status": melting,
 							"statusDuration": 3600,
@@ -303,8 +303,8 @@
 									"hitLarge": true,
 									"serrations": 0,
 									
-									"damage": 4000,
-									"buildingDamageMultiplier": 0.4,
+									"damage": 2000,
+									"buildingDamageMultiplier": 0.8,
 									
 									"status": sapped,
 									"statusDuration": 3600,
@@ -321,8 +321,8 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 10000,
-						"buildingDamageMultiplier": 0.4,
+						"damage": 5000,
+						"buildingDamageMultiplier": 0.8,
 						
 						"status": melting,
 						"statusDuration": 3600,
@@ -336,8 +336,8 @@
 								"hitLarge": true,
 								"serrations": 0,
 								
-								"damage": 10000,
-								"buildingDamageMultiplier": 0.4,
+								"damage": 5000,
+								"buildingDamageMultiplier": 0.8,
 								
 								"status": sapped,
 								"statusDuration": 3600,
@@ -371,7 +371,7 @@
 				"speed": 320,
 				"hitSound": none,
 				
-				"damage": 20000,
+				"damage": 10000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -386,7 +386,7 @@
 						"hitSound": none,
 						
 						"damage": 1,
-						"buildingDamageMultiplier": 0.4,
+						"buildingDamageMultiplier": 0.8,
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
@@ -411,8 +411,8 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 4000,
-							"buildingDamageMultiplier": 0.4,
+							"damage": 2000,
+							"buildingDamageMultiplier": 0.8,
 							
 							"status": melting,
 							"statusDuration": 3600,
@@ -426,8 +426,8 @@
 									"hitLarge": true,
 									"serrations": 0,
 									
-									"damage": 4000,
-									"buildingDamageMultiplier": 0.4,
+									"damage": 2000,
+									"buildingDamageMultiplier": 0.8,
 									
 									"status": sapped,
 									"statusDuration": 3600,
@@ -444,8 +444,8 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 10000,
-						"buildingDamageMultiplier": 0.4,
+						"damage": 5000,
+						"buildingDamageMultiplier": 0.8,
 						
 						"status": melting,
 						"statusDuration": 3600,
@@ -459,8 +459,8 @@
 								"hitLarge": true,
 								"serrations": 0,
 								
-								"damage": 10000,
-								"buildingDamageMultiplier": 0.4,
+								"damage": 5000,
+								"buildingDamageMultiplier": 0.8,
 								
 								"status": sapped,
 								"statusDuration": 3600,
@@ -494,7 +494,7 @@
 				"speed": 320,
 				"hitSound": none,
 				
-				"damage": 20000,
+				"damage": 10000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -509,7 +509,7 @@
 						"hitSound": none,
 						
 						"damage": 1,
-						"buildingDamageMultiplier": 0.4,
+						"buildingDamageMultiplier": 0.8,
 						"pierce": false,
 						"pierceBuilding": false,
 						"instantDisappear": false,
@@ -534,8 +534,8 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 4000,
-							"buildingDamageMultiplier": 0.4,
+							"damage": 2000,
+							"buildingDamageMultiplier": 0.8,
 							
 							"status": melting,
 							"statusDuration": 3600,
@@ -549,8 +549,8 @@
 									"hitLarge": true,
 									"serrations": 0,
 									
-									"damage": 4000,
-									"buildingDamageMultiplier": 0.4,
+									"damage": 2000,
+									"buildingDamageMultiplier": 0.8,
 									
 									"status": sapped,
 									"statusDuration": 3600,
@@ -567,8 +567,8 @@
 						"hitLarge": true,
 						"serrations": 0,
 						
-						"damage": 10000,
-						"buildingDamageMultiplier": 0.4,
+						"damage": 5000,
+						"buildingDamageMultiplier": 0.8,
 						
 						"status": melting,
 						"statusDuration": 3600,
@@ -582,8 +582,8 @@
 								"hitLarge": true,
 								"serrations": 0,
 								
-								"damage": 10000,
-								"buildingDamageMultiplier": 0.4,
+								"damage": 5000,
+								"buildingDamageMultiplier": 0.8,
 								
 								"status": sapped,
 								"statusDuration": 3600,

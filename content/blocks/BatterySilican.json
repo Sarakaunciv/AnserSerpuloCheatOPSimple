@@ -9,7 +9,7 @@
 
 	"requirements":["silicon/500"],
     "category": "power",
-    "research": "SilicanConveyor"
+    "research": "SilicanConveyor",
 	
     //specs
 

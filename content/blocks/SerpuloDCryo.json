@@ -8,7 +8,7 @@
 
 	"requirements":["silicon/160","titanium/40"],
     "category": "liquid",
-    "research": "DuplicateWaterSilican"
+    "research": "DuplicateWaterSilican",
 	
     //specs
 

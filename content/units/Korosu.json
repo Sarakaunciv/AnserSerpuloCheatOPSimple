@@ -21,7 +21,7 @@
 	"accel": 0.05
 	"drag": 0.1,
 	
-	"fogRadius": 200,
+	"fogRadius": 60,
 	
 	//weapon
 
@@ -68,7 +68,6 @@
 						"hitSound": none,
 						
 						"damage": 1,
-						"buildingDamageMultiplier": 0.1,
 						"pierce": true,
 						"pierceBuilding": true,
 						"instantDisappear": false,
@@ -93,7 +92,6 @@
 							"hitSound": none,
 							
 							"damage": 1,
-							"buildingDamageMultiplier": 0.1,
 							"pierce": true,
 							"pierceBuilding": true,
 							"instantDisappear": false,
@@ -119,8 +117,8 @@
 								"hitLarge": true,
 								"serrations": 0,
 								
-								"damage": 20000,
-								"buildingDamageMultiplier": 0.1,
+								"damage": 10000,
+								"buildingDamageMultiplier": 0.5,
 								
 								"status": melting,
 								"statusDuration": 3600,
@@ -135,7 +133,6 @@
 						"hitSound": none,
 						
 						"damage": 1,
-						"buildingDamageMultiplier": 0.1,
 						"pierce": true,
 						"pierceBuilding": true,
 						"instantDisappear": false,
@@ -160,7 +157,6 @@
 							"hitSound": none,
 							
 							"damage": 1,
-							"buildingDamageMultiplier": 0.1,
 							"pierce": true,
 							"pierceBuilding": true,
 							"instantDisappear": false,
@@ -179,15 +175,15 @@
 							"fragOffsetMax": 0,
 							"fragBullet":{
 								"type": ShrapnelBulletType,
-								"length": 340,
+								"length": 360,
 								"width": 8,
 								"fromColor": ffffff,
 								"toColor": ff4000,
 								"hitLarge": true,
 								"serrations": 0,
 								
-								"damage": 20000,
-								"buildingDamageMultiplier": 0.1,
+								"damage": 10000,
+								"buildingDamageMultiplier": 0.5,
 								
 								"status": sapped,
 								"statusDuration": 3600,

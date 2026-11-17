@@ -49,7 +49,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -83,7 +84,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -117,7 +119,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -151,7 +154,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -185,7 +189,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -219,7 +224,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -253,7 +259,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -287,7 +294,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -321,7 +329,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -355,7 +364,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -389,7 +399,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -423,7 +434,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -457,7 +469,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -491,7 +504,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -525,7 +539,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -559,7 +574,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -593,7 +609,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -627,7 +644,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -661,7 +679,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -695,7 +714,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -729,7 +749,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -763,7 +784,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -797,7 +819,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -831,7 +854,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,
@@ -864,7 +888,8 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage":500,
+				"damage":800,
+				"buildingDamageMultiplier": 0.5,
 				"length":360,
 				"width":12,
 				"lifetime":180,

@@ -50,7 +50,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 8000,
+				"damage": 4000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -66,7 +66,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 8000,
+					"damage": 4000,
 					"buildingDamageMultiplier": 0.1,
 					
 					"status": melting,
@@ -98,7 +98,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 6000,
+				"damage": 3000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -114,7 +114,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 6000,
+					"damage": 3000,
 					"buildingDamageMultiplier": 0.1,
 					
 					"status": melting,
@@ -146,7 +146,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 4000,
+				"damage": 2000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -162,7 +162,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 4000,
+					"damage": 2000,
 					"buildingDamageMultiplier": 0.1,
 					
 					"status": melting,
@@ -194,7 +194,7 @@
 				"speed": 280,
 				"hitSound": none,
 				
-				"damage": 2000,
+				"damage": 1000,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
@@ -210,7 +210,7 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 2000,
+					"damage": 1000,
 					"buildingDamageMultiplier": 0.1,
 					
 					"status": melting,
@@ -262,9 +262,9 @@
 					"hitSound": explosion,
 					"hitSoundPitch": 1,
 					
-					"damage": 20000,
+					"damage": 3200,
 					"splashDamageRadius": 40,
-					"splashDamage": 8000,
+					"splashDamage": 3200,
 					"splashDamagePierce": true,
 					"pierce": true,
 					"pierceBuilding": true,
@@ -303,7 +303,7 @@
 						"hitSound": explosion,
 						"hitSoundPitch": 1,
 						
-						"damage": 4000,
+						"damage": 1600,
 						"splashDamageRadius": 40,
 						"splashDamage": 1600,
 						"splashDamagePierce": true,
@@ -344,7 +344,7 @@
 							"hitSound": explosion,
 							"hitSoundPitch": 1,
 							
-							"damage": 4000,
+							"damage": 1600,
 							"splashDamageRadius": 40,
 							"splashDamage": 1600,
 							"splashDamagePierce": true,
@@ -385,7 +385,7 @@
 								"hitSound": explosion,
 								"hitSoundPitch": 1,
 								
-								"damage": 4000,
+								"damage": 1600,
 								"splashDamageRadius": 40,
 								"splashDamage": 1600,
 								"splashDamagePierce": true,

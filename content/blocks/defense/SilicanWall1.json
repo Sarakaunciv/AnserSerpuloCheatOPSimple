@@ -9,7 +9,7 @@
 
 	"requirements":["silicon/20"],
     "category": "defense",
-    "research": "SilicanDuplicator"
+    "research": "SilicanDuplicator",
 	"researchCostMultiplier": 1,
 	
     //specs

@@ -91,7 +91,8 @@
 					"hitLarge": true,
 					"serrations": 0,
 					
-					"damage": 2000,
+					"damage": 1000,
+					"buildingDamageMultiplier": 0.2,
 					
 					"status": melting,
 					"statusDuration": 3600,
@@ -106,7 +107,8 @@
 							"hitLarge": true,
 							"serrations": 0,
 							
-							"damage": 2000,
+							"damage": 1000,
+							"buildingDamageMultiplier": 0.2,
 							
 							"status": sapped,
 							"statusDuration": 3600,
@@ -164,9 +166,9 @@
 					
 					"damage": 1,
 					"splashDamageRadius": 120,
-					"splashDamage": 100000,
+					"splashDamage": 50000,
 					"splashDamagePierce": true,
-					"buildingDamageMultiplier": 0.01
+					"buildingDamageMultiplier": 0.02
 					"pierce": false,
 					"pierceBuilding": false,
 					"hittable": false,
@@ -202,9 +204,9 @@
 						
 						"damage": 1,
 						"splashDamageRadius": 120,
-						"splashDamage": 100000,
+						"splashDamage": 50000,
 						"splashDamagePierce": true,
-						"buildingDamageMultiplier": 0.01
+						"buildingDamageMultiplier": 0.02
 						"pierce": false,
 						"pierceBuilding": false,
 						"hittable": false,
@@ -243,7 +245,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage": 12500,
+				"damage": 6000,
 				"length":280,
 				"width":8,
 				"lifetime":400,
@@ -276,7 +278,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage": 12500,
+				"damage": 6000,
 				"length":280,
 				"width":8,
 				"lifetime":400,
@@ -309,7 +311,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage": 12500,
+				"damage": 6000,
 				"length":280,
 				"width":8,
 				"lifetime":400,
@@ -342,7 +344,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage": 12500,
+				"damage": 6000,
 				"length":280,
 				"width":8,
 				"lifetime":400,
@@ -374,7 +376,7 @@
 			"velocityRnd":0.22,
 			
 			"bullet":{
-				"damage": 12500,
+				"damage": 6000,
 				"length":280,
 				"width":8,
 				"lifetime":400,

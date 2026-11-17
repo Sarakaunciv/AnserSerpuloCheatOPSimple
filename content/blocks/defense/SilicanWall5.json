@@ -9,7 +9,7 @@
 
 	"requirements":["silicon/500"],
     "category": "defense",
-    "research": "SilicanWall4"
+    "research": "SilicanWall4",
 	"researchCostMultiplier": 5,
 	
     //specs
