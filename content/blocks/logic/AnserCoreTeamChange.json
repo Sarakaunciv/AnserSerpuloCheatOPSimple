@@ -3,7 +3,7 @@
 
 	"type": "CoreBlock",
 	"name": "AnserCoreTeamChange",
-	"description": "Hover above this core and press kay to change team. Hold boost then press 1 2 3 4 5 6 to change team. Any resource that exceed 2mil will be lost when team change. If you lost the core and can not respawn press change team while hold 7.",
+	"description": "Hover above this core and press kay to change team. Hold boost then press 1 2 3 4 5 6 to change team. Any resource that exceed 2mil will be lost when team change. If you lost the core and can not respawn press change team while hold 7. If the team you change to have 'not build fast' or 'fog' Press 8 while hold boost.",
 
 	//campaign,
 
