@@ -3,6 +3,7 @@
 
 	"type": "ItemTurret",
 	"name": "AnserShogun",
+	"description": "Power of Anser launch meteor.",
 
 	//campaign,
 
@@ -20,7 +21,7 @@
 	//specs,
 
 	"size": 5,
-	"health": 50000,
+	"health": 290000,
 	
 	"rotateSpeed": 6,
 	"reload": 120,

@@ -3,6 +3,7 @@
 
 	"type": "GenericCrafter",
 	"name": "SilicanDuplicator",
+	"description": "These factory does not need resource they only need power. Research beyond this point will make your life easier.",
 
 	//campaign,
 

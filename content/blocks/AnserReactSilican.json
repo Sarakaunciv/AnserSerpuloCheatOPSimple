@@ -4,6 +4,7 @@
 
 	"type": "HeaterGenerator",
 	"name": "AnserReactSilican",
+	"description": "Explode in 5 sec. 300 dmg. 20 tile radius. Instant build.",
 
 	//campaign,
 

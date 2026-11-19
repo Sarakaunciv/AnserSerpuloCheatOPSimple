@@ -3,6 +3,7 @@
 
 	"type": "RegenProjector",
 	"name": "SilicanHealer",
+	"description": "Very long range. Only place 1 per area to make it fair.",
 
 	//campaign,
 
@@ -14,14 +15,14 @@
 
 	"size": 3,
 	"canOverdrive": false,
-	"health": 1200,
+	"health": 4800,
 	
-	"range": 80,
+	"range": 110,
 	"healPercent": 1.5,
 	
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": false,
 	
-	"consumes": {"power": 120},
+	"consumes": {"power": 150},
 }

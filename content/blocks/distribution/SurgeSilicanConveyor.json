@@ -4,6 +4,7 @@
 
 	"type": "StackConveyor",
 	"name": "SurgeSilicanConveyor",
+	"description": "If input from SilicanConveyor directly it will hold only 50 item. If insert flow-gate before input from SilicanConveyor it will be able to hold 500.",
 
 	//campaign,
 

@@ -3,6 +3,7 @@
 
 	"type": "UnitFactory",
 	"name": "AnserPowerConstruct",
+	"description": "Construct Anser power unit. does not require resource.",
 
 	//campaign,
 
@@ -22,7 +23,7 @@
 	"size": 10,
 	"health": 122000,
 	
-	"consumes": {"power": 900},
+	"consumes": {"power": 1500},
 
 	"plans": [
 	{

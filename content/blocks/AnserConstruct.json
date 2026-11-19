@@ -3,6 +3,7 @@
 
 	"type": "UnitFactory",
 	"name": "AnserConstruct",
+	"description": "Construct Anser unit. Consume lot of power",
 
 	//campaign,
 

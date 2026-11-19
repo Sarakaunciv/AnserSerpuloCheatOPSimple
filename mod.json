@@ -2,7 +2,9 @@
     "name": "Anser serpulo",
     "displayName": "Anser serpulo",
     "author": "SarakaUnciv",
-    "description": "Add a lot of content.
+    "description": "Add a lot of content. Most block have info in thier description.
+	
+	-[[]#ffff00]V.2.13[[]] Core block that let you change team.
 	
 	-9 new units and 1 turret.
 	[[]#ffff00]-V2.0 with 3 new GIGA units[[]]
@@ -20,6 +22,6 @@
 	[[]#00ff00]This mod have a guide map that show all content[[]]
 	
 	There are both Serpulo and Erekir version of this mod. make sure to download both mods",
-    "version": "2.12",
+    "version": "2.13",
     "minGameVersion": 147
 }

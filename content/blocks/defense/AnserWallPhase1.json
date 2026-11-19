@@ -4,6 +4,7 @@
 
 	"type": "ShieldWall",
 	"name": "AnserWallPhase1",
+	"description": "Wall with fast regenerate shield. Does not absorb laser or reflect bullet",
 
 	//campaign,
 

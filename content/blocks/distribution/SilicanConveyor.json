@@ -4,6 +4,7 @@
 
 	"type": "StackConveyor",
 	"name": "SilicanConveyor",
+	"description": "Pair well with flow-gate",
 
 	//campaign,
 

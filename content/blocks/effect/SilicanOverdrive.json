@@ -3,6 +3,7 @@
 
 	"type": "OverdriveProjector",
 	"name": "SilicanOverdrive",
+	"description": "For when the game is too slow.",
 
 	//campaign,
 

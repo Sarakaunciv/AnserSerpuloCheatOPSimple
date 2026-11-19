@@ -3,6 +3,7 @@
 
 	"type": "ContinuousTurret",
 	"name": "AnserTurretPhase",
+	"description": "Incinerate.",
 
 	//campaign,
 
@@ -13,7 +14,7 @@
 	//specs,
 
 	"size": 4,
-	"health": 6000,
+	"health": 25000,
 	
 	"rotateSpeed": 12,
 	
@@ -34,7 +35,7 @@
 		"damage": 8000,
 		"length": 280,
 		"width": 8,
-		"lifetime": 20,
+		"lifetime": 40,
 		"shake": 1,
 		"type": "ContinuousLaserBulletType",
 		"colors": [ ff000040, ff800040, ffff0040, ffffff80 ],

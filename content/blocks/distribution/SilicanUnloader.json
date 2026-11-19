@@ -4,6 +4,7 @@
 
 	"type": "Unloader",
 	"name": "SilicanUnloader",
+	"description": "Use this to unload from wall drill",
 
 	//campaign,
 

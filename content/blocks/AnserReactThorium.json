@@ -4,6 +4,7 @@
 
 	"type": "HeaterGenerator",
 	"name": "AnserReactThorium",
+	"description": "Explode in 5 sec. 1200 dmg. 30 tile radius. Instant build.",
 
 	//campaign,
 

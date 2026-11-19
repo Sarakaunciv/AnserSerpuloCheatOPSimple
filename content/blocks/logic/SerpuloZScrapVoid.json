@@ -3,7 +3,8 @@
 	//details,
 
 	"type": "Wall",
-	"name": "ZScrapVoid",
+	"name": "SerpuloZScrapVoid",
+	"description": "You dont like having scrap in your inventory? Just throw them here.",
 
 	//campaign,
 

@@ -1,0 +1,21 @@
+
+{
+	//details,
+
+	"type": "Floor",
+	"name": "AnserCoreZoneSilican",
+	"description": "You can place core on this floor. cannot be deleted. Cheating tool.",
+
+	//campaign,
+
+	"requirements": [],
+	"category": "logic",
+	"research": "AnserCoreTeamChange",
+	
+	//specs,
+
+	"size": 1,
+	
+	"variants": 0,
+	"allowCorePlacement": true,
+}

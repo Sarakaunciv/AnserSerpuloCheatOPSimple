@@ -1,0 +1,26 @@
+
+{
+	//details,
+
+	"type": "Floor",
+	"name": "AnserCoreZone",
+	"description": "You can place core on this floor. cannot be deleted. Does not count as cheating.",
+
+	//campaign,
+
+	"requirements": [],
+	"category": "logic",
+	"research": {
+		"parent": "SilicanOverdrive",
+		"requirements": [
+			"silicon/1000000"
+		]
+	},
+	
+	//specs,
+
+	"size": 1,
+	
+	"variants": 0,
+	"allowCorePlacement": true,
+}

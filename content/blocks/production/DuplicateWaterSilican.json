@@ -3,6 +3,7 @@
 
 	"type": "GenericCrafter",
 	"name": "DuplicateWaterSilican",
+	"description": "Pump water straight from the underworld.",
 
 	//campaign,
 
