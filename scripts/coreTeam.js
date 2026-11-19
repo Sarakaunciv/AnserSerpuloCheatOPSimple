@@ -40,7 +40,7 @@ Events.run(Trigger.update, () => {
 		let resetID = 0;
 		if (Core.input.keyDown(Binding.blockSelect07))
 		{
-			let resetID = 1;
+			resetID = 1;
 		}
 		
 		if (Core.input.keyTap(Binding.blockSelect01))
