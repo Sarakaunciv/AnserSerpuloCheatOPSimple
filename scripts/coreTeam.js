@@ -6,8 +6,11 @@ function setTeam(id, reset)
 	if (reset == 2)
 	{
 		const gameStateRules = Vars.state.rules;
-		let teamRule = gameStateRules.teams.get(team);
-		teamRule.buildSpeedMultiplier = 1;
+		for (let i = 0; i < 7; i++)
+		{
+			let teamRule = gameStateRules.teams.get(Team.get(i));
+			teamRule.buildSpeedMultiplier = 1;
+		}
 		gameStateRules.fog = false;
 		return;
 	}
@@ -16,7 +19,6 @@ function setTeam(id, reset)
 	if (reset == 1)
 	{
 		player.team(team);
-		lastTeam = id;
 		return;
 	}
 	
@@ -27,12 +29,10 @@ function setTeam(id, reset)
 	if (delBuild != null && delBuild.displayName == "AnserCoreTeamChange")
 	{
 		player.team(team);
-		lastTeam = id;
 		delBuild.changeTeam(team);
 	}
 }
 
-var lastTeam = 0;
 Events.run(Trigger.update, () => {
 	if (!Vars.state.isGame()) return;
 	if (Core.input.keyDown(Binding.boost))
@@ -69,7 +69,7 @@ Events.run(Trigger.update, () => {
 		}
 		if (Core.input.keyDown(Binding.blockSelect08))
 		{
-			setTeam(lastTeam, 2);
+			setTeam(0, 2);
 		}
 	}
 });
