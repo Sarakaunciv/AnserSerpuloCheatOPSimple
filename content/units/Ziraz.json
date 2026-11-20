@@ -2,6 +2,7 @@
 	//details,
 
 	"name": "Ziraz",
+	"description": "Mid defense. Mid damage. Inflict Sapped and Melting debuff. Tier 10 unit.",
 
 	//stats,
 
@@ -271,6 +272,8 @@
 				
 				"status": melting,
 				"statusDuration": 3600,
+				
+				"buildingDamageMultiplier": 0.2,
 			}
 		},
 		{
@@ -304,6 +307,8 @@
 				
 				"status": melting,
 				"statusDuration": 3600,
+				
+				"buildingDamageMultiplier": 0.2,
 			}
 		},
 		{
@@ -337,6 +342,8 @@
 				
 				"status": melting,
 				"statusDuration": 3600,
+				
+				"buildingDamageMultiplier": 0.2,
 			}
 		},
 		{
@@ -370,6 +377,8 @@
 				
 				"status": melting,
 				"statusDuration": 3600,
+				
+				"buildingDamageMultiplier": 0.2,
 			}
 		},
 		{
@@ -402,6 +411,8 @@
 				
 				"status": melting,
 				"statusDuration": 3600,
+				
+				"buildingDamageMultiplier": 0.2,
 			}
 		}
 	]

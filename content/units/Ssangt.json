@@ -2,6 +2,7 @@
 	//details,
 
 	"name": "Ssangt",
+	"description": "Suicide large bomber unit. Inflict Melting debuff. Inflict debuff before dealing damage. Tier 8 unit.",
 
 	//stats,
 
@@ -53,15 +54,23 @@
 				"hitSound": none,
 				
 				"damage": 300000,
+				"splashDamageRadius": 240,
+				"splashDamage": 1,
+				"splashDamagePierce": true,
+				
 				"killShooter": true,
 				"instantDisappear": true,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
+				
 				"lightRadius": 0,"lightColor": 000000,
 				"hitEffect": none,
 				"despawnEffect": none,
 				"hitColor": 000000,"hitSize": 1,
+				
+				"status": melting,
+				"statusDuration": 3600,
 				
 				"fragBullets": 1,"fragOnHit": false,"fragRandomSpread": 0,"fragSpread": 0,"fragAngle": 0,"fragVelocityMin": 1,"fragOffsetMin": 0,"fragOffsetMax": 0,
 				"fragBullet": {
@@ -70,7 +79,7 @@
 					"frontColor": 000000,
 					"width": 1,
 					"height": 1,
-					"lifetime": 1,
+					"lifetime": 3,
 					"speed": 1,
 					"hitSound": none,
 					
@@ -88,9 +97,6 @@
 					"hitEffect": none,
 					"despawnEffect": none,
 					"hitSize": 16,
-					
-					"status": melting,
-					"statusDuration": 3600,
 				}
 			}
 		}
