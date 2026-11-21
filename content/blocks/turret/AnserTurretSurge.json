@@ -34,6 +34,7 @@
 	"soundPitchMax": 0.4,
 	"shootCone": 5,
 	"shootY": 0,
+	"targetBlocks": false,
 	
 	"ammoTypes": {
 		"graphite": {

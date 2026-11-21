@@ -20,8 +20,8 @@
 	"health": 800,
 	
 	"rotateSpeed": 8,
-	"reload": 6,
-	"ammoPerShot": 1,
+	"reload": 20,
+	"ammoPerShot": 5,
 	"maxAmmo": 50,
 	"recoil": 4,
 	
@@ -30,13 +30,14 @@
 	
 	"canOverdrive": false,
 	
-	"range": 160,
+	"range": 240,
 	"inaccuracy": 0,
 	"shootSound": "shootArc",
 	"soundPitchMin": 5,
 	"soundPitchMax": 6,
 	"shootCone": 5,
 	"shootY": 0,
+	"targetBlocks": false,
 	
 	"ammoTypes": {
 		"sand": {
@@ -49,16 +50,16 @@
 			"mixColorTo": f7cba4,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 5,
+			"width": 16,
+			"height": 16,
+			"lifetime": 12,
+			"speed": 12,
 			"hitSound": none,
 			
-			"damage": 2,
+			"damage": 10,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"pierce": false,
@@ -68,7 +69,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": -80,
+			"rangeChange": -120,
+			"knockback": 16,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -86,18 +88,18 @@
 			"mixColorTo": 777777,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 7,
+			"width": 16,
+			"height": 16,
+			"lifetime": 12,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 6,
-			"splashDamageRadius": -1,
-			"splashDamage": 0,
+			"damage": 30,
+			"splashDamageRadius": 24,
+			"splashDamage": 15,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -105,7 +107,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": -40,
+			"rangeChange": -80,
+			"knockback": 8,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -123,16 +126,18 @@
 			"mixColorTo": d99d73,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
+			"width": 16,
+			"height": 16,
+			"lifetime": 16,
+			"speed": 16,
 			"lifetime": 20,
 			"speed": 9,
 			"hitSound": none,
 			
-			"damage": 9,
+			"damage": 45,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"pierce": false,
@@ -143,6 +148,7 @@
 			"absorbable": true,
 			
 			"rangeChange": 0,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -160,16 +166,16 @@
 			"mixColorTo": 8c7fa9,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 10,
+			"width": 16,
+			"height": 16,
+			"lifetime": 22,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 15,
+			"damage": 75,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"pierce": false,
@@ -179,7 +185,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 20,
+			"rangeChange": 80,
+			"knockback": 4,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -197,18 +204,18 @@
 			"mixColorTo": ebeef5,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 9,
+			"width": 16,
+			"height": 16,
+			"lifetime": 22,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 18,
-			"splashDamageRadius": 32,
-			"splashDamage": 12,
+			"damage": 90,
+			"splashDamageRadius": 48,
+			"splashDamage": 60,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -216,7 +223,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 0,
+			"rangeChange": 80,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -234,18 +242,18 @@
 			"mixColorTo": 272727,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 9,
+			"width": 16,
+			"height": 16,
+			"lifetime": 16,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 12,
-			"splashDamageRadius": 16,
-			"splashDamage": 12,
+			"damage": 30,
+			"splashDamageRadius": 32,
+			"splashDamage": 90,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -254,6 +262,7 @@
 			"absorbable": true,
 			
 			"rangeChange": 0,
+			"knockback": 0,
 			"status": burning,
 			"statusDuration": 600,
 			
@@ -271,18 +280,18 @@
 			"mixColorTo": b2c6d2,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 11,
+			"width": 16,
+			"height": 16,
+			"lifetime": 22,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 24,
-			"splashDamageRadius": 16,
-			"splashDamage": 24,
+			"damage": 120,
+			"splashDamageRadius": 32,
+			"splashDamage": 120,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -290,7 +299,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 40,
+			"rangeChange": 80,
+			"knockback": 0,
 			"status": burning,
 			"statusDuration": 600,
 			
@@ -308,16 +318,16 @@
 			"mixColorTo": 53565c,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 3,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 28,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 54,
+			"damage": 300,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"pierce": false,
@@ -327,7 +337,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 160,
+			"rangeChange": 240,
+			"knockback": 8,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -345,18 +356,18 @@
 			"mixColorTo": 7457ce,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 3,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 9,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 24,
-			"splashDamageRadius": 16,
-			"splashDamage": 18,
+			"damage": 64,
+			"splashDamageRadius": 120,
+			"splashDamage": 32,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -364,7 +375,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 0,
+			"rangeChange": 240,
+			"knockback": 0,
 			"status": burning,
 			"statusDuration": 600,
 			
@@ -382,18 +394,18 @@
 			"mixColorTo": ffaa5f,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 9,
+			"width": 16,
+			"height": 16,
+			"lifetime": 22,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 80,
-			"splashDamageRadius": 32,
-			"splashDamage": 40,
+			"damage": 600,
+			"splashDamageRadius": 64,
+			"splashDamage": 600,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -401,7 +413,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 0,
+			"rangeChange": 80,
+			"knockback": 0,
 			"status": burning,
 			"statusDuration": 1800,
 			
@@ -419,18 +432,18 @@
 			"mixColorTo": ff795e,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 9,
+			"width": 16,
+			"height": 16,
+			"lifetime": 22,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 120,
-			"splashDamageRadius": 48,
-			"splashDamage": 60,
+			"damage": 900,
+			"splashDamageRadius": 96,
+			"splashDamage": 900,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -438,7 +451,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 0,
+			"rangeChange": 80,
+			"knockback": 0,
 			"status": burning,
 			"statusDuration": 3600,
 			
@@ -456,18 +470,18 @@
 			"mixColorTo": 8da1e3,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 3,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 22,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 80,
+			"damage": 400,
 			"splashDamageRadius": 16,
-			"splashDamage": 80,
+			"splashDamage": 400,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -475,7 +489,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 80,
+			"rangeChange": 240,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -493,18 +508,18 @@
 			"mixColorTo": cbd97f,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 3,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 28,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 160,
-			"splashDamageRadius": 32,
-			"splashDamage": 60,
+			"damage": 800,
+			"splashDamageRadius": 48,
+			"splashDamage": 400,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -512,7 +527,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 160,
+			"rangeChange": 240,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -530,18 +546,18 @@
 			"mixColorTo": f3e979,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 3,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 36,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 480,
-			"splashDamageRadius": 16,
-			"splashDamage": 240,
+			"damage": 1200,
+			"splashDamageRadius": 24,
+			"splashDamage": 600,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -550,6 +566,7 @@
 			"absorbable": true,
 			
 			"rangeChange": 240,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -577,7 +594,7 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 160,
+				"damage": 600,
 				"buildingDamageMultiplier": 0,
 			}
 		},
@@ -591,18 +608,18 @@
 			"mixColorTo": f9a3c7,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
+			"width": 16,
+			"height": 16,
 			"lifetime": 22,
-			"speed": 12,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 80,
+			"damage": 400,
 			"splashDamageRadius": 48,
-			"splashDamage": 80,
+			"splashDamage": 400,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -611,6 +628,7 @@
 			"absorbable": true,
 			
 			"rangeChange": 80,
+			"knockback": 0,
 			"status": melting,
 			"statusDuration": 60,
 			
@@ -628,18 +646,18 @@
 			"mixColorTo": f4ba6e,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 28,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 26,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 240,
-			"splashDamageRadius": 64,
-			"splashDamage": 240,
+			"damage": 1200,
+			"splashDamageRadius": 80,
+			"splashDamage": 1200,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -648,6 +666,7 @@
 			"absorbable": true,
 			
 			"rangeChange": 160,
+			"knockback": 0,
 			"status": melting,
 			"statusDuration": 600,
 			
@@ -665,18 +684,18 @@
 			"mixColorTo": 3a8f64,
 			
 			"trailColor": ffffff80,
-			"trailLength": 4,
+			"trailLength": 3,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 22,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 180,
-			"splashDamageRadius": -1,
-			"splashDamage": 0,
+			"damage": 200,
+			"splashDamageRadius": 24,
+			"splashDamage": 200,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -684,7 +703,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 80,
+			"rangeChange": 240,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -702,18 +722,18 @@
 			"mixColorTo": 768a9a,
 			
 			"trailColor": ffffff80,
-			"trailLength": 4,
+			"trailLength": 3,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 28,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 240,
-			"splashDamageRadius": -1,
-			"splashDamage": 0,
+			"damage": 300,
+			"splashDamageRadius": 24,
+			"splashDamage": 300,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -721,7 +741,8 @@
 			"reflectable": true,
 			"absorbable": true,
 			
-			"rangeChange": 160,
+			"rangeChange": 240,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			
@@ -739,18 +760,18 @@
 			"mixColorTo": e4ffd6,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 2,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 22,
-			"speed": 12,
+			"width": 16,
+			"height": 16,
+			"lifetime": 32,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 160,
-			"splashDamageRadius": 64,
-			"splashDamage": 80,
+			"damage": 800,
+			"splashDamageRadius": 80,
+			"splashDamage": 400,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -759,6 +780,7 @@
 			"absorbable": true,
 			
 			"rangeChange": 80,
+			"knockback": 0,
 			"status": corroded,
 			"statusDuration": 1800,
 			
@@ -776,18 +798,18 @@
 			"mixColorTo": 89769a,
 			
 			"trailColor": ffffff80,
-			"trailLength": -1,
+			"trailLength": 4,
 			"trailWidth": 2,
 			
-			"width": 10,
-			"height": 10,
-			"lifetime": 20,
-			"speed": 9,
+			"width": 16,
+			"height": 16,
+			"lifetime": 48,
+			"speed": 16,
 			"hitSound": none,
 			
-			"damage": 640,
-			"splashDamageRadius": 48,
-			"splashDamage": 240,
+			"damage": 3200,
+			"splashDamageRadius": 64,
+			"splashDamage": 1200,
 			"pierce": false,
 			"pierceBuilding": false,
 			"pierceCap": -1,
@@ -796,6 +818,7 @@
 			"absorbable": true,
 			
 			"rangeChange": 480,
+			"knockback": 0,
 			"status": none,
 			"statusDuration": 600,
 			

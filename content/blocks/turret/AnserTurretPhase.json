@@ -23,17 +23,18 @@
 	
 	"canOverdrive": false,
 	
-	"range": 240,
+	"range": 320,
 	"inaccuracy": 0,
 	"shootSound": none,
 	"shootCone": 180,
 	"shootY": 8,
+	"targetBlocks": false,
 	
 	"consumes": {"power": 300},
 	
 	"shootType": {
 		"damage": 8000,
-		"length": 280,
+		"length": 360,
 		"width": 8,
 		"lifetime": 40,
 		"shake": 1,

@@ -40,6 +40,7 @@
 	"soundPitchMin": 0.4,
 	"soundPitchMax": 0.5,
 	"shootCone": 5,
+	"targetBlocks": false,
 	
 	"ammoTypes": {
 		"silicon": {
