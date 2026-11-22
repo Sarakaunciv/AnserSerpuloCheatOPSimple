@@ -1,0 +1,134 @@
+{
+	//details,
+
+	"name": "Bizawa",
+	"description": "Very High defense. Very High damage. Melee unit. Tier 8 unit.",
+
+	//stats,
+
+	"type": "tank",
+	"template": "ErekirUnitType",
+	
+	"flying": false,
+	"hovering": true,
+	"canDrown": false,
+	"lowAltitude": true,
+	"health": 260000,
+	"armor": 2200,
+	"hitSize": 50,
+	"speed": 1.5,
+	"rotateSpeed": 3,
+	"accel": 0.1,
+	"drag": 0.2,
+	
+	"fogRadius": 32,
+	
+	"crushDamage": 400,
+	
+	//weapon,
+
+	"weapons": [
+		{
+			"name": Blank,
+			"x": 0,
+			"y": 0,
+			"reload": 30,
+			"shootSound": shootArc,
+			"shootSoundVolume": 1,
+			"mirror": false,
+			"recoil": 0,
+			"shootX": 0,
+			"shootY": 0,
+			"soundPitchMin": 0.2,
+			"soundPitchMax": 0.3,
+			"ejectEffect": none,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": 0,
+			"shootCone": 180,
+			"bullet": {
+				//Dummy
+				"type": BasicBulletType,
+				"lifetime": 1,
+				"speed": 110,
+				
+				"damage": 6500,
+				"instantDisappear": true,
+				"collides": false,
+				"hittable": false,
+				"reflectable": false,
+				"absorbable": false,
+				
+				"hitEffect": none,
+				"despawnEffect": none,
+				
+				"fragBullets": 1,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 0,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet": {
+					"type": BasicBulletType,
+					"backColor": 000000,
+					"frontColor": 000000,
+					"mixColorFrom": 000000,
+					"mixColorTo": 000000,
+					
+					"width": 1,
+					"height": 1,
+					"lifetime": 23,
+					"speed": 5,
+					
+					"damage": 6500,
+					"collides": false,
+					"hittable": false,
+					"reflectable": false,
+					"absorbable": false,
+					
+					"lightRadius": 0,
+					"lightColor": 000000,
+					"hitEffect": none,
+					"despawnEffect": none,
+					"hitColor": ff0000,
+					"hitSize": 1,
+					
+					"intervalBullets": 2,
+					"bulletInterval": 1,
+					"intervalRandomSpread": 0,
+					"intervalSpread": 60,
+					"intervalAngle": -180,
+					"intervalBullet": {
+						"type": ShrapnelBulletType,
+						"hitEffect": none,
+						"despawnEffect": none,
+						
+						"length": 120,
+						"width": 12,
+						"fromColor": ffffff,
+						"toColor": ffff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 6500,
+						"laserAbsorb": false,
+						"buildingDamageMultiplier": 0.2,
+					}
+				}
+			}
+		}
+	]
+
+	//campaign,
+
+	"research": {
+		"parent": "Rizzen",
+		"requirements": [
+			"silicon/1600000",
+			"surge-alloy/800000",
+			"phase-fabric/800000",
+		]
+	}
+}

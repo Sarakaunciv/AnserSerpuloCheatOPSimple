@@ -47,21 +47,20 @@
 			"shootCone": 180,
 			
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 280,
-				"hitSound": none,
 				
 				"damage": 10000,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 19,
 				"fragOnHit": false,
@@ -130,21 +129,20 @@
 			"shootCone": 180,
 			
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 320,
-				"hitSound": none,
 				
 				"damage": 10000,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets": [
 					{
@@ -273,21 +271,20 @@
 			"shootCone": 180,
 			
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 320,
-				"hitSound": none,
 				
 				"damage": 10000,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets": [
 					{
@@ -416,21 +413,20 @@
 			"shootCone": 180,
 			
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 320,
-				"hitSound": none,
 				
 				"damage": 10000,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets": [
 					{
@@ -559,21 +555,20 @@
 			"shootCone": 180,
 			
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 320,
-				"hitSound": none,
 				
 				"damage": 10000,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"spawnBullets": [
 					{

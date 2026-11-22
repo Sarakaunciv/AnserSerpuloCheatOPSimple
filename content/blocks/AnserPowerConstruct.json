@@ -42,6 +42,11 @@
 		"time": 10800,
 	},
 	{
+		"unit": "Buara",
+		"requirements": [],
+		"time": 21600,
+	},
+	{
 		"unit": "Ssoara",
 		"requirements": [],
 		"time": 21600,
@@ -62,6 +67,11 @@
 		"time": 3600,
 	},
 	{
+		"unit": "Bizawa",
+		"requirements": [],
+		"time": 7200,
+	},
+	{
 		"unit": "Ssangt",
 		"requirements": [],
 		"time": 7200,
@@ -72,12 +82,22 @@
 		"time": 1200,
 	},
 	{
+		"unit": "Basuva",
+		"requirements": [],
+		"time": 1200,
+	},
+	{
 		"unit": "AnserTank",
 		"requirements": [],
 		"time": 600,
 	},
 	{
 		"unit": "VeryFlare",
+		"requirements": [],
+		"time": 120,
+	},
+	{
+		"unit": "Basbau",
 		"requirements": [],
 		"time": 120,
 	},

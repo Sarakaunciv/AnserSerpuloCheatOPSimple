@@ -40,6 +40,11 @@
 		"time": 10800,
 	},
 	{
+		"unit": "Bizawa",
+		"requirements": ["silicon/80000","surge-alloy/40000","phase-fabric/40000"],
+		"time": 21600,
+	},
+	{
 		"unit": "Ssangt",
 		"requirements": ["silicon/20000","surge-alloy/5000","phase-fabric/60000"],
 		"time": 21600,
@@ -50,6 +55,11 @@
 		"time": 3600,
 	},
 	{
+		"unit": "Basuva",
+		"requirements": ["silicon/12000","surge-alloy/4000"],
+		"time": 7200,
+	},
+	{
 		"unit": "AnserTank",
 		"requirements": ["silicon/9000","surge-alloy/2000"],
 		"time": 1800,
@@ -58,6 +68,11 @@
 		"unit": "VeryFlare",
 		"requirements": ["silicon/1500"],
 		"time": 360,
+	},
+	{
+		"unit": "Basbau",
+		"requirements": ["silicon/8000"],
+		"time": 720,
 	},
 	{
 		"unit": "Ssutela",

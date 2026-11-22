@@ -1,0 +1,132 @@
+{
+	//details,
+
+	"name": "Basbau",
+	"description": "Very high defense and damage. Melee unit. Tier 4 unit.",
+
+	//stats,
+
+	"type": "tank",
+	"template": "ErekirUnitType",
+	
+	"flying": false,
+	"hovering": true,
+	"canDrown": false,
+	"lowAltitude": true,
+	"health": 19000,
+	"armor": 40,
+	"hitSize": 22,
+	"speed": 2,
+	"rotateSpeed": 3,
+	"accel": 0.1,
+	"drag": 0.2,
+	
+	"fogRadius": 32,
+	
+	"crushDamage": 40,
+	
+	//weapon,
+
+	"weapons": [
+		{
+			"name": Basbau-weapon,
+			"x": 8,
+			"y": -12,
+			"reload": 30,
+			"shootSound": shootArc,
+			"shootSoundVolume": 1.0,
+			"mirror": false,
+			"recoil": -8,
+			"shootX": 8,
+			"shootY": 0,
+			"soundPitchMin": 0.3,
+			"soundPitchMax": 0.4,
+			"ejectEffect": none,
+			"inaccuracy": 0,
+			"rotate": false,
+			"baseRotation": -30,
+			"shootCone": 180,
+			"bullet": {
+				//Dummy
+				"type": BasicBulletType,
+				"lifetime": 1,
+				"speed": 64,
+				
+				"damage": 450,
+				"instantDisappear": true,
+				"collides": false,
+				"hittable": false,
+				"reflectable": false,
+				"absorbable": false,
+				
+				"hitEffect": none,
+				"despawnEffect": none,
+				
+				"fragBullets": 1,
+				"fragOnHit": false,
+				"fragRandomSpread": 0,
+				"fragSpread": 0,
+				"fragAngle": 0,
+				"fragVelocityMin": 1,
+				"fragOffsetMin": 0,
+				"fragOffsetMax": 0,
+				"fragBullet": {
+					"type": BasicBulletType,
+					"backColor": 000000,
+					"frontColor": 000000,
+					"mixColorFrom": 000000,
+					"mixColorTo": 000000,
+					
+					"width": 1,
+					"height": 1,
+					"lifetime": 19,
+					"speed": 4,
+					"rotateSpeed": 6,
+					
+					"damage": 450,
+					"collides": false,
+					"hittable": false,
+					"reflectable": false,
+					"absorbable": false,
+					
+					"lightRadius": 0,
+					"lightColor": 000000,
+					"hitEffect": none,
+					"despawnEffect": none,
+					"hitColor": ff0000,
+					"hitSize": 1,
+					
+					"intervalBullets": 3,
+					"bulletInterval": 1,
+					"intervalRandomSpread": 0,
+					"intervalSpread": 15,
+					"intervalAngle": -120,
+					"intervalBullet": {
+						"type": ShrapnelBulletType,
+						"hitEffect": none,
+						"despawnEffect": none,
+						
+						"length": 40,
+						"width": 12,
+						"fromColor": ffffff,
+						"toColor": ffff00,
+						"hitLarge": true,
+						"serrations": 0,
+						
+						"damage": 150,
+						"laserAbsorb": false,
+					}
+				}
+			}
+		}
+	]
+
+	//campaign,
+
+	"research": {
+		"parent": "VeryFlare",
+		"requirements": [
+			"silicon/160000",
+		]
+	}
+}

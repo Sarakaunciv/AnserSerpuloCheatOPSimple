@@ -7,8 +7,7 @@
 	-[[]#ffff00]V.2.13[[]] Core block that let you change team.
 	
 	-9 new units and 1 turret.
-	[[]#ffff00]-V2.0 with 3 new GIGA units[[]]
-	[[]#ffff00]-V2.9 with 3 new nuke units[[]]
+	[[]#ffff00]-V2.16 with 4 new melee units[[]]
 	
 	-Over simplified factories. and heaters.
 	-Super Drill and pump.
@@ -22,6 +21,6 @@
 	[[]#00ff00]This mod have a guide map that show all content[[]]
 	
 	There are both Serpulo and Erekir version of this mod. make sure to download both mods",
-    "version": "2.15",
+    "version": "2.16",
     "minGameVersion": 147
 }

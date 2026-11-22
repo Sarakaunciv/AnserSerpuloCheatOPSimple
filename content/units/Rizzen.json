@@ -2,7 +2,7 @@
 	//details,
 
 	"name": "Rizzen",
-	"description": "Low defense. Very high damage. Very high build cost. Tier 6 unit.",
+	"description": "Low defense. Very high damage. Tier 6 unit.",
 
 	//stats,
 
@@ -44,21 +44,20 @@
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 250,
-				"hitSound": none,
 				
 				"damage": 2000,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 5,
 				"fragOnHit": false,
@@ -103,21 +102,20 @@
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 220,
-				"hitSound": none,
 				
 				"damage": 600,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -162,21 +160,20 @@
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 220,
-				"hitSound": none,
 				
 				"damage": 400,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
@@ -221,21 +218,20 @@
 			"rotateSpeed": 12,
 			"shootCone": 180,
 			"bullet": {
+				//Dummy
 				"type": BasicBulletType,
-				"backColor": 000000,"frontColor": 000000,"mixColorFrom": 000000,"mixColorTo": 000000,"width": 1,"height": 1,
 				"lifetime": 1,
 				"speed": 220,
-				"hitSound": none,
 				
 				"damage": 200,
 				"instantDisappear": true,
+				"collides": false,
 				"hittable": false,
 				"reflectable": false,
 				"absorbable": false,
-				"lightRadius": 0,"lightColor": 000000,
+				
 				"hitEffect": none,
 				"despawnEffect": none,
-				"hitColor": 000000,"hitSize": 1,
 				
 				"fragBullets": 3,
 				"fragOnHit": false,
