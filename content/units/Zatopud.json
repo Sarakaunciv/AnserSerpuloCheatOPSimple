@@ -39,6 +39,7 @@
 	"drag": 0.1,
 	
 	"fogRadius": 48,
+	"immunities": ["melting"],
 	
 	//weapon,
 

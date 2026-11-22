@@ -6,7 +6,8 @@
 
 	//stats,
 
-	"type": "tank",
+	"type": "legs",
+	"legCount": 0,
 	"template": "ErekirUnitType",
 	
 	"flying": false,
@@ -22,8 +23,6 @@
 	"drag": 0.2,
 	
 	"fogRadius": 32,
-	
-	"crushDamage": 100,
 	
 	//weapon,
 
@@ -151,6 +150,7 @@
 						"serrations": 0,
 						
 						"damage": 1200,
+						"buildingDamageMultiplier": 0.75,
 						"laserAbsorb": false,
 					}
 				}
@@ -242,7 +242,7 @@
 						"serrations": 0,
 						
 						"damage": 1200,
-						"buildingDamageMultiplier": 0.4,
+						"buildingDamageMultiplier": 0.75,
 						"laserAbsorb": false,
 					}
 				}

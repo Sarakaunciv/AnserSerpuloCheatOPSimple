@@ -23,6 +23,7 @@
 	"engineSize": 12,
 	
 	"fogRadius": 60,
+	"immunities": ["melting"],
 	
 	//weapon,
 

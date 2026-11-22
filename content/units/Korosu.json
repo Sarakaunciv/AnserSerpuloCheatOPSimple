@@ -23,8 +23,7 @@
 	"drag": 0.1,
 	
 	"fogRadius": 60,
-	
-	"crushDamage": 800,
+	"immunities": ["melting","sapped"],
 	
 	//weapon,
 

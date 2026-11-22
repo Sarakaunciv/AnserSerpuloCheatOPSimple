@@ -6,7 +6,8 @@
 
 	//stats,
 
-	"type": "tank",
+	"type": "legs",
+	"legCount": 0,
 	"template": "ErekirUnitType",
 	
 	"flying": false,
@@ -22,8 +23,6 @@
 	"drag": 0.2,
 	
 	"fogRadius": 32,
-	
-	"crushDamage": 40,
 	
 	//weapon,
 
