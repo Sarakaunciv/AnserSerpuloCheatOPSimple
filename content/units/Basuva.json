@@ -17,7 +17,7 @@
 	"health": 88000,
 	"armor": 220,
 	"hitSize": 28,
-	"speed": 2,
+	"speed": 2.5,
 	"rotateSpeed": 3,
 	"accel": 0.1,
 	"drag": 0.2,
@@ -255,8 +255,8 @@
 	"research": {
 		"parent": "AnserTank",
 		"requirements": [
-			"silicon/240000",
-			"surge-alloy/80000",
+			"silicon/320000",
+			"surge-alloy/120000",
 		]
 	}
 }

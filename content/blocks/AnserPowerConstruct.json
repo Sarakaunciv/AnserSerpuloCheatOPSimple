@@ -84,7 +84,7 @@
 	{
 		"unit": "Basuva",
 		"requirements": [],
-		"time": 1200,
+		"time": 2400,
 	},
 	{
 		"unit": "AnserTank",
@@ -99,7 +99,7 @@
 	{
 		"unit": "Basbau",
 		"requirements": [],
-		"time": 120,
+		"time": 240,
 	},
 	{
 		"unit": "Ssutela",

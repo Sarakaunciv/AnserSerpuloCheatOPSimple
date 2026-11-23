@@ -56,7 +56,7 @@
 	},
 	{
 		"unit": "Basuva",
-		"requirements": ["silicon/12000","surge-alloy/4000"],
+		"requirements": ["silicon/16000","surge-alloy/6000"],
 		"time": 7200,
 	},
 	{
@@ -71,7 +71,7 @@
 	},
 	{
 		"unit": "Basbau",
-		"requirements": ["silicon/8000"],
+		"requirements": ["silicon/3000"],
 		"time": 720,
 	},
 	{

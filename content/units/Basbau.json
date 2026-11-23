@@ -17,7 +17,7 @@
 	"health": 19000,
 	"armor": 40,
 	"hitSize": 22,
-	"speed": 2,
+	"speed": 2.5,
 	"rotateSpeed": 3,
 	"accel": 0.1,
 	"drag": 0.2,
@@ -105,7 +105,7 @@
 						"hitEffect": none,
 						"despawnEffect": none,
 						
-						"length": 40,
+						"length": 48,
 						"width": 12,
 						"fromColor": ffffff,
 						"toColor": ffff00,
@@ -125,7 +125,7 @@
 	"research": {
 		"parent": "VeryFlare",
 		"requirements": [
-			"silicon/160000",
+			"silicon/60000",
 		]
 	}
 }
