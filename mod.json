@@ -4,12 +4,11 @@
     "author": "SarakaUnciv",
     "description": "Add a lot of content. Most block have info in thier description.
 	
+	-[[]#ffff00]V.2.20[[]] unit cannot be drown in vanilla liquid tile to [[]#00ff00]fix pathfinding[[]].
 	-Place core-zone and remove-wall
 	-[[]#ffff00]V.2.13[[]] Core block that let you change team.
-	
 	-9 new units and 1 turret.
-	[[]#ffff00]-V2.16 with 4 new melee units[[]]
-	
+	-[[]#ffff00]V2.16[[]] with 4 new melee units
 	-Over simplified factories. and heaters.
 	-Super Drill and pump.
 	-Op conveyer, unloader, Overdrive x10 speed.
@@ -22,6 +21,6 @@
 	[[]#00ff00]This mod have a guide map that show all content[[]]
 	
 	There are both Serpulo and Erekir version of this mod. make sure to download both mods",
-    "version": "2.19",
+    "version": "2.20",
     "minGameVersion": 147
 }
