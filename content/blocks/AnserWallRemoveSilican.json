@@ -10,12 +10,7 @@
 
 	"requirements": [],
 	"category": "logic",
-	"research": {
-		"parent": "AnserCoreZoneSilican",
-		"requirements": [
-			"silicon/8000000"
-		]
-	},
+	"research": "AnserCoreZoneSilican",
 	
 	//specs,
 
