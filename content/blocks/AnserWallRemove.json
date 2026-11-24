@@ -1,0 +1,23 @@
+
+{
+	//details,
+
+	"type": "RemoveWall",
+	"name": "AnserWallRemove",
+	"description": "You can remove any wall. cannot be undo. It seem to have bug with unit pathfinding. Does not count as cheating.",
+
+	//campaign,
+
+	"requirements": [],
+	"category": "logic",
+	"research": {
+		"parent": "AnserCoreZone",
+		"requirements": [
+			"silicon/8000000"
+		]
+	},
+	
+	//specs,
+
+	"size": 1,
+}

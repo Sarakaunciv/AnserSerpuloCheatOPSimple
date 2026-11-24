@@ -1,0 +1,23 @@
+
+{
+	//details,
+
+	"type": "RemoveWall",
+	"name": "AnserWallRemoveSilican",
+	"description": "You can remove any wall. cannot be undo. It seem to have bug with unit pathfinding. Cheating tool.",
+
+	//campaign,
+
+	"requirements": [],
+	"category": "logic",
+	"research": {
+		"parent": "AnserCoreZoneSilican",
+		"requirements": [
+			"silicon/8000000"
+		]
+	},
+	
+	//specs,
+
+	"size": 1,
+}
