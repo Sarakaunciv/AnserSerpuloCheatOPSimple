@@ -33,7 +33,7 @@
 	"consumes": {"power": 300},
 	
 	"shootType": {
-		"damage": 8000,
+		"damage": 2000,
 		"length": 360,
 		"width": 8,
 		"lifetime": 40,
