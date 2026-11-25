@@ -1,0 +1,44 @@
+
+{
+	//details,
+
+	"type": "ImpactReactor",
+	"name": "SerpuloImpactReactorLarge",
+	"description": "158.5x power of Impact Reactor. Does not require startup power. Can not be overdrive. Explosion will eradicate anything within range.",
+
+	//campaign,
+
+	"requirements": ["lead/10000","silicon/6000","graphite/8000","thorium/2000","surge-alloy/5000","metaglass/5000"],
+	"category": "power",
+	"research": "impact-reactor",
+	
+	//specs,
+
+	"size": 8,
+	"health": 3600,
+	"buildTime": 600,
+	
+	"itemCapacity": 100,
+	"itemCapacity": 100,
+	"canOverdrive": false,
+	
+	"consumes": {"power": 0,
+		"items": {
+			"items": [
+				"blast-compound/10",
+			]
+		},
+		"liquids": {
+			"liquids": [
+				"cryofluid/5",
+			]
+		}
+	},
+	"itemDuration": 70,
+	"powerProduction": 16650,
+	
+	"warmupSpeed": 0.004,
+	
+	"explosionRadius": 100,
+	"explosionDamage": 190000,
+}

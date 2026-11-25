@@ -2,7 +2,7 @@
 	//details,
 
 	"name": "Zatopud",
-	"description": "Mid defense. Mid damage. Inflict Melting debuff. Tier 8 unit.",
+	"description": "Mid defense. Mid damage. Fast. Inflict Melting debuff. Tier 8 unit.",
 
 	//stats,
 
@@ -33,7 +33,7 @@
 	"health": 125000,
 	"armor": 1000,
 	"hitSize": 60,
-	"speed": 2.5,
+	"speed": 4,
 	"rotateSpeed": 2.5,
 	"accel": 0.05,
 	"drag": 0.1,

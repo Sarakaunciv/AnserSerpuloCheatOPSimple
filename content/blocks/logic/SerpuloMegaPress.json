@@ -30,9 +30,11 @@
 	
 	"craftTime": 6,
 	"consumes": {"power": 75,
-	"items": {
-	"items": [
-	"coal/10",
-	]	}	},
+		"items": {
+			"items": [
+				"coal/10",
+			]
+		}
+	},
 	"outputItems": ["graphite/10"],
 }

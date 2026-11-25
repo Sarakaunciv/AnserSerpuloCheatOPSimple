@@ -2,7 +2,7 @@
 	//details,
 
 	"name": "Ziraz",
-	"description": "Mid defense. Mid damage. Inflict Sapped and Melting debuff. Tier 10 unit.",
+	"description": "Mid defense. Mid damage. Fast. Inflict Sapped and Melting debuff. Tier 10 unit.",
 
 	//stats,
 
@@ -33,8 +33,8 @@
 	"health": 865000,
 	"armor": 9500,
 	"hitSize": 72,
-	"speed": 1.8,
-	"rotateSpeed": 1.5,
+	"speed": 3,
+	"rotateSpeed": 2.5,
 	"accel": 0.05,
 	"drag": 0.1,
 	

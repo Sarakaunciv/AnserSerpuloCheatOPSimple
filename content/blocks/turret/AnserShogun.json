@@ -22,6 +22,7 @@
 
 	"size": 5,
 	"health": 290000,
+	"buildTime": 3000,
 	
 	"rotateSpeed": 6,
 	"reload": 120,
