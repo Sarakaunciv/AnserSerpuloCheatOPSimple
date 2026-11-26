@@ -45,6 +45,6 @@
 		"status": melting,
 		"statusDuration": 4000,
 		
-		"buildingDamageMultiplier": 0,
+		"buildingDamageMultiplier": 0.02,
 	}
 }

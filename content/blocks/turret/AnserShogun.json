@@ -35,7 +35,7 @@
 	
 	"canOverdrive": false,
 	
-	"range": 960,
+	"range": 640,
 	"inaccuracy": 0,
 	"shootSound": "shootArtillery",
 	"soundPitchMin": 0.4,
@@ -59,14 +59,14 @@
 			
 			"width": 32,
 			"height": 32,
-			"lifetime": 64,
+			"lifetime": 44,
 			"speed": 16,
 			
 			"damage": 400000,
 			"splashDamageRadius": 120,
 			"splashDamage": 100000,
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.01,
 			"pierce": false,
 			"pierceBuilding": false,
 			"hittable": false,
@@ -81,7 +81,7 @@
 			"hitSize": 32,
 		},
 		"thorium": {
-			"rangeChange": -640,
+			"rangeChange": -320,
 			"reloadMultiplier": 6,
 			"ammoMultiplier": 6,
 			
@@ -113,8 +113,6 @@
 				"hitEffect": none,
 				"despawnEffect": none,
 				
-				"hitEffect": none,
-				"despawnEffect": none,
 				"length": 360,
 				"width": 8,
 				"fromColor": f9a3c7,
@@ -122,8 +120,8 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 10000,
-				"buildingDamageMultiplier": 0,
+				"damage": 20000,
+				"buildingDamageMultiplier": 0.01,
 			}
 		},
 		"surge-alloy": {
@@ -141,14 +139,14 @@
 			
 			"width": 32,
 			"height": 32,
-			"lifetime": 64,
+			"lifetime": 44,
 			"speed": 16,
 			
 			"damage": 400000,
 			"splashDamageRadius": 200,
 			"splashDamage": 100000,
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.01,
 			"pierce": false,
 			"pierceBuilding": false,
 			"hittable": false,
@@ -176,14 +174,14 @@
 				"despawnEffect": none,
 				
 				"length": 200,
-				"width": 16,
+				"width": 8,
 				"fromColor": f3e979,
 				"toColor": f3e979,
 				"hitLarge": true,
 				"serrations": 0,
 				
 				"damage": 20000,
-				"buildingDamageMultiplier": 0,
+				"buildingDamageMultiplier": 0.01,
 			}
 		},
 		"phase-fabric": {
@@ -201,14 +199,14 @@
 			
 			"width": 32,
 			"height": 32,
-			"lifetime": 64,
+			"lifetime": 44,
 			"speed": 16,
 			
-			"damage": 20000,
+			"damage": 30000,
 			"splashDamageRadius": -1,
 			"splashDamage": 0,
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.01,
 			"pierce": true,
 			"pierceBuilding": true,
 			"hittable": false,
@@ -222,11 +220,11 @@
 			"hitColor": ff0000,
 			"hitSize": 32,
 			
-			"intervalBullets": 6,
-			"bulletInterval": 2,
-			"intervalRandomSpread": 40,
-			"intervalSpread": 60,
-			"intervalAngle": 0,
+			"intervalBullets": 2,
+			"bulletInterval": 1,
+			"intervalRandomSpread": 0,
+			"intervalSpread": 120,
+			"intervalAngle": 180,
 			"intervalBullet": {
 				"type": ShrapnelBulletType,
 				"hitEffect": none,
@@ -239,8 +237,8 @@
 				"hitLarge": true,
 				"serrations": 0,
 				
-				"damage": 20000,
-				"buildingDamageMultiplier": 0,
+				"damage": 30000,
+				"buildingDamageMultiplier": 0.01,
 				
 				"status": melting,
 				"statusDuration": 600,

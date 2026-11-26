@@ -1,0 +1,198 @@
+	{
+	//details,
+
+	"type": "LiquidTurret",
+	"name": "SerpuloAnserSprinkler",
+	"description": "",
+
+	//campaign,
+
+	"requirements": ["copper/500","lead/500","metaglass/100"],
+	"category": "turret",
+	"research": "wave",
+	
+	//specs,
+
+	"size": 2,
+	"health": 500,
+	
+	"rotateSpeed": 180,
+	"reload": 6,
+	"recoil": 0,
+	
+	"hasLiquids": true,
+	"hasItems": false,
+	
+	"canOverdrive": false,
+	
+	"range": 940,
+	"inaccuracy": 10,
+	"shootSound": none,
+	"shootCone": 180,
+	"shootY": 0,
+	
+	"extinguish": true,
+	
+	"ammoTypes": {
+		"water": {
+			//Dummy
+			"type": BasicBulletType,
+			"lifetime": 1,
+			"speed": 360,
+			
+			"damage": 2,
+			"instantDisappear": true,
+			"collides": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"hitEffect": none,
+			"despawnEffect": none,
+			
+			"fragBullets": 18,
+			"fragOnHit": false,
+			"fragRandomSpread": 1,
+			"fragSpread": 1,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 4,
+			"fragOffsetMax": 8,
+			"fragBullet": {
+				"type": LiquidBulletType,
+				"hitEffect": none,
+				"despawnEffect": none,
+				
+				"lifetime": 240,
+				"speed": 4,
+				
+				"damage": 2,
+				
+				"knockback": 2,
+				"impact": true,
+				
+				"liquid": water,
+			}
+		},
+		"oil": {
+			//Dummy
+			"type": BasicBulletType,
+			"lifetime": 1,
+			"speed": 360,
+			
+			"damage": 3,
+			"instantDisappear": true,
+			"collides": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"hitEffect": none,
+			"despawnEffect": none,
+			
+			"fragBullets": 18,
+			"fragOnHit": false,
+			"fragRandomSpread": 1,
+			"fragSpread": 1,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 4,
+			"fragOffsetMax": 8,
+			"fragBullet": {
+				"type": LiquidBulletType,
+				"hitEffect": none,
+				"despawnEffect": none,
+				
+				"lifetime": 240,
+				"speed": 4,
+				
+				"damage": 3,
+				
+				"knockback": 1,
+				"impact": true,
+				
+				"liquid": oil,
+			}
+		},
+		"slag": {
+			//Dummy
+			"type": BasicBulletType,
+			"lifetime": 1,
+			"speed": 360,
+			
+			"damage": 9,
+			"instantDisappear": true,
+			"collides": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"hitEffect": none,
+			"despawnEffect": none,
+			
+			"fragBullets": 18,
+			"fragOnHit": false,
+			"fragRandomSpread": 1,
+			"fragSpread": 1,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 4,
+			"fragOffsetMax": 8,
+			"fragBullet": {
+				"type": LiquidBulletType,
+				"hitEffect": none,
+				"despawnEffect": none,
+				
+				"lifetime": 240,
+				"speed": 4,
+				
+				"damage": 9,
+				
+				"knockback": 1,
+				"impact": true,
+				
+				"liquid": slag,
+			}
+		},
+		"cryofluid": {
+			//Dummy
+			"type": BasicBulletType,
+			"lifetime": 1,
+			"speed": 360,
+			
+			"damage": 4,
+			"instantDisappear": true,
+			"collides": false,
+			"hittable": false,
+			"reflectable": false,
+			"absorbable": false,
+			
+			"hitEffect": none,
+			"despawnEffect": none,
+			
+			"fragBullets": 18,
+			"fragOnHit": false,
+			"fragRandomSpread": 1,
+			"fragSpread": 1,
+			"fragAngle": 0,
+			"fragVelocityMin": 1,
+			"fragOffsetMin": 4,
+			"fragOffsetMax": 8,
+			"fragBullet": {
+				"type": LiquidBulletType,
+				"hitEffect": none,
+				"despawnEffect": none,
+				
+				"lifetime": 240,
+				"speed": 4,
+				
+				"damage": 4,
+				
+				"knockback": 1,
+				"impact": true,
+				
+				"liquid": cryofluid,
+			}
+		}
+	}
+}

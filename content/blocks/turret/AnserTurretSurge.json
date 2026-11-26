@@ -72,7 +72,7 @@
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"silicon": {
@@ -109,7 +109,7 @@
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"thorium": {
@@ -146,7 +146,7 @@
 			"statusDuration": 300,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"surge-alloy": {
@@ -183,7 +183,7 @@
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 			
 			"fragBullets": 6,
@@ -207,7 +207,7 @@
 				"serrations": 0,
 				
 				"damage": 1200,
-				"buildingDamageMultiplier": 0,
+				"buildingDamageMultiplier": 0.02,
 			}
 		},
 		"phase-fabric": {
@@ -244,7 +244,7 @@
 			"statusDuration": 3600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		}
 	}

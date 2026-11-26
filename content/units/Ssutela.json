@@ -13,7 +13,7 @@
 	"flying": true,
 	"health": 6000,
 	"armor": 5,
-	"hitSize": 26,
+	"hitSize": 20,
 	"speed": 5,
 	"rotateSpeed": 5,
 	"accel": 0.1,

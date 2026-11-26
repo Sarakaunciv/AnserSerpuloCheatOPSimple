@@ -16,16 +16,16 @@
 	//specs,
 
 	"size": 1,
-	"health": 20000,
+	"health": 40000,
 	"buildTime": 60,
 	"absorbLasers": true,
 	
-	"shieldHealth": 20000,
+	"shieldHealth": 40000,
 	"breakCooldown": 66,
-	"regenSpeed": 300,
+	"regenSpeed": 600,
 	
 	"hasPower": true,
-	"consumes": {"power": 20},
+	"consumes": {"power": 60},
 	"conductivePower": true,
 	"canOverdrive": false,
 }

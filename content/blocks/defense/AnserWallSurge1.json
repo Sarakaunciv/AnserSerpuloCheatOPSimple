@@ -16,7 +16,7 @@
 	//specs,
 
 	"size": 1,
-	"health": 4000,
+	"health": 5000,
 	"buildTime": 40,
 	"absorbLasers": true,
 }

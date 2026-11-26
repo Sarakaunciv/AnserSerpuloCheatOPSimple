@@ -72,11 +72,12 @@
 			
 			"rangeChange": -120,
 			"knockback": 16,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"scrap": {
@@ -110,11 +111,12 @@
 			
 			"rangeChange": -80,
 			"knockback": 8,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"copper": {
@@ -150,11 +152,12 @@
 			
 			"rangeChange": 0,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"lead": {
@@ -187,12 +190,13 @@
 			"absorbable": true,
 			
 			"rangeChange": 80,
-			"knockback": 4,
+			"knockback": 2,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"metaglass": {
@@ -226,11 +230,12 @@
 			
 			"rangeChange": 80,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"coal": {
@@ -264,11 +269,12 @@
 			
 			"rangeChange": 0,
 			"knockback": 0,
+			"impact": true,
 			"status": burning,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"graphite": {
@@ -302,11 +308,12 @@
 			
 			"rangeChange": 80,
 			"knockback": 0,
+			"impact": true,
 			"status": burning,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"silicon": {
@@ -339,12 +346,13 @@
 			"absorbable": true,
 			
 			"rangeChange": 240,
-			"knockback": 8,
+			"knockback": 2,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"spore-pod": {
@@ -378,11 +386,12 @@
 			
 			"rangeChange": 240,
 			"knockback": 0,
+			"impact": true,
 			"status": burning,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"pyratite": {
@@ -416,11 +425,12 @@
 			
 			"rangeChange": 80,
 			"knockback": 0,
+			"impact": true,
 			"status": burning,
 			"statusDuration": 1800,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"blast-compound": {
@@ -454,11 +464,12 @@
 			
 			"rangeChange": 80,
 			"knockback": 0,
+			"impact": true,
 			"status": burning,
 			"statusDuration": 3600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"titanium": {
@@ -492,11 +503,12 @@
 			
 			"rangeChange": 240,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"plastanium": {
@@ -530,11 +542,12 @@
 			
 			"rangeChange": 240,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"surge-alloy": {
@@ -568,11 +581,12 @@
 			
 			"rangeChange": 240,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 			
 			"fragBullets": 3,
@@ -596,7 +610,7 @@
 				"serrations": 0,
 				
 				"damage": 600,
-				"buildingDamageMultiplier": 0,
+				"buildingDamageMultiplier": 0.02,
 			}
 		},
 		"thorium": {
@@ -630,11 +644,12 @@
 			
 			"rangeChange": 80,
 			"knockback": 0,
+			"impact": true,
 			"status": melting,
 			"statusDuration": 60,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"phase-fabric": {
@@ -668,11 +683,12 @@
 			
 			"rangeChange": 160,
 			"knockback": 0,
+			"impact": true,
 			"status": melting,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"beryllium": {
@@ -706,11 +722,12 @@
 			
 			"rangeChange": 240,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"tungsten": {
@@ -744,11 +761,12 @@
 			
 			"rangeChange": 240,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"oxide": {
@@ -782,11 +800,12 @@
 			
 			"rangeChange": 80,
 			"knockback": 0,
+			"impact": true,
 			"status": corroded,
 			"statusDuration": 1800,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		},
 		"carbide": {
@@ -820,11 +839,12 @@
 			
 			"rangeChange": 480,
 			"knockback": 0,
+			"impact": true,
 			"status": none,
 			"statusDuration": 600,
 			
 			"splashDamagePierce": true,
-			"buildingDamageMultiplier": 0,
+			"buildingDamageMultiplier": 0.02,
 			"hitSize": 32,
 		}
 	}

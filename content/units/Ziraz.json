@@ -32,7 +32,7 @@
 	"canDrown": false,
 	"health": 865000,
 	"armor": 9500,
-	"hitSize": 72,
+	"hitSize": 48,
 	"speed": 3,
 	"rotateSpeed": 2.5,
 	"accel": 0.05,

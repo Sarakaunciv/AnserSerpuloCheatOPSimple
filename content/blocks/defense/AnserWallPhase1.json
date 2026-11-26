@@ -20,9 +20,9 @@
 	"buildTime": 40,
 	"absorbLasers": false,
 	
-	"shieldHealth": 4000,
+	"shieldHealth": 5000,
 	"breakCooldown": 66,
-	"regenSpeed": 60,
+	"regenSpeed": 75,
 	
 	"hasPower": true,
 	"consumes": {"power": 5},

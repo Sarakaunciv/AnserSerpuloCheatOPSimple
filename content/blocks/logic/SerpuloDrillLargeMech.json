@@ -1,0 +1,43 @@
+{
+	//details,
+
+	"type": "Drill",
+	"name": "SerpuloDrillLargeMech",
+
+	//campaign,
+
+	"requirements": ["copper/96"],
+	"category": "production",
+	"research": {
+		"parent": "mechanical-drill",
+		"requirements": [
+			"copper/4",
+		]
+	}
+	
+	//specs,
+
+	"size": 8,
+	"health": 800,
+	
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 300,
+	
+	"tier": 2,
+	"drillTime": 600,
+	"hardnessDrillMultiplier": 0,
+	"rotateSpeed": 4.9,
+	"warmupSpeed": 0.02,
+	"drillEffectChance": 0.001,
+	
+	"liquidBoostIntensity": 3.2,
+	"consumes": {
+		"liquid":{
+			"liquid":"water",
+			"amount":3.0,
+			"booster":true,
+			"optional":true
+		}
+	},
+}

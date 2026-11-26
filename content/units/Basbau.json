@@ -16,7 +16,7 @@
 	"lowAltitude": true,
 	"health": 19000,
 	"armor": 40,
-	"hitSize": 22,
+	"hitSize": 16,
 	"speed": 2.5,
 	"rotateSpeed": 3,
 	"accel": 0.1,
